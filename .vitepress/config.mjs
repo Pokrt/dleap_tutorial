@@ -23,7 +23,9 @@ export default defineConfig({
         text: 'Basics',
         items: [
           { text: 'Hello world', link: '/hello_world' },
-          { text: 'Roles', link: '/roles' }
+          { text: 'Roles', link: '/roles' },
+          { text: 'Data Storage', link: '/data-storage' },
+
         ]
       }
     ],
