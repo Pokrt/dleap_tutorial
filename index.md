@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "HCL Domino Leap Tutorial"
+  name: "DLeap Tutorial"
   text: "Tutorial for HCL Domino Leap"
-  tagline: My great project tagline
+  tagline: Work in progress
   actions:
     - theme: brand
       text: Markdown Examples
