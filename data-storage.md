@@ -11,7 +11,7 @@ flexibility in the data model, but also requires the application to handle missi
 HCL Domino Leap uses a non-relational NoSQL database called Notes Storage Facility (NSF) to store application data. The
 NSF database is a collection of documents, where each document is a collection of fields. Each field has a name and a
 value. The value can be a string, number, date, or other data type. The database data are stored inside the `*.nsf`
-file.
+file. Each NSF file has its own access controll list (ACL) managing acess to NSF files.
 
 ### HCL Domino Leap Database Files
 
@@ -21,6 +21,13 @@ During the installation HCL Domino Leap creates three database files:
 * `volt/VoltAppHistory.nsf`
 * `volt/VoltConfig.nsf`
 
+#### Changing default access to NSF
+
+::: warning
+TODO? Není to moc pokročilé to sem dávat
+:::
+
+## Data views
 ### Representation in HCL Domino Leap
 
 ![Representation in HCL Domino Leap](/editor_image_5b35570d-efb0-4b64-8b1f-1bec4f068430.png)
