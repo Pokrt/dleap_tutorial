@@ -22,10 +22,22 @@ export default defineConfig({
       {
         text: 'Basics',
         items: [
-          { text: 'Hello world', link: '/hello_world' },
-          { text: 'Roles', link: '/roles' },
-          { text: 'Data Storage', link: '/data-storage' },
-
+          { text: 'Hello world', link: '/basics/hello_world' },
+          { text: 'Roles', link: '/basics/roles' },
+          { text: 'Data Storage', link: '/basics/data-storage' },
+          { text: 'Permissions', link: '/basics/permissions' },
+          { text: 'Workflow Stages', link: '/basics/stages' },
+          { text: 'Visibility', link: '/basics/visibility' },
+          { text: 'Locking', link: '/basics/locking' },
+        ]
+      }, {
+        text: 'Intermediate (no-code)',
+        items: [
+          { text: 'Business object', link: '/intermediate/business_object' },
+          { text: 'Service calls', link: '/intermediate/services' },
+          { text: 'CSS styling', link: '/intermediate/css_styling' },
+          { text: 'Formulas', link: '/intermediate/formulas' },
+          { text: 'Rules', link: '/intermediate/rules' },
         ]
       }
     ],

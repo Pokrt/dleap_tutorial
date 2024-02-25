@@ -31,7 +31,7 @@ Each role can be categorized as Open (dynamic) or Closed (static).
    - Example: Define a role for "Shift Supervisor."
 5. Utilize the radio buttons to specify whether the role is Open or Closed. -->
 
-### Example
+::: details Example
 
 1\. Navigate to [https://volt.whitesoft.eu/volt-apps/secure/org/ide/manager.html](https://volt.whitesoft.eu/volt-apps/secure/org/ide/manager.html)
 
@@ -79,6 +79,7 @@ Each role can be categorized as Open (dynamic) or Closed (static).
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-17/3c047c47-717c-4c70-b6d4-248039c66eb2/ascreenshot.jpeg?tl_px=774,419&br_px=1849,1020&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
 
+----
 14\. Click "Submitted"
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-17/b07acb7c-5821-4a5c-b5c8-9ac9f0b9b82e/ascreenshot.jpeg?tl_px=0,312&br_px=1075,913&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=140,265)
@@ -87,6 +88,8 @@ Each role can be categorized as Open (dynamic) or Closed (static).
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-17/44afe55c-9a58-462a-b538-43e31191e03a/ascreenshot.jpeg?tl_px=359,610&br_px=1434,1211&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
 
-16\. Click this checkbox.
+16\. Click this checkbox to add delete privileges.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-17/ade4df01-e4ee-4a5e-b049-1fb8aa85428b/ascreenshot.jpeg?tl_px=449,605&br_px=1524,1206&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+
+:::
