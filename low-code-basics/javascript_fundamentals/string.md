@@ -104,4 +104,4 @@ let backtickString = `Hello, World!`;
 
 Strings are a core part of working with text in JavaScript. By understanding how to manipulate and use strings, you can
 handle textual data effectively in your web applications. Experiment with the examples and exercises provided to become
-more comfortable with strings. Happy coding!
+more comfortable with strings.

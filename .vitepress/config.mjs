@@ -4,7 +4,7 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "HCL Domino Leap Tutorial",
     description: "Tutorial for HCL Domino Leap",
-    markdown:{
+    markdown: {
         theme: {light: 'light-plus', dark: 'night-owl'}
     },
     themeConfig: {
@@ -45,12 +45,35 @@ export default defineConfig({
             }, {
                 text: 'Low-code basics',
                 items: [
-                    {text: 'Variables', link: 'low-code-basics/javascript_fundamentals/variables'},
-                    {text: 'Branching and loops', link: 'low-code-basics/javascript_fundamentals/branching'},
-                    {text: 'Strings', link: 'low-code-basics/javascript_fundamentals/string'},
-                    {text: 'Objects', link: 'low-code-basics/javascript_fundamentals/objects'},
-                    {text: 'Object referencing', link: 'low-code-basics/javascript_fundamentals/object_referencing'},
-                    {text: 'Domino Leap data objects', link: 'low-code-basics/javascript_fundamentals/data_objects'},
+                    {
+                        text: 'JavaScript Fundamentals',
+                        items: [
+                            {text: 'Variables', link: 'low-code-basics/javascript_fundamentals/variables'},
+                            {text: 'Console', link: 'low-code-basics/javascript_fundamentals/console'},
+                            {text: 'Comparing', link: 'low-code-basics/javascript_fundamentals/comparing'},
+                            {text: 'Branching and loops', link: 'low-code-basics/javascript_fundamentals/branching'},
+                            {text: 'Strings', link: 'low-code-basics/javascript_fundamentals/string'},
+                            {text: 'Objects', link: 'low-code-basics/javascript_fundamentals/objects'},
+                            {
+                                text: 'Object referencing',
+                                link: 'low-code-basics/javascript_fundamentals/object_referencing'
+                            },
+                            {
+                                text: 'Domino Leap data objects',
+                                link: 'low-code-basics/javascript_fundamentals/data_objects'
+                            },
+                        ],
+                        link: 'low-code-basics/javascript_fundamentals/variables'
+                    }, {
+                        text: 'Running JS in Domino Leap',
+                        link: 'low-code-basics/javascript_fundamentals/editor',
+                    },
+                    {
+                        text: 'Events', items: [
+                            {text: 'App Events', link: 'low-code-basics/events/app_events'},
+                        ]
+                    },
+
                 ]
             }
         ],
