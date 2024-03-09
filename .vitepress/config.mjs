@@ -73,6 +73,12 @@ export default defineConfig({
                             {text: 'App Events', link: 'low-code-basics/events/app_events'},
                         ]
                     },
+                    {text: 'Service calls in JS', link: 'low-code-basics/services_js'},
+                    {text: 'External JS Files', link: 'low-code-basics/external_js'},
+                    {text: 'Working with items', link: 'items/Attachment',
+                    items: [
+                        {text: 'Attachment', link: 'items/Attachment'},
+                    ] },
 
                 ]
             }

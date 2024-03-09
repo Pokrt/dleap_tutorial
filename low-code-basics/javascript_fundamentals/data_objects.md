@@ -60,7 +60,7 @@ submissions. Here's how you might use the discussed objects:
    if (BO.F_Age.getValue() < 18) {
        BO.F_Age.setValid(false, "You must be at least 18 years old.");
    } else {
-       BO.F_Age.setValue(25); // Assuming the age is valid
+       BO.F_Age.setValid(true); // Assuming the age is valid
    }
    ```
 
