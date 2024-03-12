@@ -14,7 +14,7 @@ global information about your application.
 - **Example:** `app.getCurrentUser();` is a function call that retrieves the current user's information. Here, `app` is
   the data object, and `getCurrentUser` is a method (or function) of that object.
 
-## Understanding Application Events
+## Application Events
 
 Application events are special triggers or points in the lifecycle of an application where specific actions can be
 performed. In the context of Domino Leap, these events allow you to execute custom JavaScript™ code in response to

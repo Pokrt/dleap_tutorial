@@ -1,7 +1,7 @@
 # Business object
 
 The term business object refers to a software concept that represents a business entity with its attributes and methods.
-It is a key concept in object-oriented programming and is used to model the business domain in software applications.
+It is used to model the business domain in software applications.
 Business objects are used to represent real-world entities such as customers, products, orders, and employees, and they
 encapsulate the data and behavior associated with these entities.
 

@@ -1,4 +1,4 @@
-[## Adding Classes: `item.addClasses(classes)`
+### Adding Classes: `item.addClasses(classes)`
 
 **Description**: This function adds one or more custom CSS class names to an item, allowing for dynamic styling. You can
 pass a single class name, multiple class names separated by spaces, or an array of class names. If any class names are
@@ -12,7 +12,7 @@ item.addClasses("emphasized error");
 
 In this example, the item will have the CSS classes `emphasized` and `error` added to it for styling purposes.
 
-## Clearing Required Message: `item.clearRequiredMessage()`
+### Clearing Required Message: `item.clearRequiredMessage()`
 
 **Description**: Validates the item data but prevents any required field error messages from being displayed. This is
 useful in scenarios where you want to perform validation without user feedback.
@@ -25,7 +25,7 @@ item.clearRequiredMessage();
 
 Use this function when you need to validate the item but do not wish to show error messages to the user.
 
-## Connecting to an Event: `item.connectEvent(eventName, callbackFunction)`
+### Connecting to an Event: `item.connectEvent(eventName, callbackFunction)`
 
 **Description**: Connects a function to an item event, allowing for dynamic behavior based on user actions or item
 changes. It returns a handle object that represents the connection, which can be used to disconnect the event later.
@@ -42,7 +42,7 @@ var hndl = item.connectEvent('onItemChange', function () {
 
 Here, we connect a function to the `onItemChange` event that makes a section visible if the item's value is 'Yes'.
 
-## Disconnecting an Event: `item.disconnectEvent(eventHandle)`
+### Disconnecting an Event: `item.disconnectEvent(eventHandle)`
 
 **Description**: Disconnects a previously connected event handler using the handle object returned
 by `item.connectEvent`. This is essential to prevent multiple instances of the event handler from being attached.
@@ -65,7 +65,7 @@ item.disconnectEvent(hndl);
 This example demonstrates connecting to an event and then immediately disconnecting it to ensure the event handler does
 not persist unnecessarily.
 
-## Checking if an Item is Active: `item.getActive()`
+### Checking if an Item is Active: `item.getActive()`
 
 **Description**: Returns `true` if the item is active and `false` if it has been made read-only by a rule, stage, or
 custom JavaScript.
@@ -78,7 +78,7 @@ var isActive = item.getActive();
 
 Use this function to check whether an item is active or read-only in your application logic.
 
-## Get Application Page: `item.getAppPage()`
+### Get Application Page: `item.getAppPage()`
 
 - **Description**: Retrieves the page object to which the current item belongs.
 - **Example**:
@@ -86,7 +86,7 @@ Use this function to check whether an item is active or read-only in your applic
   var page = item.getAppPage();
   ```
 
-## Get Business Object: `item.getBO()`
+### Get Business Object: `item.getBO()`
 
 - **Description**: Returns the Business Object (BO) for the entire form. This object represents the data model the form
   interacts with.
@@ -95,7 +95,7 @@ Use this function to check whether an item is active or read-only in your applic
   var businessObject = item.getBO();
   ```
 
-## Get Business Object Attribute: `item.getBOAttr()`
+### Get Business Object Attribute: `item.getBOAttr()`
 
 - **Description**: For items collecting data, this method returns the Business Object Attribute (BOA) containing that
   data. Returns `null` for interface-only items.
@@ -104,7 +104,7 @@ Use this function to check whether an item is active or read-only in your applic
   item.getBOAttr().setValue(45);
   ```
 
-## Get Children: `item.getChildren()`
+### Get Children: `item.getChildren()`
 
 - **Description**: If an item contains children (e.g., a Section or Tab Folder), it returns a list object providing
   access to all direct children items. This list has `getLength()` and `get(index)` functions.
@@ -118,7 +118,7 @@ Use this function to check whether an item is active or read-only in your applic
   }
   ```
 
-## Get Classes: `item.getClasses()`
+### Get Classes: `item.getClasses()`
 
 - **Description**: Returns an array of custom class names currently applied to the item.
 - **Example**:
@@ -126,7 +126,7 @@ Use this function to check whether an item is active or read-only in your applic
   var classes = item.getClasses();
   ```
 
-## Get Display Value: `item.getDisplayValue()`
+### Get Display Value: `item.getDisplayValue()`
 
 - **Description**: Returns the current value being displayed, useful for getting the current, but not yet committed,
   value.
@@ -135,7 +135,7 @@ Use this function to check whether an item is active or read-only in your applic
   var displayValue = item.getDisplayValue();
   ```
 
-## Get Hover Text: `item.getHoverText()`
+### Get Hover Text: `item.getHoverText()`
 
 - **Description**: Retrieves the current value set as hover text for the item.
 - **Example**:
@@ -143,7 +143,7 @@ Use this function to check whether an item is active or read-only in your applic
   var hoverText = item.getHoverText();
   ```
 
-## Get Hint Text: `item.getHintText()`
+### Get Hint Text: `item.getHintText()`
 
 - **Description**: Returns the value set as hint text for the item.
 - **Example**:
@@ -151,7 +151,7 @@ Use this function to check whether an item is active or read-only in your applic
   var hintText = item.getHintText();
   ```
 
-## Get ID: `item.getId()`
+### Get ID: `item.getId()`
 
 - **Description**: Retrieves the unique ID of the item within the application (e.g., F_FirstName).
 - **Example**:
@@ -159,7 +159,7 @@ Use this function to check whether an item is active or read-only in your applic
   var itemId = item.getId();
   ```
 
-## Get Page: `item.getPage()`
+### Get Page: `item.getPage()`
 
 - **Description**: Returns the page object to which the item belongs. This can be useful for accessing the form object
   or other page-level attributes.
@@ -168,7 +168,7 @@ Use this function to check whether an item is active or read-only in your applic
   var form = item.getPage().getForm();
   ```
 
-## Get Parent: `item.getParent()`
+### Get Parent: `item.getParent()`
 
 - **Description**: Retrieves the object that is the direct parent of the item, which can be a page, section, or tab
   folder.
@@ -177,7 +177,7 @@ Use this function to check whether an item is active or read-only in your applic
   var parentObject = item.getParent();
   ```
 
-## Get Placeholder Text: `item.getPlaceholderText()`
+### Get Placeholder Text: `item.getPlaceholderText()`
 
 - **Description**: Returns the current value set as placeholder text for the item.
 - **Example**:
@@ -185,7 +185,7 @@ Use this function to check whether an item is active or read-only in your applic
   var placeholderText = item.getPlaceholderText();
   ```
 
-## Get Required: `item.getRequired()`
+### Get Required: `item.getRequired()`
 
 - **Description**: Gets the value previously set using `setRequired()`, indicating if the item is required.
 - **Example**:
@@ -193,7 +193,7 @@ Use this function to check whether an item is active or read-only in your applic
   var isRequired = item.getRequired();
   ```
 
-## Get Rows: `item.getRows()`
+### Get Rows: `item.getRows()`
 
 - **Description**: Returns the current value set as the number of rows displayed by the item. This is specifically for
   multi-line input areas.
@@ -202,7 +202,7 @@ Use this function to check whether an item is active or read-only in your applic
   var rows = item.getRows();
   ```
 
-## Getting the Start Label of a Slider: `item.getStartLabel()`
+### Getting the Start Label of a Slider: `item.getStartLabel()`
 
 - **Description**: Retrieves the label displayed at the start of a numeric or choice slider. This is useful for
   providing context or indicating the minimum value of the slider.
@@ -212,7 +212,7 @@ Use this function to check whether an item is active or read-only in your applic
   console.log(startLabel); // Might print "Low" for a satisfaction slider
   ```
 
-## Getting the Stop Label of a Slider: `item.getStopLabel()`
+### Getting the Stop Label of a Slider: `item.getStopLabel()`
 
 - **Description**: Fetches the label displayed at the end of a numeric or choice slider, which usually represents the
   maximum value or condition.
@@ -222,7 +222,7 @@ Use this function to check whether an item is active or read-only in your applic
   console.log(stopLabel); // Could output "High" for a satisfaction slider
   ```
 
-## Getting the Style of an Item: `item.getStyle()`
+### Getting the Style of an Item: `item.getStyle()`
 
 - **Description**: Returns the current display style of an item. Note that this function is primarily applicable to Date
   and Time input fields.
@@ -232,7 +232,7 @@ Use this function to check whether an item is active or read-only in your applic
   console.log(style); // Outputs the style setting, like "MM/DD/YYYY" for a date field
   ```
 
-## Getting the Title of an Item: `item.getTitle()`
+### Getting the Title of an Item: `item.getTitle()`
 
 - **Description**: Retrieves the current value used as the field title, which is the text label associated with the item
   on the form.
@@ -242,7 +242,7 @@ Use this function to check whether an item is active or read-only in your applic
   console.log(title); // Prints the title of the item, such as "Date of Birth"
   ```
 
-## Getting the Type of an Item: `item.getType()`
+### Getting the Type of an Item: `item.getType()`
 
 - **Description**: Returns a string that identifies the object type. This can be useful for conditional logic based on
   the item type.
@@ -293,7 +293,7 @@ Use this function to check whether an item is active or read-only in your applic
 
 :::
 
-## Checking Item Validity: `item.getValid()`
+### Checking Item Validity: `item.getValid()`
 
 - **Description**: Retrieves the validity status of an item as previously set by `setValid()`. This function is crucial
   for form validations.
@@ -303,7 +303,7 @@ Use this function to check whether an item is active or read-only in your applic
   console.log(isValid); // Outputs true or false based on validity.
   ```
 
-## Getting Item Value: `item.getValue()`
+### Getting Item Value: `item.getValue()`
 
 - **Description**: Returns the current value of an item. The type of the returned value depends on the item's data
   type (e.g., String, Number, Boolean, Date, Object).
@@ -313,7 +313,7 @@ Use this function to check whether an item is active or read-only in your applic
   console.log(value); // Outputs the item's value, format depends on the item type.
   ```
 
-## Checking Item Visibility: `item.getVisible()`
+### Checking Item Visibility: `item.getVisible()`
 
 - **Description**: Determines whether an item is visible on the form. It returns `true` if visible, `false` if hidden by
   a rule, JavaScript, or if its parent item is hidden.
@@ -323,7 +323,7 @@ Use this function to check whether an item is active or read-only in your applic
   console.log(isVisible); // true or false
   ```
 
-## Removing Classes from an Item: `item.removeClasses(classes)`
+### Removing Classes from an Item: `item.removeClasses(classes)`
 
 - **Description**: Removes one or more custom CSS class names from an item. The `classes` parameter can be a single
   class name, multiple class names separated by spaces, or an Array of class names.
@@ -333,7 +333,7 @@ Use this function to check whether an item is active or read-only in your applic
   // This will remove the "emphasized" class from the item.
   ```
 
-## Setting Item Activity: `item.setActive(active)`
+### Setting Item Activity: `item.setActive(active)`
 
 - **Description**: Sets whether an item is active or read-only. An item made inactive by a rule or stage cannot be made
   active with this function.
@@ -343,7 +343,7 @@ Use this function to check whether an item is active or read-only in your applic
   // This will make the item read-only.
   ```
 
-## Setting Display Value: `item.setDisplayValue(pValue)`
+### Setting Display Value: `item.setDisplayValue(pValue)`
 
 - **Description**: Takes a string or number in `pValue`. This method sets the value being displayed. If the user is
   editing, then it will update the value they are trying to enter. If the user is not editing, then it will be the same
@@ -356,7 +356,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Sets the display value of an item to "John Doe".
   ```
 
-## Setting Focus: `item.setFocus()`
+### Setting Focus: `item.setFocus()`
 
 - **Description**: Causes the item to receive focus, making it the active element on the page. This method only works if
   the item can receive focus, is visible, and is not read-only.
@@ -366,7 +366,7 @@ Use this function to check whether an item is active or read-only in your applic
   // The item will gain focus, allowing the user to start typing or interacting with it directly.
   ```
 
-## Setting Hint Text: `item.setHintText(pValue)`
+### Setting Hint Text: `item.setHintText(pValue)`
 
 - **Description**: Sets the hint text for an item, which is displayed as hover text over input fields. Providing an
   empty string will remove any existing hint text.
@@ -376,7 +376,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Sets the hover hint text for the item to guide the user on what to input.
   ```
 
-## Setting Hover Text: `item.setHoverText(pValue)`
+### Setting Hover Text: `item.setHoverText(pValue)`
 
 - **Description**: Sets the hover text for an item, providing users with helpful information when they hover over the
   item. An empty string removes the hover text.
@@ -386,7 +386,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Sets hover text for the item, offering additional guidance or information.
   ```
 
-## Setting Required: `item.setRequired(required)`
+### Setting Required: `item.setRequired(required)`
 
 - **Description**: Overrides the item's default requirement state. Setting this to `true` makes the item's data
   required, preventing form submission if the item is not filled. Setting it to `false` clears any override, returning
@@ -397,7 +397,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Now, the form cannot be submitted unless this item is filled out.
   ```
 
-## Setting Rows: `item.setRows(pValue)`
+### Setting Rows: `item.setRows(pValue)`
 
 - **Description**: Adjusts the number of rows displayed by a text area item. This is useful for ensuring that the text
   area size accommodates the expected length of user input.
@@ -412,7 +412,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Sets the text area item to display 5 rows.
   ```
 
-## Setting Placeholder Text: `item.setPlaceholderText(pValue)`
+### Setting Placeholder Text: `item.setPlaceholderText(pValue)`
 
 - **Description**: This method updates the placeholder text in input items, which is the grayed-out text inside the
   input box before any information is entered by the user.
@@ -422,7 +422,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Sets the placeholder text to "Enter your name".
   ```
 
-## Setting Start Label of a Slider: `item.setStartLabel(pValue)`
+### Setting Start Label of a Slider: `item.setStartLabel(pValue)`
 
 - **Description**: Sets the label displayed at the beginning of a numeric or choice slider, typically representing the
   minimum value or start of a range.
@@ -432,7 +432,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Sets the start label of a slider to "Low".
   ```
 
-## Setting Stop Label of a Slider: `item.setStopLabel(pValue)`
+### Setting Stop Label of a Slider: `item.setStopLabel(pValue)`
 
 - **Description**: Updates the label displayed at the end of a numeric or choice slider, usually indicating the maximum
   value or end of a range.
@@ -442,7 +442,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Sets the stop label of a slider to "High".
   ```
 
-## Setting Style for Date and Time: `item.setStyle(pValue)`
+### Setting Style for Date and Time: `item.setStyle(pValue)`
 
 - **Description**: Configures the display style for date and time input fields. Valid values for dates include numeric,
   short, medium, long, and full. For time, valid options are numeric, short, and medium.
@@ -452,7 +452,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Sets the date or time display style to "medium".
   ```
 
-## Setting the Title of an Item: `item.setTitle(pValue)`
+### Setting the Title of an Item: `item.setTitle(pValue)`
 
 - **Description**: Assigns text to be used as the title for field items. This text is typically displayed above the
   input field or item as a label.
@@ -462,7 +462,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Sets the title of an item to "Email Address".
   ```
 
-## Setting Validity of Data: `item.setValid(valid, msg)`
+### Setting Validity of Data: `item.setValid(valid, msg)`
 
 - **Description**: Overrides the current validity state of data in an item. Setting `valid` to `false` marks the data as
   invalid and can prevent form submission, with an optional custom error message.
@@ -472,7 +472,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Marks the item data as invalid and provides a custom error message.
   ```
 
-## Setting the Value of an Item: `item.setValue(pValue)`
+### Setting the Value of an Item: `item.setValue(pValue)`
 
 - **Description**: Updates the value of an item based on the Business Object Attribute's type. It's important to provide
   data in the correct type, although some type conversion is handled automatically (e.g., Number to String).
@@ -482,7 +482,7 @@ Use this function to check whether an item is active or read-only in your applic
   // Sets the item's value to "John Doe".
   ```
 
-## Setting Item Visibility: `item.setVisible(visible)`
+### Setting Item Visibility: `item.setVisible(visible)`
 
 - **Function Name + Parameters**: `setVisible(visible)` where `visible` is a boolean indicating whether the item should
   be visible (`true`) or hidden (`false`).
@@ -497,7 +497,7 @@ Use this function to check whether an item is active or read-only in your applic
   item.setVisible(false); // Hides the item
   ```
 
-## Validating a Data Item: `apItem.validate()`
+### Validating a Data Item: `apItem.validate()`
 
 - **Function Name + Parameters**: `validate()`. This function takes no parameters.
 
@@ -510,7 +510,7 @@ Use this function to check whether an item is active or read-only in your applic
   item.validate(); // Triggers validation for the item
   ```
 
-## Getting Column Headers for a Table: `item.getColumnHeaders()`
+### Getting Column Headers for a Table: `item.getColumnHeaders()`
 
 - **Function Name + Parameters**: `getColumnHeaders()`. This function returns a JSON object with the details of each
   column header in a table.
@@ -526,7 +526,7 @@ Use this function to check whether an item is active or read-only in your applic
   }
   ```
 
-## Setting Column Headers for a Table: `item.setColumnHeaders(headers)`
+### Setting Column Headers for a Table: `item.setColumnHeaders(headers)`
 
 - **Function Name + Parameters**: `setColumnHeaders(headers)` where `headers` is a JSON object containing the ID, title,
   and width for each column.

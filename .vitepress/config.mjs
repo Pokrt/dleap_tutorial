@@ -75,11 +75,21 @@ export default defineConfig({
                     },
                     {text: 'Service calls in JS', link: 'low-code-basics/services_js'},
                     {text: 'External JS Files', link: 'low-code-basics/external_js'},
-                    {text: 'Working with items', link: 'items/Attachment',
-                    items: [
-                        {text: 'Attachment', link: 'items/Attachment'},
-                    ] },
-
+                    {
+                        text: 'Working with items', link: 'items/Attachment',
+                        items: [
+                            {text: 'Attachment', link: 'items/Attachment'},
+                            {text: 'Button', link: 'items/button'},
+                            {text: 'Button', link: 'items/button'},
+                        ]
+                    },
+                    {
+                        text: "App flow control", link: "application_flow/Input_validation",
+                        items: [
+                            {text: "Form input validation", link: "application_flow/Input_validation"},
+                            {text: "Inactive timeout", link: "application_flow/inactive_timeout"},
+                        ]
+                    }
                 ]
             }
         ],
