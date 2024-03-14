@@ -88,6 +88,7 @@ export default defineConfig({
                         items: [
                             {text: "Form input validation", link: "application_flow/Input_validation"},
                             {text: "Inactive timeout", link: "application_flow/inactive_timeout"},
+                            {text: "Redirecting user upon submit", link: "application_flow/submission_redirect"},
                         ]
                     }
                 ]
