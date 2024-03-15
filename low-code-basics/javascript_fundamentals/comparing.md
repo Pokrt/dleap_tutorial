@@ -24,6 +24,9 @@ It's generally recommended to avoid using the "==" operator for comparisons, as 
 type coercion.
 :::
 
+:::warning poznámka
+dleap restrictions - porovnávání a this
+:::
 ## 2. Strict Equality (`===`)
 
 The "===" operator, on the other hand, checks for equality without performing type coercion. If the two values have

@@ -2,6 +2,11 @@
 In JavaScript, objects can reference other objects, allowing for the creation of complex, interconnected data
 structures. This feature is particularly useful for representing real-world relationships and hierarchies in your code.
 
+
+:::warning poznámka
+dleap restrictions - porovnávání a this
+:::
+
 ## Referencing Other Objects
 
 An object can reference another object simply by including it as a property value. This creates a relationship between

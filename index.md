@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "DLeap Tutorial"
   text: "Tutorial for HCL Domino Leap"
-  tagline: Work in progress
+  tagline: Work in progress. This is not an official HCL Documentation. This site was created by Jan Kadlec (honza.kadlec.cb@gmail.com) as a part of bachelors thesis at University of West Bohemia and supervised by Jan Valdman (jan.valdman@whitesoft.eu) form Whitesoft.
   actions:
     - theme: brand
       text: Markdown Examples

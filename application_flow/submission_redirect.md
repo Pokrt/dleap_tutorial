@@ -23,7 +23,7 @@ Let's walk through the steps to set up redirection after a form submission in Do
 
 3. **Configure Redirection:**
     - With the desired stage selected, move over to the Properties tab. Here, look for the section titled "On action
-      completion redirect to:". This is where you'll specify what happens after the form submission.
+      completion redirect to". This is where you'll specify what happens after the form submission.
     - You'll be presented with a drop-down menu offering several redirection options:
         - **Another Domino Leap Application:** Choose this to direct users to a different part of your Domino Leap
           suite.

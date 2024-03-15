@@ -14,6 +14,8 @@ export default defineConfig({
             {text: 'Examples', link: '/markdown-examples'}
         ],
 
+        outline: [2, 4],
+
         sidebar: [
             {
                 text: 'Examples',
@@ -23,22 +25,22 @@ export default defineConfig({
                 ]
             },
             {
-                text: 'Basics',
+                text: 'Domino Leap Basics',
                 items: [
                     {text: 'Hello world', link: '/basics/hello_world'},
-                    {text: 'Roles', link: '/basics/roles'},
+                    {text: 'Application Roles', link: '/basics/roles'},
                     {text: 'Data Storage', link: '/basics/data-storage'},
-                    {text: 'Permissions', link: '/basics/permissions'},
+                    {text: 'User Permissions', link: '/basics/permissions'},
                     {text: 'Workflow Stages', link: '/basics/stages'},
-                    {text: 'Visibility', link: '/basics/visibility'},
-                    {text: 'Locking', link: '/basics/locking'},
+                    {text: 'Item Visibility in Stages', link: '/basics/visibility'},
+                    {text: 'Item Locking in Stages', link: '/basics/locking'},
                 ]
             }, {
-                text: 'Intermediate (no-code)',
+                text: 'No-code development',
                 items: [
                     {text: 'Business object', link: '/intermediate/business_object'},
                     {text: 'Service calls', link: '/intermediate/services'},
-                    {text: 'CSS styling', link: '/intermediate/css_styling'},
+                    {text: 'Visual Appearance', link: '/intermediate/css_styling'},
                     {text: 'Formulas', link: '/intermediate/formulas'},
                     {text: 'Rules', link: '/intermediate/rules'},
                 ]
@@ -46,7 +48,7 @@ export default defineConfig({
                 text: 'Low-code basics',
                 items: [
                     {
-                        text: 'JavaScript Fundamentals',
+                        text: 'JavaScript Essentials',
                         items: [
                             {text: 'Variables', link: 'low-code-basics/javascript_fundamentals/variables'},
                             {text: 'Console', link: 'low-code-basics/javascript_fundamentals/console'},
