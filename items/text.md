@@ -1,6 +1,6 @@
-# Check Box
+# Single Line
 
-## Specific Functions
+## Item-Specific Functions
 
 There are no specific functions for this item.
 

@@ -1,6 +1,6 @@
-# Check Box
+# Name Picker
 
-## Specific Functions
+## Item-Specific Functions
 
 There are no specific functions for this item.
 

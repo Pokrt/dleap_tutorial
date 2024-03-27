@@ -313,6 +313,13 @@ Use this function to check whether an item is active or read-only in your applic
   console.log(value); // Outputs the item's value, format depends on the item type.
   ```
 
+Here are some examples of what is returned:
+
+- **String** - check and radio list objects return a delimited list with _#_ as the delimiter
+- **Number** - number, currency,
+- **Boolean, Date** - date, timestamp, time
+- **Object** - attachment
+
 ### Checking Item Visibility: `item.getVisible()`
 
 - **Description**: Determines whether an item is visible on the form. It returns `true` if visible, `false` if hidden by
@@ -403,8 +410,7 @@ Use this function to check whether an item is active or read-only in your applic
   area size accommodates the expected length of user input.
   ::: tip
   It is recommended not to exceed 40 rows for usability reasons.
-
-:::
+  :::
 
 - **Example**:
   ```javascript
@@ -444,8 +450,8 @@ Use this function to check whether an item is active or read-only in your applic
 
 ### Setting Style for Date and Time: `item.setStyle(pValue)`
 
-- **Description**: Configures the display style for date and time input fields. Valid values for dates include numeric,
-  short, medium, long, and full. For time, valid options are numeric, short, and medium.
+- **Description**: Configures the display style for date and time input fields. Valid values for dates include `numeric`,
+  `short`, `medium`, `long`, and `full`. For time, valid options are `numeric`, `short`, and `medium`.
 - **Example**:
   ```javascript
   item.setStyle("medium");
@@ -482,15 +488,11 @@ Use this function to check whether an item is active or read-only in your applic
   // Sets the item's value to "John Doe".
   ```
 
+Here are the merged sections as per your example:
+
 ### Setting Item Visibility: `item.setVisible(visible)`
 
-- **Function Name + Parameters**: `setVisible(visible)` where `visible` is a boolean indicating whether the item should
-  be visible (`true`) or hidden (`false`).
-
-- **Description**: This function controls the visibility of an item on your form. It's useful for showing or hiding
-  elements based on certain conditions. Note that if an item is hidden by a rule, stage, or because its parent item is
-  hidden, you cannot make it visible using this function.
-
+- **Description**: Controls the visibility of an item on your form. It's useful for showing or hiding elements based on certain conditions. `setVisible(visible)` where `visible` is a boolean indicating whether the item should be visible (`true`) or hidden (`false`). Note that if an item is hidden by a rule, stage, or because its parent item is hidden, you cannot make it visible using this function.
 - **Example**:
   ```javascript
   item.setVisible(true); // Makes the item visible
@@ -499,12 +501,7 @@ Use this function to check whether an item is active or read-only in your applic
 
 ### Validating a Data Item: `apItem.validate()`
 
-- **Function Name + Parameters**: `validate()`. This function takes no parameters.
-
-- **Description**: Triggers the validation process for a data item. Use this function to manually initiate the
-  validation rules applied to the item, ensuring the data entered by the user meets the required criteria before
-  proceeding.
-
+- **Description**: Triggers the validation process for a data item. Use this function to manually initiate the validation rules applied to the item, ensuring the data entered by the user meets the required criteria before proceeding. `validate()` takes no parameters.
 - **Example**:
   ```javascript
   item.validate(); // Triggers validation for the item
@@ -512,12 +509,7 @@ Use this function to check whether an item is active or read-only in your applic
 
 ### Getting Column Headers for a Table: `item.getColumnHeaders()`
 
-- **Function Name + Parameters**: `getColumnHeaders()`. This function returns a JSON object with the details of each
-  column header in a table.
-
-- **Description**: Retrieves the current configuration of column headers for a table, including each column's ID, title,
-  and width. This can be useful for dynamically adjusting table headers based on certain conditions.
-
+- **Description**: Retrieves the current configuration of column headers for a table, including each column's ID, title, and width. This can be useful for dynamically adjusting table headers based on certain conditions. `getColumnHeaders()` returns a JSON object with the details of each column header in a table.
 - **Example**:
   ```javascript
   var headers = item.getColumnHeaders();
@@ -528,12 +520,7 @@ Use this function to check whether an item is active or read-only in your applic
 
 ### Setting Column Headers for a Table: `item.setColumnHeaders(headers)`
 
-- **Function Name + Parameters**: `setColumnHeaders(headers)` where `headers` is a JSON object containing the ID, title,
-  and width for each column.
-
-- **Description**: Allows you to dynamically set or update the column headers of a table. This function is particularly
-  useful for changing the language of column headers or adjusting their presentation based on user input.
-
+- **Description**: Allows you to dynamically set or update the column headers of a table. This function is particularly useful for changing the language of column headers or adjusting their presentation based on user input. `setColumnHeaders(headers)` where `headers` is a JSON object containing the ID, title, and width for each column.
 - **Example**:
   ```javascript
   var headers = [

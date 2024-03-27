@@ -1,6 +1,6 @@
-# Check Box
+# Number slider
 
-## Specific Functions
+## Item-Specific Functions
 
 There are no specific functions for this item.
 

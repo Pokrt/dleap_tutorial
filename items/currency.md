@@ -1,18 +1,14 @@
-# Attachment
+# Currency
 
-## Specific functions
+## Item-Specific Functions
 
-There are no item specific functions.
+There are no specific functions for this item.
 
-## Item common functions
+## Item Common Functions
 
 <!--@include: ./common/functions.md -->
 
-
-
 <!--@include: ./common/event_objects.md -->
-
-
 
 
 <!--@include: ./common/events.md -->

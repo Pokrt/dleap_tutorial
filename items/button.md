@@ -30,3 +30,10 @@ your application or guide the user through a multi-step process.
 ## Item common functions
 
 <!--@include: ./common/functions.md -->
+
+
+
+<!--@include: ./common/event_objects.md -->
+
+
+<!--@include: ./common/events.md -->
