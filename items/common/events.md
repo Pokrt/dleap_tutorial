@@ -42,7 +42,8 @@ You cannot change the value of an item within this event as its value has change
 
 **Description:** Called when focus is received by an item.
 
-### onItemLiveChange (items which can be incrementally changed)
+### onItemLiveChange
+(items which can be incrementally changed)
 
 **Event Name:** `onItemLiveChange`
 
@@ -68,7 +69,8 @@ Line, Multi-Line, and Currency.
 **Description:** Called every time the item goes from being hidden to being shown, whether from a page flip or because
 of a rule or JavaScript™ change.
 
-### onValid (only data items)
+### onValid 
+(only data items)
 
 **Event Name:** `onValid`
 

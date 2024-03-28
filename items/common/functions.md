@@ -1,4 +1,5 @@
-### Adding Classes: `item.addClasses(classes)`
+
+### addClasses(classes) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 **Description**: This function adds one or more custom CSS class names to an item, allowing for dynamic styling. You can
 pass a single class name, multiple class names separated by spaces, or an array of class names. If any class names are
@@ -12,7 +13,7 @@ item.addClasses("emphasized error");
 
 In this example, the item will have the CSS classes `emphasized` and `error` added to it for styling purposes.
 
-### Clearing Required Message: `item.clearRequiredMessage()`
+### clearRequiredMessage() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 **Description**: Validates the item data but prevents any required field error messages from being displayed. This is
 useful in scenarios where you want to perform validation without user feedback.
@@ -25,7 +26,7 @@ item.clearRequiredMessage();
 
 Use this function when you need to validate the item but do not wish to show error messages to the user.
 
-### Connecting to an Event: `item.connectEvent(eventName, callbackFunction)`
+### connectEvent(eventName, callbackFunction) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 **Description**: Connects a function to an item event, allowing for dynamic behavior based on user actions or item
 changes. It returns a handle object that represents the connection, which can be used to disconnect the event later.
@@ -42,7 +43,7 @@ var hndl = item.connectEvent('onItemChange', function () {
 
 Here, we connect a function to the `onItemChange` event that makes a section visible if the item's value is 'Yes'.
 
-### Disconnecting an Event: `item.disconnectEvent(eventHandle)`
+### item.disconnectEvent(eventHandle) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 **Description**: Disconnects a previously connected event handler using the handle object returned
 by `item.connectEvent`. This is essential to prevent multiple instances of the event handler from being attached.
@@ -65,7 +66,7 @@ item.disconnectEvent(hndl);
 This example demonstrates connecting to an event and then immediately disconnecting it to ensure the event handler does
 not persist unnecessarily.
 
-### Checking if an Item is Active: `item.getActive()`
+### Checking if an Item is Active: `item.getActive()` <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 **Description**: Returns `true` if the item is active and `false` if it has been made read-only by a rule, stage, or
 custom JavaScript.
@@ -78,15 +79,15 @@ var isActive = item.getActive();
 
 Use this function to check whether an item is active or read-only in your application logic.
 
-### Get Application Page: `item.getAppPage()`
+### Get Application Page: `apItem.getAppPage()` <Badge type="warning">apItem</Badge>
 
 - **Description**: Retrieves the page object to which the current item belongs.
 - **Example**:
   ```javascript
-  var page = item.getAppPage();
+  var page = apItem.getAppPage();
   ```
 
-### Get Business Object: `item.getBO()`
+### Get Business Object: `item.getBO()` <Badge type="tip">item</Badge>
 
 - **Description**: Returns the Business Object (BO) for the entire form. This object represents the data model the form
   interacts with.
@@ -95,7 +96,7 @@ Use this function to check whether an item is active or read-only in your applic
   var businessObject = item.getBO();
   ```
 
-### Get Business Object Attribute: `item.getBOAttr()`
+### Get Business Object Attribute: `item.getBOAttr()` <Badge type="tip">item</Badge>
 
 - **Description**: For items collecting data, this method returns the Business Object Attribute (BOA) containing that
   data. Returns `null` for interface-only items.
@@ -104,7 +105,7 @@ Use this function to check whether an item is active or read-only in your applic
   item.getBOAttr().setValue(45);
   ```
 
-### Get Children: `item.getChildren()`
+### Get Children: `item.getChildren()` <Badge type="tip">item</Badge>
 
 - **Description**: If an item contains children (e.g., a Section or Tab Folder), it returns a list object providing
   access to all direct children items. This list has `getLength()` and `get(index)` functions.
@@ -118,7 +119,7 @@ Use this function to check whether an item is active or read-only in your applic
   }
   ```
 
-### Get Classes: `item.getClasses()`
+### Get Classes: `item.getClasses()` <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Returns an array of custom class names currently applied to the item.
 - **Example**:
@@ -126,7 +127,7 @@ Use this function to check whether an item is active or read-only in your applic
   var classes = item.getClasses();
   ```
 
-### Get Display Value: `item.getDisplayValue()`
+### Get Display Value: `item.getDisplayValue()` <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Returns the current value being displayed, useful for getting the current, but not yet committed,
   value.
@@ -135,7 +136,7 @@ Use this function to check whether an item is active or read-only in your applic
   var displayValue = item.getDisplayValue();
   ```
 
-### Get Hover Text: `item.getHoverText()`
+### Get Hover Text: `item.getHoverText()` <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Retrieves the current value set as hover text for the item.
 - **Example**:
