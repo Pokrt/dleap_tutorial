@@ -40,20 +40,27 @@ export default defineConfig({
                     {text: 'Application Roles', link: '/basics/roles'},
                     {text: 'Data Storage', link: '/basics/data-storage'},
                     {text: 'User Permissions', link: '/basics/permissions'},
-                    {text: 'Workflow Stages', link: '/basics/stages'},
-                    {text: 'Item Visibility in Stages', link: '/basics/visibility'},
-                    {text: 'Item Locking in Stages', link: '/basics/locking'},
+                    {text: 'Workflow', link: - do II '/basics/stages'},
+                    {text: 'Item Visibility in Stages - rozdělit a do II', link: '/basics/visibility'},
+                    {text: 'Item Locking in Stages - do II', link: '/basics/locking'},
                 ]
             }, {
                 text: 'II. No-code development',
                 collapsed: false,
 
                 items: [
+                    {text: 'MVC model', link: 'todo'},
                     {text: 'Business object', link: '/intermediate/business_object'},
-                    {text: 'Service calls', link: '/intermediate/services'},
-                    {text: 'Visual Appearance', link: '/intermediate/css_styling'},
+                    {text: 'Input items', link: 'todo'},
+                    {text: 'Display items', link: 'todo'},
+                    {text: 'Navigation', link: 'todo'},
+                    {text: 'Multi-page Forms', link: 'todo'},
                     {text: 'Formulas', link: '/intermediate/formulas'},
                     {text: 'Rules', link: '/intermediate/rules'},
+                    {text: 'Visual Appearance', link: '/intermediate/css_styling'},
+                    {text: 'Application Pages', link: 'todo'},
+                    {text: 'Multi-form apps', link: 'todo'},
+                    {text: 'Service calls', link: '/intermediate/services'},
                 ]
             }, {
                 text: 'III. Low-code basics',
@@ -62,7 +69,7 @@ export default defineConfig({
                 items: [
                     {
                         text: 'JavaScript Essentials',
-                        link: '/low-code-basics/javascript_fundamentals/',
+                        link: '/low-code-basics/javascript_fundamentals/', collapsed: true,
                         items: [
                             {text: 'Variables', link: 'low-code-basics/javascript_fundamentals/variables'},
                             {text: 'Console', link: 'low-code-basics/javascript_fundamentals/console'},
@@ -70,31 +77,29 @@ export default defineConfig({
                             {text: 'Branching and loops', link: 'low-code-basics/javascript_fundamentals/branching'},
                             {text: 'Strings', link: 'low-code-basics/javascript_fundamentals/string'},
                             {text: 'Objects', link: 'low-code-basics/javascript_fundamentals/objects'},
-                            {
-                                text: 'Object referencing',
-                                link: 'low-code-basics/javascript_fundamentals/object_referencing'
-                            },
-
+                            {text: 'Object references',link: 'low-code-basics/javascript_fundamentals/object_referencing'},
                         ],
                     },
                     {
-                        text: 'JS in Domino Leap', link: '/low-code-basics/js_in_dleap/',
+                        text: 'JavaScript in Domino Leap', link: '/low-code-basics/js_in_dleap/',
                         items: [
-                            {
-                                text: 'Running JS in Domino Leap',
-                                link: 'low-code-basics/js_in_dleap/running_js',
-                            },
-                            {
-                                text: 'Domino Leap Objects',
-                                link: 'low-code-basics/js_in_dleap/objects'
-                            },
-                            {text: 'Service calls in JS', link: 'low-code-basics/js_in_dleap/services_js'},
-                            {text: 'External JS Files', link: 'low-code-basics/js_in_dleap/external_js'},
-                            {text: 'Security', link: 'low-code-basics/js_in_dleap/security'},
+                            {text: 'Interface and data objects',link: 'low-code-basics/js_in_dleap/objects'},
+                            {text: 'Events',link: 'low-code-basics/js_in_dleap/running_js',},
+                            
+                            {text: 'Working with items',link: 'low-code-basics/js_in_dleap/todo',},
+                            {text: 'Item-specific examples',link: 'low-code-basics/js_in_dleap/todo',},
+                            {text: 'Working with Buttons',link: 'low-code-basics/js_in_dleap/todo',},
+                            {text: 'Working with Pages',link: 'low-code-basics/js_in_dleap/todo',},
+                            {text: 'Submitting Forms',link: 'low-code-basics/js_in_dleap/todo',},
+                            {text: 'Show&hideitems',link: 'low-code-basics/js_in_dleap/todo',},
+                            
+                            {text: 'External JS files', link: 'low-code-basics/js_in_dleap/external_js'},
+                            {text: 'JavaScript security', link: 'low-code-basics/js_in_dleap/security'},
+                            {text: 'Service calls', link: 'low-code-basics/js_in_dleap/services_js'},
                         ],
                     },
                     {
-                        text: "App flow control", link: "/low-code-basics/application_flow/",
+                        text: "Advanced flow control", link: "/low-code-basics/application_flow/",
                         items: [
                             {text: "Form input validation", link: "low-code-basics/application_flow/Input_validation"},
                             {text: "Inactive timeout", link: "low-code-basics/application_flow/inactive_timeout"},
@@ -194,17 +199,14 @@ export default defineConfig({
                 collapsed: false,
                 items:
                     [
-
-                        {
-                            text: 'Working with attachments',
-                        },
-                        {
-                            text: 'Using Regular Expressions for Item Validation',
-                        },
+                        {text: 'Working with attachments',},
+                        {text: 'Using Regular Expressions for Item Validation',},
                         {text: "Global Variables and Special Functions", link: "/advanced/glob_var_special_func"},
+                        {text: 'Printing forms',link: 'todo',},
+                        {text: 'Producing QR codes',link: 'todo',},
+                        {text: 'Producing PDF files',link: 'todo',},
                     ],
             },
-
 
         ]
     },
