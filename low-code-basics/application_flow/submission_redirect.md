@@ -32,4 +32,4 @@ Let's walk through the steps to set up redirection after a form submission in Do
         - **A Form or App Page:** Ideal for guiding users to another form within the same application or to a specific
           app page for further actions or information.
 
-![Redirecting user image](./redirect.png)
+![Redirecting user image](redirect.png)

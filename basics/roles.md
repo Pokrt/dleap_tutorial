@@ -31,15 +31,19 @@ Each role can be categorized as Open (dynamic) or Closed (static).
    - Example: Define a role for "Shift Supervisor."
 5. Utilize the radio buttons to specify whether the role is Open or Closed. -->
 
-::: details Example
+::: tip Task
+Create a new role named "CFO" and assign the user in your organization to this role.
+:::
 
-1\. Navigate to [https://volt.whitesoft.eu/volt-apps/secure/org/ide/manager.html](https://volt.whitesoft.eu/volt-apps/secure/org/ide/manager.html)
+::: details Step-by-Step Tutorial
+
+1\. Navigate to your application url.
 
 2\. Click here.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-17/fb91ab1b-3607-48aa-b102-750bcc553b14/ascreenshot.jpeg?tl_px=0,0&br_px=1075,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=-7,113)
 
-3\. Click "+" ro add new role
+3\. Click "+" to add a new role
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-17/39599ef8-d4a1-4e7e-b9e7-02d0b0e80b14/ascreenshot.jpeg?tl_px=262,678&br_px=1337,1279&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,295)
 
@@ -80,7 +84,7 @@ Each role can be categorized as Open (dynamic) or Closed (static).
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-17/3c047c47-717c-4c70-b6d4-248039c66eb2/ascreenshot.jpeg?tl_px=774,419&br_px=1849,1020&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
 
 ----
-14\. Click "Submitted"
+14\. Click on "Submitted" stage
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-17/b07acb7c-5821-4a5c-b5c8-9ac9f0b9b82e/ascreenshot.jpeg?tl_px=0,312&br_px=1075,913&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=140,265)
 

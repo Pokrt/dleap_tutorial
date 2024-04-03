@@ -1,3 +1,5 @@
+# Global Variables and Special Functions
+
 ## Available Global Variables
 
 Here are the global variables that can be accessed within the sandbox:
@@ -13,7 +15,7 @@ still usable. The style object is accessible and modifiable.
 This represents a sandboxed document object offering node creation and basic element searching capabilities. The
 sandboxed document includes methods like `getElementById`, `createElement`, `createTextNode`, and `write`.
 
-#### Available DOM functions and constructors
+### Available DOM functions and constructors
 
 The following standard JavaScript DOM functions or constructors, and their child functions when applicable, might be
 called. They can be used only in call position. They cannot be accessed in any other way. They generally behave as the
@@ -45,6 +47,7 @@ standard JavaScript function, unless otherwise noted:
   :::
 
 ## Special functions
+
 The following functions for DOM manipulation and extra language features are provided by the **Dojo library**. This
 represents a safe subset of Dojo.
 

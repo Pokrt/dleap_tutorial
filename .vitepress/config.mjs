@@ -2,13 +2,21 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    sitemap: {
+        hostname: 'https://dleap-tutorial.onrender.com/'
+    },
     title: "HCL Domino Leap Tutorial",
     description: "Tutorial for HCL Domino Leap",
+    lastUpdated: true,
+
     markdown: {
         theme: {light: 'light-plus', dark: 'night-owl'}
     },
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        editLink: {
+            pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path'
+        },
         nav: [
             {text: 'Home', link: '/'},
             {text: 'Examples', link: '/markdown-examples'}
@@ -25,7 +33,8 @@ export default defineConfig({
             //     ]
             // },
             {
-                text: 'Domino Leap Basics',
+                text: 'I. Domino Leap Basics',
+                collapsed: false,
                 items: [
                     {text: 'Hello world', link: '/basics/hello_world'},
                     {text: 'Application Roles', link: '/basics/roles'},
@@ -36,7 +45,9 @@ export default defineConfig({
                     {text: 'Item Locking in Stages', link: '/basics/locking'},
                 ]
             }, {
-                text: 'No-code development',
+                text: 'II. No-code development',
+                collapsed: false,
+
                 items: [
                     {text: 'Business object', link: '/intermediate/business_object'},
                     {text: 'Service calls', link: '/intermediate/services'},
@@ -45,10 +56,13 @@ export default defineConfig({
                     {text: 'Rules', link: '/intermediate/rules'},
                 ]
             }, {
-                text: 'Low-code basics',
+                text: 'III. Low-code basics',
+                collapsed: false,
+
                 items: [
                     {
                         text: 'JavaScript Essentials',
+                        link: '/low-code-basics/javascript_fundamentals/',
                         items: [
                             {text: 'Variables', link: 'low-code-basics/javascript_fundamentals/variables'},
                             {text: 'Console', link: 'low-code-basics/javascript_fundamentals/console'},
@@ -62,86 +76,90 @@ export default defineConfig({
                             },
 
                         ],
-                        link: 'low-code-basics/javascript_fundamentals/variables'
                     },
                     {
-                        text: 'JS in Domino Leap', link: 'low-code-basics/javascript_fundamentals/editor',
+                        text: 'JS in Domino Leap', link: '/low-code-basics/js_in_dleap/',
                         items: [
                             {
                                 text: 'Running JS in Domino Leap',
-                                link: 'low-code-basics/running_js',
+                                link: 'low-code-basics/js_in_dleap/running_js',
                             },
                             {
                                 text: 'Domino Leap Objects',
-                                link: 'low-code-basics/objects'
+                                link: 'low-code-basics/js_in_dleap/objects'
                             },
-                            {text: 'Service calls in JS', link: 'low-code-basics/services_js'},
-                            {text: 'External JS Files', link: 'low-code-basics/external_js'},
+                            {text: 'Service calls in JS', link: 'low-code-basics/js_in_dleap/services_js'},
+                            {text: 'External JS Files', link: 'low-code-basics/js_in_dleap/external_js'},
+                            {text: 'Security', link: 'low-code-basics/js_in_dleap/security'},
                         ],
                     },
                     {
-                        text: "App flow control", link: "application_flow/Input_validation",
+                        text: "App flow control", link: "/low-code-basics/application_flow/",
                         items: [
-                            {text: "Form input validation", link: "application_flow/Input_validation"},
-                            {text: "Inactive timeout", link: "application_flow/inactive_timeout"},
+                            {text: "Form input validation", link: "low-code-basics/application_flow/Input_validation"},
+                            {text: "Inactive timeout", link: "low-code-basics/application_flow/inactive_timeout"},
                             {
                                 text: "Redirecting user upon submit",
-                                link: "application_flow/submission_redirect"
+                                link: "low-code-basics/application_flow/submission_redirect"
                             },
                         ]
                     },
-                    { text: "Best practices", link: "low-code-basics/best_practices"}
+                    {text: "Best practices", link: "low-code-basics/best_practices"}
                 ]
             },
             {
-                text: 'Object Reference',
+                text: 'IV. Object References',
+                collapsed: false,
+
                 items:
                     [
                         {
-                            text: 'Interface Objects', link: 'items/application',
+                            text: 'Interface Objects', link: 'object_reference/application',
+                            collapsed: false,
+
                             items:
                                 [
-                                    {text: 'Application Object', link: 'items/application'},
-                                    {text: 'Form Object', link: 'items/Form'},
-                                    {text: 'Page Object', link: 'items/page'},
-                                    {text: 'AppPage Object', link: 'items/appPage'},
+                                    {text: 'Application Object', link: 'object_reference/application'},
+                                    {text: 'Form Object', link: 'object_reference/Form'},
+                                    {text: 'Page Object', link: 'object_reference/page'},
+                                    {text: 'AppPage Object', link: 'object_reference/appPage'},
                                     {
                                         text: 'Item Objects',
                                         collapsed: true,
                                         items: [
-                                            {text: 'Attachment', link: 'items/Attachment'},
-                                            {text: 'Button', link: 'items/button'},
-                                            {text: 'Checkbox', link: 'items/checkbox'},
-                                            {text: 'Currency', link: 'items/currency'},
-                                            {text: 'Date', link: 'items/date'},
-                                            {text: 'Dropdown', link: 'items/dropdown'},
-                                            {text: 'Email', link: 'items/email'},
-                                            {text: 'Folder Tab', link: 'items/tabFolderTab'},
-                                            {text: 'HTML Fragment', link: 'items/htmlArea'},
-                                            {text: 'Image', link: 'items/image'},
-                                            {text: 'Line', link: 'items/horizontalLine'},
-                                            {text: 'Media', link: 'items/media'},
-                                            {text: 'Number', link: 'items/number'},
-                                            {text: 'Number Slider', link: 'items/horizontalSlider'},
-                                            {text: 'Page Navigation', link: 'items/pageNavigator'},
-                                            {text: 'Paragraph Text', link: 'items/textArea'},
-                                            {text: 'Password', link: 'items/password'},
-                                            {text: 'Section', link: 'items/section'},
-                                            {text: 'Select Many', link: 'items/checkGroup'},
-                                            {text: 'Select One', link: 'items/radioGroup'},
-                                            {text: 'Single Line', link: 'items/text'},
-                                            {text: 'Survey', link: 'items/survey'},
-                                            {text: 'Survey Question', link: 'items/surveyQuestion'},
-                                            {text: 'Tabbed folder', link: 'items/tabFolder'},
-                                            {text: 'Table', link: 'items/table'},
-                                            {text: 'Text', link: 'items/richText'},
-                                            {text: 'Time', link: 'items/time'},
-                                            {text: 'Timestamp', link: 'items/timeStamp'},
-                                            {text: 'Web link', link: 'items/staticWebLink'},
-                                            {text: 'Website', link: 'items/weblink'},
-                                            {text: 'Name Picker', link: 'items/name'},
-                                            {text: 'Data Grid', link: 'items/dataGrid'},
-                                            {text: 'Rich text', link: 'items/richTextArea'},
+                                            {text: 'Attachment', link: 'object_reference/Attachment'},
+                                            {text: 'Button', link: 'object_reference/button'},
+                                            {text: 'Checkbox', link: 'object_reference/checkbox'},
+                                            {text: 'Currency', link: 'object_reference/currency'},
+                                            {text: 'Date', link: 'object_reference/date'},
+                                            {text: 'Dropdown', link: 'object_reference/dropdown'},
+                                            {text: 'Email', link: 'object_reference/email'},
+                                            {text: 'Folder Tab', link: 'object_reference/tabFolderTab'},
+                                            {text: 'HTML Fragment', link: 'object_reference/htmlArea'},
+                                            {text: 'Image', link: 'object_reference/image'},
+                                            {text: 'Line', link: 'object_reference/horizontalLine'},
+                                            {text: 'Media', link: 'object_reference/media'},
+                                            {text: 'Number', link: 'object_reference/number'},
+                                            {text: 'Number Slider', link: 'object_reference/horizontalSlider'},
+                                            {text: 'Page Navigation', link: 'object_reference/pageNavigator'},
+                                            {text: 'Paragraph Text', link: 'object_reference/textArea'},
+                                            {text: 'Password', link: 'object_reference/password'},
+                                            {text: 'Section', link: 'object_reference/section'},
+                                            {text: 'Select Many', link: 'object_reference/checkGroup'},
+                                            {text: 'Select One', link: 'object_reference/radioGroup'},
+                                            {text: 'Single Line', link: 'object_reference/text'},
+                                            {text: 'Survey', link: 'object_reference/survey'},
+                                            {text: 'Survey Question', link: 'object_reference/surveyQuestion'},
+                                            {text: 'Tabbed folder', link: 'object_reference/tabFolder'},
+                                            {text: 'Table', link: 'object_reference/table'},
+                                            {text: 'Text', link: 'object_reference/richText'},
+                                            {text: 'Time', link: 'object_reference/time'},
+                                            {text: 'Timestamp', link: 'object_reference/timeStamp'},
+                                            {text: 'Web link', link: 'object_reference/staticWebLink'},
+                                            {text: 'Website', link: 'object_reference/weblink'},
+                                            {text: 'Name Picker', link: 'object_reference/name'},
+                                            {text: 'Data Grid', link: 'object_reference/dataGrid'},
+                                            {text: 'Rich text', link: 'object_reference/richTextArea'},
                                         ]
                                     },
                                 ],
@@ -149,7 +167,12 @@ export default defineConfig({
 
                         {
                             text: 'Data Object', link:
-                                'low-code-basics/data_objects', items: [{text: "BO", link: ""}]
+                                '/object_reference/data_objects/data_objects', items: [
+                                {text: "Business Object", link: "/object_reference/data_objects/BO"},
+                                {text: "Business Object Attribute", link: "/object_reference/data_objects/BOA"},
+                                {text: "Business Object List", link: "/object_reference/data_objects/BOL"},
+
+                            ]
                         }
                         ,
                         {
@@ -167,7 +190,8 @@ export default defineConfig({
                     ],
             },
             {
-                text: 'Advanced techniques',
+                text: 'V. Advanced techniques',
+                collapsed: false,
                 items:
                     [
 
@@ -176,7 +200,8 @@ export default defineConfig({
                         },
                         {
                             text: 'Using Regular Expressions for Item Validation',
-                        }
+                        },
+                        {text: "Global Variables and Special Functions", link: "/advanced/glob_var_special_func"},
                     ],
             },
 

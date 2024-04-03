@@ -1,9 +1,5 @@
 # Objects in HCL Domino Leap
 
-::: warning
-todo prerequisita je vyřešit naming - ID jednotlivých objektů - Object Identification
-:::
-
 In HCL Domino Leap, objects are used to represent various elements of the application, such as pages, forms, and data.
 There are two types of objects - Interface Objects and Data Objects.
 
@@ -25,8 +21,8 @@ There are two types of objects - Interface Objects and Data Objects.
       data entered by users or computed by the
       application.
     - `AppItem` - special type of Item which can be placed on application pages only.
-  
-    Interface objects can be accessed by the following variables:
+
+  Interface objects can be accessed by the following variables:
     - `app` - current Application object
     - `appPage` - current Application Page object
     - `page` - current Page object
@@ -39,29 +35,36 @@ There are two types of objects - Interface Objects and Data Objects.
   modified in subsequent workflow stages. There is one object for each submitted form called BO (Business Object). This
   is an equivalent of a database record or a Notes document in NSF file. Each BO has multiple attributes which
   correspond to each data item. These are the main data objects:
-    -  `Business Object` - it represents a record in a database (one Notes document).
-    -  `Business Object Attribute` - it is rarely used to access additional properties of items such as
+    - `Business Object` - it represents a record in a database (one Notes document).
+    - `Business Object Attribute` - it is rarely used to access additional properties of items such as
       currency name for currency items.
-    -  `Business Object List` -it is used together with table items. Tables produce subforms in NSF files.
+    - `Business Object List` -it is used together with table items. Tables produce subforms in NSF files.
 
-    Data objects can be accessed by the following variables:
+  Data objects can be accessed by the following variables:
     - `BO` - current Business Object
     - `BOA` - current Business Object Attribute
     - `BOL` - current Business Object List
-  
+
       At runtime, it is possible to work both with item values and visual properties. For example, we can hide an item,
       make
       it required or validate user-entered value. Once a form is moved to next stage by pressing an ActionButton the
       data is
       saved persistently. Hence, it may be a bit confusing that data items are referenced both pages and the BO object.
 
-- Other objects represent special entities in applications. They are used for service calls and triggering workflow transitions. 
+- Other objects represent special entities in applications. They are used for service calls and triggering workflow
+  transitions.
 
 [//]: # (todo udělat stejný seznam věcí)
+
 - Components in different contexts
   ![](./Slide%204_3%20-%204.png)
 
 ## Obtaining Object IDs
+
+You can obtain the ID of an object by clicking on the object in the left panel. The ID is displayed on the right side of
+the screen as demonstrated on the following image. 
+![](./id.png)
+The ID is used to reference the object in the code. 
 
 
 

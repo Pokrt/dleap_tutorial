@@ -3,11 +3,16 @@
 Formulas can be used to calculate the value of a field based on the values of other fields.
 
 ::: warning
-limitation 2 operandy ahard to debug (async calls), navíc nejsou nikde vidět pohromadě
+There is a limitation of 2 operands in formulas. This makes it hard to debug formulas
+with [async calls](/low-code-basics/js_in_dleap/running_js.html#asynchronous-operations). Another
+limitation is that the formulas are not visible in one place.
 :::
 
 ## Adding formulas
 
+::: tip Task
+Add a formula to calculate the total price of a product based on the price per piece and the number of pieces.
+:::
 ::: details Step-by-step tutorial
 
 1\. We prepared this form.

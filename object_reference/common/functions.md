@@ -43,7 +43,7 @@ var hndl = item.connectEvent('onItemChange', function () {
 
 Here, we connect a function to the `onItemChange` event that makes a section visible if the item's value is 'Yes'.
 
-### item.disconnectEvent(eventHandle) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### disconnectEvent(eventHandle) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 **Description**: Disconnects a previously connected event handler using the handle object returned
 by `item.connectEvent`. This is essential to prevent multiple instances of the event handler from being attached.

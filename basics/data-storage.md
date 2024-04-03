@@ -21,11 +21,6 @@ During the installation HCL Domino Leap creates three database files:
 * `volt/VoltAppHistory.nsf`
 * `volt/VoltConfig.nsf`
 
-#### Changing default access to NSF
-
-::: warning
-TODO? Není to moc pokročilé to sem dávat
-:::
 
 ## Data views
 ### Representation in HCL Domino Leap

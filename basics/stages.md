@@ -22,6 +22,12 @@ As name suggests, stages are the different steps in a workflow. By default, ther
 
 ### Creating new stages
 
+::: tip Task
+Create a new stage named "Stage 2".
+:::
+
+::: details Step-by-Step Solution
+
 1\. Navigate to workflow
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-25/722b72cd-b4d3-4ef9-930c-278f5487857a/ascreenshot.jpeg?tl_px=0,0&br_px=764,427&force_format=png&width=764&wat_scale=68&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=-4,181)
@@ -33,6 +39,8 @@ As name suggests, stages are the different steps in a workflow. By default, ther
 3\. New stage created with name "Stage 2"
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-25/ee197af7-2bdd-4ebb-9678-71082a528237/user_cropped_screenshot.jpeg?tl_px=0,0&br_px=604,768&force_format=png&width=880&wat_scale=78&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=923,201)
+
+:::
 
 ## Actions
 
@@ -49,12 +57,6 @@ Each action can have a set of activities that are executed when the action is pe
 - Send an email
 - Assign users
 - Call a service
-
-::: warning
-
-- jak do hloubky zacházet ?
-- vysvětlení servisů na samostatné stránce?
-  :::
 
 ### Action Button representation in form
 

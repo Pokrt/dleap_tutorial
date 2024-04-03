@@ -1,7 +1,5 @@
 # Application Events and Objects
 
-[[toc]]
-
 ## Application Objects
 
 ### Getting an Application Page Object
