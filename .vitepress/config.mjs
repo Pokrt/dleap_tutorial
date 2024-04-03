@@ -40,7 +40,7 @@ export default defineConfig({
                     {text: 'Application Roles', link: '/basics/roles'},
                     {text: 'Data Storage', link: '/basics/data-storage'},
                     {text: 'User Permissions', link: '/basics/permissions'},
-                    {text: 'Workflow', link: - do II '/basics/stages'},
+                    {text: 'Workflow - do II', link: '/basics/stages'},
                     {text: 'Item Visibility in Stages - rozdělit a do II', link: '/basics/visibility'},
                     {text: 'Item Locking in Stages - do II', link: '/basics/locking'},
                 ]
@@ -91,7 +91,7 @@ export default defineConfig({
                             {text: 'Working with Buttons',link: 'low-code-basics/js_in_dleap/todo',},
                             {text: 'Working with Pages',link: 'low-code-basics/js_in_dleap/todo',},
                             {text: 'Submitting Forms',link: 'low-code-basics/js_in_dleap/todo',},
-                            {text: 'Show&hideitems',link: 'low-code-basics/js_in_dleap/todo',},
+                            {text: 'Show&hide items',link: 'low-code-basics/js_in_dleap/todo',},
                             
                             {text: 'External JS files', link: 'low-code-basics/js_in_dleap/external_js'},
                             {text: 'JavaScript security', link: 'low-code-basics/js_in_dleap/security'},
