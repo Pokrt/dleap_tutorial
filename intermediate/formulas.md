@@ -3,9 +3,11 @@
 Formulas can be used to calculate the value of a field based on the values of other fields.
 
 ::: warning
-There is a limitation of 2 operands in formulas. This makes it hard to debug formulas
-with [async calls](/low-code-basics/js_in_dleap/running_js.html#asynchronous-operations). Another
-limitation is that the formulas are not visible in one place.
+There is a limitation of 2 operands in formulas. 
+
+This makes it hard to debug formulas with [async calls](/low-code-basics/js_in_dleap/running_js.html#asynchronous-operations). 
+
+Anotherlimitation is that the formulas are not visible in one place.
 :::
 
 ## Adding formulas
