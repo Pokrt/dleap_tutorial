@@ -13,14 +13,6 @@ NSF database is a collection of documents, where each document is a collection o
 value. The value can be a string, number, date, or other data type. The database data are stored inside the `*.nsf`
 file. Each NSF file has its own access controll list (ACL) managing acess to NSF files.
 
-### HCL Domino Leap Database Files
-
-During the installation HCL Domino Leap creates three database files:
-
-* `volt/VoltBuilder.nsf`
-* `volt/VoltAppHistory.nsf`
-* `volt/VoltConfig.nsf`
-
 
 ## Data views
 ### Representation in HCL Domino Leap

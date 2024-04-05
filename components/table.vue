@@ -2,16 +2,28 @@
   <table class=" full text-left border-collapse">
 
     <template v-for="(item, index) in tocItems" :key="index">
-      <tr>
-        <td class="py-2 pr-2 font-mono font-medium text-xs leading-6  whitespace-nowrap " :class="item.type">
+      <template v-if="item.nodeName === 'H2'">
+        <h3 :class="item.type">
           {{ item.text }}
-        </td>
-        <td :class="item.type" v-html="item.children">
-        </td>
-        <td :class="item.type">
-          <a :href="`#${item.id}`">detail</a>
-        </td>
-      </tr>
+        </h3>
+        <p v-if="tocItems[index + 1] && tocItems[index + 1].nodeName === 'H2'">
+          There are no items in this section.
+        </p>
+      </template>
+      <template v-else>
+
+        <tr>
+          <td v-if="item.text" class="py-2 pr-2 font-mono font-medium text-xs leading-6  whitespace-nowrap " :class="item.type">
+            {{ item.text }}
+          </td>
+
+          <td v-if="item.children.includes('Badge')" :class="item.type" v-html="item.children">
+          </td>
+          <td v-if="item.id" :class="item.type">
+            <a :href="`#${item.id}`">detail</a>
+          </td>
+        </tr>
+      </template>
     </template>
 
   </table>
