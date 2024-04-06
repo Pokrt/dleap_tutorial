@@ -64,3 +64,51 @@ We have following example of workflow diagram. Notice that we have two actions i
 ![Sample workflow](./workflow.png)
 When we look at the form in start stage, we see two action buttons.
 ![Sample action buttons](./action_buttons.png)
+
+## Branching
+
+::: tip Exercise
+Add a branch to the workflow with condition "Amount is greater than 10000" on field price.
+:::
+
+::: details Step-by-Step Solution
+
+1\. Navigate to workflow tab.[ ](https://volt.whitesoft.eu/volt-apps/secure/org/ide/manager.html)
+
+2\. Click here to add another branch.
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-06/f9a62506-2315-4e43-9324-02e2f2b73a9d/ascreenshot.jpeg?tl_px=800,788&br_px=2735,1870&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,420)
+
+3\. Click this text field.
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-06/0263dcc8-d543-49e1-9463-ee150f920cc8/ascreenshot.jpeg?tl_px=971,59&br_px=2906,1140&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+
+4\. Select form field value or user upon witch you want to branch.
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-06/3afb0cf9-daf6-40f1-b3fe-bb2dbac8e560/ascreenshot.jpeg?tl_px=478,208&br_px=2413,1289&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,277)
+
+5\. Click this dropdown to edit condition.
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-06/bf81d9d7-a92c-45c3-aa04-84391e8c70c8/ascreenshot.jpeg?tl_px=1174,48&br_px=3109,1129&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+
+6\. Click this text field.
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-06/bea849f0-6c27-4194-b397-6a01f43887bb/ascreenshot.jpeg?tl_px=924,170&br_px=2859,1251&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,277)
+
+7\. Type "10000"
+
+8\. Click "Save"
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-06/3230e730-bc44-470b-bd28-f0fd19aef2ce/ascreenshot.jpeg?tl_px=1288,788&br_px=3223,1870&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,327)
+
+9\. Here you can see your branches. Click "Activities" to set things such as email reminders.
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-06/4e789d4b-76e2-4640-813f-1532670290b8/user_cropped_screenshot.jpeg?tl_px=0,0&br_px=647,1081&force_format=png&width=452&wat_scale=40&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=187,17)
+
+10\. Click "Properties"
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-06/cfe046cc-9ac6-4f09-b339-df92477417a0/ascreenshot.jpeg?tl_px=1906,0&br_px=3841,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=767,135)
+
+:::
+
+

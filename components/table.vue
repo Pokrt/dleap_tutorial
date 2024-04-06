@@ -13,7 +13,8 @@
       <template v-else>
 
         <tr>
-          <td v-if="item.text" class="py-2 pr-2 font-mono font-medium text-xs leading-6  whitespace-nowrap " :class="item.type">
+          <td v-if="item.text" class="py-2 pr-2 font-mono font-medium text-xs leading-6  whitespace-nowrap "
+              :class="item.type">
             {{ item.text }}
           </td>
 

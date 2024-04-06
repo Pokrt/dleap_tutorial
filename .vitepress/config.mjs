@@ -37,18 +37,20 @@ export default defineConfig({
                 collapsed: false,
                 items: [
                     {text: 'Hello world', link: '/basics/hello_world'},
-                    {text: 'Application Roles', link: '/basics/roles'},
                     {text: 'Data Storage', link: '/basics/data-storage'},
-                    {text: 'User Permissions', link: '/basics/permissions'},
-                    {text: 'Workflow - do II', link: '/basics/stages'},
-                    {text: 'Item Visibility in Stages - rozdělit a do II', link: '/basics/visibility'},
-                    {text: 'Item Locking in Stages - do II', link: '/basics/locking'},
                 ]
             }, {
                 text: 'II. No-code development',
                 collapsed: false,
 
                 items: [
+                    {text: 'Application Roles', link: '/basics/roles'},
+                    {text: 'User Permissions', link: '/basics/permissions'},
+                    {text: 'Workflow - Stages & Actions', link: '/basics/stages'},
+                    {text: 'Item Visibility', link: '/basics/visibility_item'},
+                    {text: 'Page Visibility', link: '/basics/visibility_page'},
+                    {text: 'Item Locking', link: '/basics/locking'},
+
                     {text: 'MVC model', link: 'todo'},
                     {text: 'Business object', link: '/intermediate/business_object'},
                     {text: 'Input items', link: 'todo'},
