@@ -2,20 +2,18 @@
 
 Domino Leap cann be used to create complex web forms which are called **Applications**. This is the smallest app:
 
-TODO obrázek form při zobrazení
+![](./form.png)
 
 Application are created using a web **Editor**. Each app must have at least one **Form** and one **Page**. On page there are visual or data elements called **Items**:
 
-TODO obrázek aplikace během editování
+![](./editing.png)
 
 Once application development is finished, the apps must to be saved and deployed. After successfull deploy users can launch the app in web browser, enter some data and submit the form. By default, there is a submit notification message:
 
-TODO data úspěšně odeslána
-
+![](./data_sent.png)
 Domino Leap provides an easy way to explore submited infomration via View Data page. There is one row per each submitted form. Domino Leap uses the same form interface to preview user-submitted data in context. 
 
-TODO obrázek view data s preview on side
-
+![](./data_view.png)
 Now try it yourself:
 
 ::: tip Excercise 1
