@@ -4,7 +4,7 @@
 
 ### Accessing Business Object Attribute Data
 
-**Function Name:** `BO.<itemId>`
+** Method Name:** `BO.<itemId>`
 
 **Parameters:** itemId (the ID of the item whose Business Object Attribute data is being accessed).
 
@@ -19,7 +19,7 @@ BO.F_Age.setValue(12);
 
 ### Setting Form Validity
 
-**Function Name:** `BO.setValid(valid, msg)`
+** Method Name:** `BO.setValid(valid, msg)`
 
 **Parameters:**
 
@@ -40,7 +40,7 @@ if (BOA.getValue() < 15 || BOA.getValue() > 35) {
 
 ### Getting the Form's Validity State
 
-**Function Name:** `BO.getValid()`
+** Method Name:** `BO.getValid()`
 
 **Parameters:** None.
 
@@ -48,7 +48,7 @@ if (BOA.getValue() < 15 || BOA.getValue() > 35) {
 
 ### Checking Form Validity
 
-**Function Name:** `BO.isValid()`
+** Method Name:** `BO.isValid()`
 
 **Parameters:** None.
 
@@ -57,7 +57,7 @@ This function differs from `BO.getValid()` which returns the form's overridden v
 
 ### Retrieving Invalid Field Messages
 
-**Function Name:** `BO.getInvalidMessages()`
+** Method Name:** `BO.getInvalidMessages()`
 
 **Parameters:** None.
 
@@ -66,7 +66,7 @@ returns an empty array.
 
 ### Getting the Current Form Stage
 
-**Function Name:** `BO.getCurrentStage()`
+** Method Name:** `BO.getCurrentStage()`
 
 **Parameters:** None.
 
@@ -82,7 +82,7 @@ if (BO.getCurrentStage() === 'ST_Submitted') {
 
 ### Getting the Data ID
 
-**Function Name:** `BO.getDataId()`
+** Method Name:** `BO.getDataId()`
 
 **Parameters:** None.
 
@@ -91,7 +91,7 @@ the ID it will have upon submission.
 
 ### Accessing Child Business Object Attributes
 
-**Function Name:** `BO.getChildren()`
+** Method Name:** `BO.getChildren()`
 
 **Parameters:** None.
 

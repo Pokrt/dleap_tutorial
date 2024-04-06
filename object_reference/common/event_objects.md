@@ -3,7 +3,7 @@
 ### Application object (GUI type)
 
 - Variable: `app`
-- Description: Contains functions for accessing global general information.
+- Description: Contains methods for accessing global general information.
 - Example: `app.isSingleFormView();`
 
 ### Page object (GUI type)

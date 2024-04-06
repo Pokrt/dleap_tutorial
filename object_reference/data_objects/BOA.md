@@ -4,7 +4,7 @@
 
 ### Retrieving the Value of a Business Object Attribute
 
-**Function Name:** `BOA.getValue()`
+**Method Name:** `BOA.getValue()`
 
 **Parameters:** None.
 
@@ -25,7 +25,7 @@ var name = BO.F_NamePicker1.getValue(); // For an Object (Name Picker)
 
 ### Setting the Value of a Business Object Attribute
 
-**Function Name:** `BOA.setValue(value)`
+**Method Name:** `BOA.setValue(value)`
 
 **Parameters:** `value` (varies): The value to set for the business object attribute, respecting the attribute's type.
 This can be a String, Number, Date, Boolean, or Object (specifically for attachments and name pickers).
@@ -64,7 +64,7 @@ BO.F_NamePicker1.setValue('CN=John B Goode/OU=Sales/OU=East/O=Acme/C=US');
 
 ### Getting the ID of a Data Item
 
-**Function Name:** `BOA.getId()`
+**Method Name:** `BOA.getId()`
 
 **Parameters:** None.
 
@@ -78,7 +78,7 @@ var itemId = BOA.getId();
 
 ### Accessing the Business Object for the Form
 
-**Function Name:** `BOA.getBO()`
+**Method Name:** `BOA.getBO()`
 
 **Parameters:** None.
 
@@ -92,7 +92,7 @@ var formBO = BOA.getBO();
 
 ### Determining the Type of a Data Item
 
-**Function Name:** `BOA.getType()`
+**Method Name:** `BOA.getType()`
 
 **Parameters:** None.
 
@@ -107,7 +107,7 @@ var dataType = BOA.getType();
 
 ### Connecting an Event Listener to a Business Object Attribute
 
-**Function Name:** `BOA.connectEvent(eventName, callbackFunction)`
+**Method Name:** `BOA.connectEvent(eventName, callbackFunction)`
 
 **Parameters:**
 
@@ -132,7 +132,7 @@ If you connect an event, it must be disconnected using `BOA.disconnectEvent(even
 
 ### Disconnecting an Event Listener
 
-**Function Name:** `BOA.disconnectEvent(eventHandle)`
+**Method Name:** `BOA.disconnectEvent(eventHandle)`
 
 **Parameters:** `eventHandle` (Object): The event handle object returned by `BOA.connectEvent`.
 
@@ -150,7 +150,7 @@ var hdl = BOA.connectEvent("onChange", function (newValue) {
 
 ### Overriding Data Validity
 
-**Function Name:** `BOA.setValid(valid, msg)`
+**Method Name:** `BOA.setValid(valid, msg)`
 
 **Parameters:**
 
@@ -176,7 +176,7 @@ rule.
 
 ### Retrieving the Validity State of a Data Item
 
-**Function Name:** `BOA.getValid()`
+**Method Name:** `BOA.getValid()`
 
 **Parameters:** None.
 
@@ -192,7 +192,7 @@ var isValidCustom = BOA.getValid();
 
 ### Setting Data as Required
 
-**Function Name:** `BOA.setRequired(required)`
+**Method Name:** `BOA.setRequired(required)`
 
 **Parameters:** `required` (Boolean): Whether the data item is required.
 
@@ -205,7 +205,7 @@ If a Business Object Attribute is inherently required by a property or rule, you
 
 ### Retrieving the Required State of a Data Item
 
-**Function Name:** `BOA.getRequired()`
+**Method Name:** `BOA.getRequired()`
 
 **Parameters:** None.
 
@@ -220,7 +220,7 @@ var isRequired = BOA.getRequired();
 
 ### Checking Data Validity
 
-**Function Name:** `BOA.isValid()`
+**Method Name:** `BOA.isValid()`
 
 **Parameters:** None.
 
@@ -234,7 +234,7 @@ var isValid = BOA.isValid();
 
 ### Getting the Invalid Message for a Data Item
 
-**Function Name:** `BOA.getInvalidMessage()`
+**Method Name:** `BOA.getInvalidMessage()`
 
 **Parameters:** None.
 
@@ -249,7 +249,7 @@ var errorMsg = BOA.getInvalidMessage();
 
 ### Determining if a Data Item is Required
 
-**Function Name:** `BOA.isRequired()`
+**Method Name:** `BOA.isRequired()`
 
 **Parameters:** None.
 
@@ -263,7 +263,7 @@ var required = BOA.isRequired();
 
 ### Checking if a Required Data Item is Missing
 
-**Function Name:** `BOA.isMissing()`
+**Method Name:** `BOA.isMissing()`
 
 **Parameters:** None.
 
@@ -278,7 +278,7 @@ var isMissing = BOA.isMissing();
 
 ### Triggering Validation for a Data Item
 
-**Function Name:** `BOA.validate()`
+**Method Name:** `BOA.validate()`
 
 **Parameters:** None.
 

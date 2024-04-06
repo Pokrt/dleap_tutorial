@@ -4,7 +4,7 @@
 
 ### Getting the Length of a Business Object List
 
-**Function Name:** `BOL.getLength()`
+**Method Name:** `BOL.getLength()`
 
 **Parameters:** None.
 
@@ -19,7 +19,7 @@ var length = BOL.getLength();
 
 ### Retrieving a Business Object by Index
 
-**Function Name:** `BOL.get(index)`
+**Method Name:** `BOL.get(index)`
 
 **Parameters:**
 
@@ -35,7 +35,7 @@ var businessObject = BOL.get(0);
 
 ### Creating a New Empty Business Object
 
-**Function Name:** `BOL.createNew()`
+**Method Name:** `BOL.createNew()`
 
 **Parameters:** None.
 
@@ -49,7 +49,7 @@ var newBO = BOL.createNew();
 
 ### Adding a Business Object to the List
 
-**Function Name:** `BOL.add(bo)`
+**Method Name:** `BOL.add(bo)`
 
 **Parameters:**
 
@@ -66,7 +66,7 @@ BOL.add(newBO);
 
 ### Removing a Business Object from the List
 
-**Function Name:** `BOL.remove(bo)`
+**Method Name:** `BOL.remove(bo)`
 
 **Parameters:**
 
@@ -83,7 +83,7 @@ var isSuccess = BOL.remove(existingBO);
 
 ### Getting the ID of the Business Object List
 
-**Function Name:** `BOL.getId()`
+**Method Name:** `BOL.getId()`
 
 **Parameters:** None.
 
@@ -98,7 +98,7 @@ var listId = BOL.getId();
 
 ### Determining the Type of Business Object List Data
 
-**Function Name:** `BOL.getType()`
+**Method Name:** `BOL.getType()`
 
 **Parameters:** None.
 
@@ -112,7 +112,7 @@ var listType = BOL.getType();
 
 ### Overriding Data Validity for a Business Object List
 
-**Function Name:** `BOL.setValid(valid, msg)`
+**Method Name:** `BOL.setValid(valid, msg)`
 
 **Parameters:**
 
@@ -134,7 +134,7 @@ You cannot set a Business Object List to valid if it contains invalid data or is
 
 ### Retrieving the Validity State of a Business Object List
 
-**Function Name:** `BOL.getValid()`
+**Method Name:** `BOL.getValid()`
 
 **Parameters:** None.
 
@@ -150,7 +150,7 @@ var isValid = BOL.getValid();
 
 ### Setting a Business Object List as Required
 
-**Function Name:** `BOL.setRequired(required)`
+**Method Name:** `BOL.setRequired(required)`
 
 **Parameters:**
 
@@ -169,7 +169,7 @@ If a Business Object Attribute is inherently required by a property or rule, it 
 
 ### Retrieving the Required State of a Business Object List
 
-**Function Name:** `BOL.getRequired()`
+**Method Name:** `BOL.getRequired()`
 
 **Parameters:** None.
 

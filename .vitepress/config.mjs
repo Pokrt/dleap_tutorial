@@ -52,7 +52,7 @@ export default defineConfig({
                     {text: 'Item Locking', link: '/basics/locking'},
 
                     {text: 'MVC model', link: 'todo'},
-                    {text: 'Business object', link: '/intermediate/business_object'},
+                    {text: 'Objects', link: '/intermediate/business_object'},
                     {text: 'Input items', link: 'todo'},
                     {text: 'Display items', link: 'todo'},
                     {text: 'Navigation', link: 'todo'},
