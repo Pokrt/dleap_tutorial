@@ -15,7 +15,7 @@ export default defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         editLink: {
-            pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path'
+            pattern: 'https://github.com/Pokrt/dleap_tutorial/blob/main/:path'
         },
         nav: [
             {text: 'Home', link: '/'},
@@ -51,10 +51,10 @@ export default defineConfig({
                     {text: 'Page Visibility', link: '/basics/visibility_page'},
                     {text: 'Item Locking', link: '/basics/locking'},
 
-                    {text: 'MVC model', link: 'todo'},
+                    {text: 'MVC model', link: '/intermediate/mvc'},
                     {text: 'Objects', link: '/intermediate/business_object'},
-                    {text: 'Input items', link: 'todo'},
-                    {text: 'Display items', link: 'todo'},
+                    {text: 'Input items', link: '/intermediate/input_items'},
+                    {text: 'Display items', link: '/intermediate/display_items'},
                     {text: 'Navigation', link: 'todo'},
                     {text: 'Multi-page Forms', link: 'todo'},
                     {text: 'Formulas', link: '/intermediate/formulas'},
