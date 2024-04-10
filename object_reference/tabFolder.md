@@ -1,8 +1,8 @@
 # Tabbed folder
+<TableOfContents />
+## Item-Specific Methods
 
-## Item-Specific Functions
-
-### Getting Selected Tab Index: `item.getSelectionIndex()`
+### getSelectionIndex() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the index of the currently selected tab.
 - **Example**:
@@ -15,15 +15,15 @@
   // Set 12 into the first item in the currently shown tab.
   ```
 
-### Getting All Tab Titles: `item.getTabTitleList()`
+### getTabTitleList() <Badge type="tip">item</Badge>
 
 - **Description**: Returns an array of all the tab titles in this folder.
 
-### Setting Selected Tab: `item.setSelectedTab(tabTitle)`
+### setSelectedTab(tabTitle) <Badge type="tip">item</Badge>
 
 - **Description**: Takes a tabTitle string. Selects the Tab that matches the tabTitle string.
 
-### Updating a Tab Title: `item.setTabTitle(tabIndex, pTitle)`
+### setTabTitle(tabIndex, pTitle) <Badge type="tip">item</Badge>
 
 - **Description**: Updates the title of a tab within a Tabbed Folder by using a tabIndex integer and pTitle string
   value. tabIndex denotes the location of the tab within the list of available tabs from left-to-right. For
@@ -32,7 +32,7 @@
   tab furthest to the right. In a bidirectional language, the order is reversed. Tab 0 is assigned to Blue, which is the
   tab furthest to the right.
 
-### Updating Multiple Tab Titles: `item.setTabTitleList(pTitleArray)`
+### setTabTitleList(pTitleArray) <Badge type="tip">item</Badge>
 
 - **Description**: Updates the titles of tabs within a Tabbed Folder from a list of strings by using a pTitleArray array
   of string values. The list of tabs is updated respective to the order of strings that are defined in the array. If
@@ -43,7 +43,6 @@
   // Updates the tab titles to the days of the week, assuming there are at least 5 tabs.
   ```
 
-## Item Common Functions
 
 <!--@include: ./common/functions.md -->
 

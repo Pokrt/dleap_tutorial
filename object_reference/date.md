@@ -1,10 +1,8 @@
 # Date
+<TableOfContents />
 
-## Item-Specific Functions
+<!--@include: ./common/no-methods.md -->
 
-There are no specific functions for this item.
-
-## Item Common Functions
 
 <!--@include: ./common/functions.md -->
 

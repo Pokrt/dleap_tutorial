@@ -1,8 +1,9 @@
 # Dropdown
+<TableOfContents />
 
-## Item-Specific Functions
+## Item-Specific Methods
 
-### Retrieving Dropdown Options: `item.getOptions()`
+### getOptions() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the array of options currently shown in the drop-down. Each object in the array has a "title"
   property that is shown in the interface, and a "value" property that is saved into the data.
@@ -19,7 +20,7 @@
   }
   ```
 
-### Setting Dropdown Options: `item.setOptions(options)`
+### setOptions(options) <Badge type="tip">item</Badge>
 
 - **Description**: Changes the list of options to show in the drop-down. It must be an array of objects. Each object
   must have a "title" property that is shown in the interface, and a "value" property that is saved into the data.
@@ -31,8 +32,6 @@
   options.push({title: 'Orange', value: 'OR'});
   item.setOptions(options);
   ```
-
-## Item Common Functions
 
 <!--@include: ./common/functions.md -->
 

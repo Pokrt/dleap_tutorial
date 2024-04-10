@@ -1,9 +1,9 @@
 # Button
+<TableOfContents />
 
-## Item specific functions
+## Item-specific methods
 
-### Sets button text: `item.setContent(content)`
-
+### item.setContent(content)  <Badge type="tip">item</Badge>
 - **Parameters**:
     - `content`: The text or label you want to display on the button.
 
@@ -27,7 +27,6 @@ In this example, the label on the button originally assigned to the variable `su
 to "Continue." This demonstrates how you can dynamically update the content of a button to reflect the current state of
 your application or guide the user through a multi-step process.
 
-## Item common functions
 
 <!--@include: ./common/functions.md -->
 

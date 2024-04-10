@@ -1,12 +1,13 @@
 # HTML Fragment
+<TableOfContents />
 
-## Item-Specific Functions
+## Item-Specific Methods
 
-### Getting Current Content: `item.getContent()`
+### getContent() <Badge type="tip">item</Badge>
 
 - **Description**: Gets the currently shown content for this interface item.
 
-### Setting Content: `item.setContent(content)`
+### item.setContent(content) <Badge type="tip">item</Badge>
 
 - **Description**: Shows content in this interface item only. The content is evaluated as HTML code.
 - **Example**:
@@ -14,8 +15,6 @@
   item.setContent("<p>Hello, World!</p>");
   // Shows the message "Hello, World!" in this interface item as HTML.
   ```
-
-## Item Common Functions
 
 <!--@include: ./common/functions.md -->
 

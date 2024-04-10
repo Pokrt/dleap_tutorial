@@ -1,34 +1,31 @@
 # Image
+<TableOfContents />
 
-## Item-Specific Functions
+## Item-Specific Methods
 
-To match the desired output format you've provided, here's how you can format the text:
-
-### `item.getHeight()`
+### getHeight() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the current image height. Can be zero or blank.
 
-### `item.getURL()`
+### getURL() <Badge type="tip">item</Badge>
 
 - **Description**: Gets the current URL shown by this image item.
 
-### `item.getWidth()`
+### getWidth() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the current image width. Can be zero or blank.
 
-### `item.setHeight(height)`
+### setHeight(height) <Badge type="tip">item</Badge>
 
 - **Description**: Sets explicit height in pixels for the image. Setting "0" removes the explicit height.
 
-### `item.setURL(newURL)`
+### setURL(newURL) <Badge type="tip">item</Badge>
 
 - **Description**: Sets the URL shown by this image item.
 
-### `item.setWidth(width)`
+### setWidth(width) <Badge type="tip">item</Badge>
 
 - **Description**: Sets explicit width in pixels for the image. Setting "0" removes the explicit width.
-
-## Item Common Functions
 
 <!--@include: ./common/functions.md -->
 

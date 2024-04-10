@@ -61,7 +61,7 @@ export default defineConfig({
                     {text: 'Rules', link: '/intermediate/rules'},
                     {text: 'Visual Appearance', link: '/intermediate/css_styling'},
                     {text: 'Application Pages', link: '/intermediate/app_pages'},
-                    {text: 'Multi-form apps', link: 'todo'},
+                    {text: 'Multi-form apps', link: '/intermediate/multi_form_apps'},
                     {text: 'Service calls', link: '/intermediate/services'},
                 ]
             }, {
@@ -87,14 +87,14 @@ export default defineConfig({
                         items: [
                             {text: 'Interface and data objects',link: 'low-code-basics/js_in_dleap/objects'},
                             {text: 'Events',link: 'low-code-basics/js_in_dleap/running_js',},
-                            
-                            {text: 'Working with items',link: 'low-code-basics/js_in_dleap/todo',},
+
+                            {text: 'Working with items',link: 'low-code-basics/js_in_dleap/items.md',},
                             {text: 'Item-specific examples',link: 'low-code-basics/js_in_dleap/todo',},
                             {text: 'Working with Buttons',link: 'low-code-basics/js_in_dleap/todo',},
                             {text: 'Working with Pages',link: 'low-code-basics/js_in_dleap/todo',},
                             {text: 'Submitting Forms',link: 'low-code-basics/js_in_dleap/todo',},
                             {text: 'Show&hide items',link: 'low-code-basics/js_in_dleap/todo',},
-                            
+
                             {text: 'External JS files', link: 'low-code-basics/js_in_dleap/external_js'},
                             {text: 'JavaScript security', link: 'low-code-basics/js_in_dleap/security'},
                             {text: 'Service calls', link: 'low-code-basics/js_in_dleap/services_js'},
@@ -134,39 +134,61 @@ export default defineConfig({
                                         text: 'Item Objects',
                                         collapsed: true,
                                         items: [
-                                            {text: 'Attachment', link: 'object_reference/Attachment'},
-                                            {text: 'Button', link: 'object_reference/button'},
-                                            {text: 'Checkbox', link: 'object_reference/checkbox'},
-                                            {text: 'Currency', link: 'object_reference/currency'},
-                                            {text: 'Date', link: 'object_reference/date'},
-                                            {text: 'Dropdown', link: 'object_reference/dropdown'},
-                                            {text: 'Email', link: 'object_reference/email'},
-                                            {text: 'Folder Tab', link: 'object_reference/tabFolderTab'},
-                                            {text: 'HTML Fragment', link: 'object_reference/htmlArea'},
-                                            {text: 'Image', link: 'object_reference/image'},
-                                            {text: 'Line', link: 'object_reference/horizontalLine'},
-                                            {text: 'Media', link: 'object_reference/media'},
-                                            {text: 'Number', link: 'object_reference/number'},
-                                            {text: 'Number Slider', link: 'object_reference/horizontalSlider'},
-                                            {text: 'Page Navigation', link: 'object_reference/pageNavigator'},
-                                            {text: 'Paragraph Text', link: 'object_reference/textArea'},
-                                            {text: 'Password', link: 'object_reference/password'},
-                                            {text: 'Section', link: 'object_reference/section'},
-                                            {text: 'Select Many', link: 'object_reference/checkGroup'},
-                                            {text: 'Select One', link: 'object_reference/radioGroup'},
-                                            {text: 'Single Line', link: 'object_reference/text'},
-                                            {text: 'Survey', link: 'object_reference/survey'},
-                                            {text: 'Survey Question', link: 'object_reference/surveyQuestion'},
-                                            {text: 'Tabbed folder', link: 'object_reference/tabFolder'},
-                                            {text: 'Table', link: 'object_reference/table'},
-                                            {text: 'Text', link: 'object_reference/richText'},
-                                            {text: 'Time', link: 'object_reference/time'},
-                                            {text: 'Timestamp', link: 'object_reference/timeStamp'},
-                                            {text: 'Web link', link: 'object_reference/staticWebLink'},
-                                            {text: 'Website', link: 'object_reference/weblink'},
-                                            {text: 'Name Picker', link: 'object_reference/name'},
-                                            {text: 'Data Grid', link: 'object_reference/dataGrid'},
-                                            {text: 'Rich text', link: 'object_reference/richTextArea'},
+                                            {text: 'Layout', items: [
+                                                {text: 'Section', link: 'object_reference/section'},
+                                                {text: 'Folder Tab', link: 'object_reference/tabFolderTab'},
+                                                    {text: 'Tabbed folder', link: 'object_reference/tabFolder'},
+                                                ]
+                                            },
+                                            {text: 'Display', items: [
+                                                {text: 'Data Grid', link: 'object_reference/dataGrid'},
+                                                {text: 'Text', link: 'object_reference/richText'},
+                                                {text: 'Image', link: 'object_reference/image'},
+                                                {text: 'Line', link: 'object_reference/horizontalLine'},
+                                                {text: 'HTML Fragment', link: 'object_reference/htmlArea'},
+                                                {text: 'Media', link: 'object_reference/media'},
+                                                ]
+                                            },
+                                            {text: 'Action', items: [
+                                                {text: 'Button', link: 'object_reference/button'},
+                                                {text: 'Web link', link: 'object_reference/staticWebLink'},
+                                                {text: 'Page Navigation', link: 'object_reference/pageNavigator'},
+                                                ]
+                                            },
+                                            {text: 'Entry', items: [
+                                                {text: 'Single Line', link: 'object_reference/text'},
+                                                {text: 'Paragraph Text', link: 'object_reference/textArea'},
+                                                {text: 'Rich text', link: 'object_reference/richTextArea'},
+                                                {text: 'Name Picker', link: 'object_reference/name'},
+                                                {text: 'Email', link: 'object_reference/email'},
+                                                {text: 'Number', link: 'object_reference/number'},
+                                                {text: 'Currency', link: 'object_reference/currency'},
+                                                {text: 'Website', link: 'object_reference/weblink'},
+                                                {text: 'Password', link: 'object_reference/password'},
+                                                ]
+                                            },
+                                            {text: 'Calendar', items: [
+                                                {text: 'Date', link: 'object_reference/date'},
+                                                {text: 'Time', link: 'object_reference/time'},
+                                                {text: 'Timestamp', link: 'object_reference/timeStamp'},
+                                                ]
+                                            },
+                                            {text: 'Selection', items: [
+                                                {text: 'Checkbox', link: 'object_reference/checkbox'},
+                                                {text: 'Dropdown', link: 'object_reference/dropdown'},
+                                                {text: 'Select One', link: 'object_reference/radioGroup'},
+                                                {text: 'Select Many', link: 'object_reference/checkGroup'},
+                                                {text: 'Survey Question', link: 'object_reference/surveyQuestion'},
+                                                {text: 'Number Slider', link: 'object_reference/horizontalSlider'},
+                                                {text: 'Survey', link: 'object_reference/survey'},
+                                                ]
+                                            },
+                                            {text: 'File', items: [
+                                                {text: 'Attachment', link: 'object_reference/Attachment'},
+                                                {text: 'Table', link: 'object_reference/table'},
+                                                ]
+                                            },
+
                                         ]
                                     },
                                 ],

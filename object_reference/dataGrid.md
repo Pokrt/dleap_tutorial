@@ -1,6 +1,7 @@
 # Data Grid
+<TableOfContents />
 
-## Item-Specific Functions
+## Item-Specific Methods
 
 ### item.getDisplayedData()
 

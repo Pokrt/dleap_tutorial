@@ -1,11 +1,10 @@
 # Attachment
 <TableOfContents />
 
-## Specific functions
 
-There are no item specific functions.
 
-## Item common functions
+<!--@include: ./common/no-methods.md -->
+
 
 <!--@include: ./common/functions.md -->
 

@@ -1,12 +1,13 @@
 # Table
+<TableOfContents />
 
-## Item-Specific Functions
+## Item-Specific Methods
 
-### Retrieving Selection: `item.getSelection()`
+### getSelection() <Badge type="tip">item</Badge>`
 
 - **Description**: Returns the Business Object of the selected row or null if there is no selection.
 
-### Setting Selection: `item.setSelection(BO)`
+### item.setSelection(BO) <Badge type="tip">item</Badge>
 
 - **Description**: Selects the last Business Object in the table.
 - **Example**:
@@ -17,17 +18,17 @@
   // Selects the last row in the table.
   ```
 
-### Showing Add Button: `item.showAdd(show)`
+### showAdd(show) <Badge type="tip">item</Badge>
 
 - **Description**: Controls the visibility of the Add button on the interface. If `show` is true, then the Add button is
   made visible. If false, the Add button is hidden.
 
-### Showing Edit Button: `item.showEdit(show)`
+### showEdit(show) <Badge type="tip">item</Badge>
 
 - **Description**: Controls the visibility of the Edit button on the interface. If `show` is true, then the Edit button
   is made visible. If false, the Edit button is hidden.
 
-### Showing Remove Button: `item.showRemove(show)`
+### showRemove(show) <Badge type="tip">item</Badge>
 
 - **Description**: Controls the visibility of the Remove button on the interface. If `show` is true, then the Remove
   button is made visible. If false, the Remove button is hidden.

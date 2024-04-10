@@ -1,10 +1,9 @@
 # Page
+<TableOfContents />
 
-## Page Object
+## Page Object Methods
 
-### Accessing Items on the Page
-
-**Function Name:** `page.<itemId>`
+### page.\<itemId\>
 
 **Description:** Provides convenient direct access to all items on the page, including those inside Sections and Tab
 Folders.
@@ -15,9 +14,7 @@ Folders.
 page.F_NextButton.setVisible(false);
 ```
 
-### Adding Classes to the Page
-
-**Function Name:** `page.addClasses(classes)`
+### page.addClasses(classes)
 
 **Parameters:** `classes` - A single class name, multiple class names separated by spaces, or an Array of class names.
 
@@ -30,9 +27,7 @@ are invalid CSS class names, then no classes are added, and `false` is returned.
 page.addClasses("emphasized error");
 ```
 
-### Connecting to an Event on the Page
-
-**Function Name:** `page.connectEvent(eventName, callbackFunction)`
+### page.connectEvent(eventName, callbackFunction)
 
 **Parameters:**
 
@@ -52,9 +47,7 @@ var eventHdl = page.connectEvent("<some event>", function (pSuccess, pErrorObj) 
 });
 ```
 
-### Disconnecting an Event Handler
-
-**Function Name:** `page.disconnectEvent(eventHandle)`
+### page.disconnectEvent(eventHandle)
 
 **Parameters:** `eventHandle` - The event handle object returned by a previous `page.connectEvent` call.
 
@@ -67,9 +60,7 @@ duplicate event handlers being connected.
 page.disconnectEvent(eventHdl);
 ```
 
-### Getting the Business Object
-
-**Function Name:** `page.getBO()`
+### page.getBO()
 
 **Parameters:** None.
 
@@ -83,9 +74,7 @@ var theBO = page.getBO();
 theBO.F_SingleLine.setValue('new Value');
 ```
 
-### Getting Direct Children of the Page
-
-**Function Name:** `page.getChildren()`
+### page.getChildren()
 
 **Description:** Returns a list object that provides access to all direct children items of this page. Items within a
 Section on the page are not included in the list, but the Section itself is. The list object includes `getLength()`
@@ -102,50 +91,38 @@ for (var i = 0; i < list.getLength(); i++) {
 }
 ```
 
-### Retrieving Applied Custom Classes
-
-**Function Name:** `page.getClasses()`
+### page.getClasses()
 
 **Description:** Returns an array of custom class names currently applied to the page.
 
 **Example:** *This function does not have a direct usage example, as it simply returns an array of classes.*
 
-### Accessing the Form Object
-
-**Function Name:** `page.getForm()`
+### page.getForm()
 
 **Description:** Returns the form object to which this page belongs.
 
 **Example:** *Specific usage would depend on further interactions with the form object.*
 
-### Getting the Page ID
-
-**Function Name:** `page.getId()`
+### page.getId()
 
 **Description:** Returns the unique ID, within the application, of this page, such as "P_Page1".
 
 **Example:** *This function's output would typically be used in logging or dynamic referencing within application
 logic.*
 
-### Identifying the Object Type
-
-**Function Name:** `page.getType()`
+### page.getType()
 
 **Description:** Returns a string identifying the object type, which is "page" for page objects.
 
 **Example:** *This method's return value could be used in conditional logic to confirm an object's type.*
 
-### Checking Page Visibility
-
-**Function Name:** `page.getVisibility()`
+### page.getVisibility()
 
 **Description:** Returns `true` if the page is currently shown, and `false` if it is hidden.
 
 **Example:** *This could be used in conditional logic to alter UI elements based on page visibility.*
 
-### Removing Custom Classes from the Page
-
-**Function Name:** `page.removeClasses(classes)`
+### page.removeClasses(classes)
 
 **Description:** Removes a list of custom class names from the page. The `classes` parameter can be a single class name,
 multiple class names separated by spaces, or an array of class names.
@@ -160,7 +137,7 @@ page.removeClasses("emphasized");
 
 Here's your provided text reformatted into the requested structure:
 
-### **Application object (GUI type)**
+### Application object (GUI type)
 
 - **Variable**: `app`
 - **Description**: Contains functions for accessing global general information.
@@ -170,7 +147,7 @@ Here's your provided text reformatted into the requested structure:
 app.isSingleFormView();
 ```
 
-### **Form object (GUI type)**
+### Form object (GUI type)
 
 - **Variable**: `form`
 - **Description**: For accessing the pages and controlling page navigation.
@@ -180,7 +157,7 @@ app.isSingleFormView();
 form.getPage('P_Page1');
 ```
 
-### **Page object (GUI type)**
+### Page object (GUI type)
 
 - **Variable**: `page`
 - **Description**: For accessing the Page and the items on it.
@@ -190,7 +167,7 @@ form.getPage('P_Page1');
 page.F_Text.setContent('This a Label');
 ```
 
-### **Business Object object (DATA type)**
+### Business Object object (DATA type)
 
 - **Variable**: `BO`
 - **Description**: Top-level data object for the form.

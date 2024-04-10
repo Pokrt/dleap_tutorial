@@ -1,12 +1,12 @@
 # Section
+<TableOfContents />
+## Item-Specific Methods
 
-## Item-Specific Functions
-
-### Checking Expansion State: `item.getExpanded()`
+### item.getExpanded() <Badge type="tip">item</Badge>
 
 - **Description**: Returns `true` if the section is expanded and `false` if it is collapsed.
 
-### Setting Expansion State: `item.setExpanded(expanded)`
+### item.setExpanded(expanded) <Badge type="tip">item</Badge>
 
 - **Description**: Sets the expanded state of the section. If `true`, the section is expanded. If `false`, then it is
   collapsed.
@@ -19,7 +19,6 @@
   // Collapses the section.
   ```
 
-## Item Common Functions
 
 <!--@include: ./common/functions.md -->
 

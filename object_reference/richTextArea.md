@@ -1,10 +1,7 @@
 # Rich Text
+<TableOfContents />
 
-## Item-Specific Functions
-
-There are no specific functions for this item.
-
-## Item Common Functions
+<!--@include: ./common/no-methods.md -->
 
 <!--@include: ./common/functions.md -->
 

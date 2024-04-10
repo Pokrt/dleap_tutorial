@@ -1,3 +1,5 @@
+## Item Common Methods
+
 ### addClasses(classes) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 **Description**: This method adds one or more custom CSS class names to an item, allowing for dynamic styling. You can

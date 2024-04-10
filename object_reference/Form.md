@@ -1,10 +1,9 @@
 # Form Events and Objects
+<TableOfContents />
 
 ## Form Objects
 
-### Adding Custom Classes to a Form
-
-**Function Name:** `form.addClasses(classes)`
+### form.addClasses(classes)
 
 **Parameters:**
 
@@ -20,9 +19,7 @@ is useful for applying styling conditions dynamically based on the form's state 
 form.addClasses("emphasized error");
 ```
 
-### Navigating to the Previous Page of a Form
-
-**Function Name:** `form.backwardPage()`
+### form.backwardPage()
 
 **Parameters:** None.
 
@@ -37,9 +34,7 @@ within multi-page forms.
 form.backwardPage();
 ```
 
-### Connecting an Event to a Form
-
-**Function Name:** `form.connectEvent(eventName, callbackFunction)`
+### form.connectEvent(eventName, callbackFunction)
 
 **Parameters:**
 
@@ -61,9 +56,7 @@ var hndl = form.connectEvent('onLoad', function () {
 });
 ```
 
-### Disconnecting an Event from a Form
-
-**Function Name:** `form.disconnectEvent(eventHandle)`
+### form.disconnectEvent(eventHandle)
 
 **Parameters:**
 
@@ -82,9 +75,7 @@ the disconnectEvent method.
 form.disconnectEvent(hndl);
 ```
 
-### Advancing to the Next Page of a Form
-
-**Function Name:** `form.forwardPage()`
+### form.forwardPage()
 
 **Parameters:** None.
 
@@ -99,9 +90,7 @@ process.
 form.forwardPage();
 ```
 
-### Getting the Application Object
-
-**Function Name:** `form.getApp()`
+### form.getApp()
 
 **Parameters:** None.
 
@@ -115,9 +104,7 @@ since the `app` variable is usually directly accessible within the form's scope.
 var appObject = form.getApp();
 ```
 
-### Retrieving Business Object Data
-
-**Function Name:** `form.getBO()`
+### form.getBO()
 
 **Parameters:** None.
 
@@ -132,9 +119,7 @@ var formBO = myForm.getBO();
 formBO.F_SingleLine.setValue('setting the value using code!');
 ```
 
-### Getting Form's Custom Classes
-
-**Function Name:** `form.getClasses()`
+### form.getClasses()
 
 **Parameters:** None.
 
@@ -147,9 +132,7 @@ debugging purposes or dynamically adjusting the form's styling.
 var currentClasses = form.getClasses();
 ```
 
-### Checking the Current Page
-
-**Function Name:** `form.getCurrentPage()`
+### form.getCurrentPage()
 
 **Parameters:** None.
 
@@ -165,9 +148,7 @@ if (pageShown === 'F_Page1') {
 }
 ```
 
-### Obtaining the Form's Unique ID
-
-**Function Name:** `form.getId()`
+### form.getId()
 
 **Parameters:** None.
 
@@ -180,9 +161,7 @@ for referencing the form programmatically in scripts.
 var formId = form.getId();
 ```
 
-### Listing All Page IDs in the Form
-
-**Function Name:** `form.getPageIds()`
+### form.getPageIds()
 
 **Parameters:** None.
 
@@ -195,9 +174,7 @@ need to iterate over or manipulate multiple pages in a form programmatically.
 var pageIds = form.getPageIds();
 ```
 
-### Getting a Specific Page of a Form
-
-**Function Name:** `form.getPage(pageId)`
+### form.getPage(pageId)
 
 **Parameters:**
 
@@ -219,9 +196,7 @@ if (thePage !== null) {
 Remember to check if the page exists by comparing `thePage` to `null` before attempting to use it.
 :::
 
-### Getting Service Configuration IDs
-
-**Function Name:** `form.getServiceConfigurationIds()`
+### form.getServiceConfigurationIds()
 
 **Parameters:** None.
 
@@ -234,9 +209,7 @@ for debugging or when you need to programmatically interact with one or more ser
 var serviceConfigs = form.getServiceConfigurationIds();
 ```
 
-### Accessing a Service Configuration
-
-**Function Name:** `form.getServiceConfiguration(serviceId)`
+### form.getServiceConfiguration(serviceId)
 
 **Parameters:**
 
@@ -252,9 +225,7 @@ var service = form.getServiceConfiguration('SC_ServiceConfig');
 service.callService();
 ```
 
-### Getting Stage Actions
-
-**Function Name:** `form.getStageActions()`
+### form.getStageActions()
 
 **Parameters:** None.
 
@@ -273,9 +244,7 @@ for (var i = 0; i < actions.length; i++) {
 }
 ```
 
-### Identifying the Object Type
-
-**Function Name:** `form.getType()`
+### form.getType()
 
 **Parameters:** None.
 
@@ -288,9 +257,7 @@ indicating that the object is a form.
 var formType = form.getType();
 ```
 
-### Removing Custom Classes from a Form
-
-**Function Name:** `form.removeClasses(classes)`
+### form.removeClasses(classes)
 
 **Parameters:**
 
@@ -306,9 +273,7 @@ styling.
 form.removeClasses("emphasized");
 ```
 
-### Removing a Page from Navigation
-
-**Function Name:** `form.removePageFromNavigation(pageId)`
+### form.removePageFromNavigation(pageId)
 
 **Parameters:**
 
@@ -326,9 +291,7 @@ if (BO.F_Check.getValue()) {
 ```
 
 
-### Restoring a Page into Form Navigation
-
-**Function Name:** `form.restorePageNavigation(pageId)`
+### form.restorePageNavigation(pageId)
 
 **Parameters:**
 
@@ -346,9 +309,7 @@ if (!BO.F_Check.getValue()) {
 ```
 
 
-### Navigating to a Specific Page in the Form
-
-**Function Name:** `form.selectPage(pageId)`
+### form.selectPage(pageId)
 
 **Parameters:**
 
@@ -371,9 +332,7 @@ if (thePage !== null) {
 Always check that the page exists (i.e., `thePage !== null`) before attempting to navigate to it to avoid errors.
 :::
 
-### Sending Data to Subscribers in IBM WebSphere Portal
-
-**Function Name:** `form.sendData(data)`
+### `form.sendData(data)
 
 **Parameters:**
 
@@ -393,19 +352,19 @@ form.sendData(BO.F_ServerURL.getValue() + "/apps/secure/org/app/b5806ef1-b784-4c
 
 ## Objects Available in Form Event Call
 
-### **Application object (GUI type)**
+### Application object (GUI type)
 
 - Variable: `app`
 - Description: Contains functions for accessing global general information
 - Example: `app.isSingleFormView();`
 
-### **Form object (GUI type)**
+### Form object (GUI type)
 
 - Variable: `form`
 - Description: For accessing the pages and controlling page navigation
 - Example: `form.getPage('P_Page1');`
 
-### **Business Object object (DATA type)**
+### Business Object object (DATA type)
 
 - Variable: `BO`
 - Description: Top level data object for the form.
@@ -509,7 +468,7 @@ setup tasks.
 
 ---
 
-### `validateButtonPressed`
+### validateButtonPressed
 
 **Event Name:** `validateButtonPressed`
 
