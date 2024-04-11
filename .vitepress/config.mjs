@@ -48,6 +48,9 @@ export default defineConfig({
 
                 items: [
                     {text: 'Introduction', link: '/basics/no-code-introduction'},
+                    {text: 'MVC model', link: '/intermediate/mvc'},
+                    {text: 'Object Model', link: '/intermediate/business_object'},
+
                     {text: 'Application Roles', link: '/basics/roles'},
                     {text: 'User Permissions', link: '/basics/permissions'},
                     {text: 'Workflow - Stages & Actions', link: '/basics/stages'},
@@ -55,8 +58,7 @@ export default defineConfig({
                     {text: 'Page Visibility', link: '/basics/visibility_page'},
                     {text: 'Item Locking', link: '/basics/locking'},
 
-                    {text: 'MVC model', link: '/intermediate/mvc'},
-                    {text: 'Object Model', link: '/intermediate/business_object'},
+
                     {text: 'Input items', link: '/intermediate/input_items'},
                     {text: 'Display items', link: '/intermediate/display_items'},
                     {text: 'Navigation', link: '/intermediate/navigation'},
