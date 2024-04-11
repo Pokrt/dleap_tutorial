@@ -49,7 +49,7 @@ export default defineConfig({
                 items: [
                     {text: 'Introduction', link: '/basics/no-code-introduction'},
                     {text: 'MVC model', link: '/intermediate/mvc'},
-                    {text: 'Object Model', link: '/intermediate/business_object'},
+                    {text: 'Anatomy of Application', link: '/intermediate/business_object'},
 
                     {text: 'Application Roles', link: '/basics/roles'},
                     {text: 'User Permissions', link: '/basics/permissions'},
