@@ -11,11 +11,11 @@ roles. For example, a form may have a visible set of questions for the "New" sta
 You can hide different page objects like text fields, etc. This is useful when you want to hide a part of the form in a
 certain stage.
 
-::: tip Task
+::: tip Exercise
 Try to change the visibility of the text field in stage "Submitted".
 :::
 
-::: details Example
+::: details Step-by-Step Solution
 
 1\. Go to workflow tab
 

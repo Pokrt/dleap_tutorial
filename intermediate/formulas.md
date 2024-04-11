@@ -7,12 +7,12 @@ There is a limitation of 2 operands in formulas.
 
 This makes it hard to debug formulas with [async calls](/low-code-basics/js_in_dleap/running_js.html#asynchronous-operations). 
 
-Anotherlimitation is that the formulas are not visible in one place.
+Another limitation is that the formulas are not visible in one place.
 :::
 
 ## Adding formulas
 
-::: tip Task
+::: tip Exercise
 Add a formula to calculate the total price of a product based on the price per piece and the number of pieces.
 :::
 ::: details Step-by-step tutorial
@@ -70,4 +70,3 @@ Add a formula to calculate the total price of a product based on the price per p
 :::
 
 
-[//]: # (todo dodělat)

@@ -10,7 +10,7 @@ roles. For example, a form may have a visible set of pages for the "New" stage t
 
 Sometimes you may want to change the visibility of the whole page in certain stage.
 
-::: tip Task
+::: tip Exercise
 Try to change the visibility of the whole page in stage "Submitted".
 :::
 ::: details Step-By-Step Solution

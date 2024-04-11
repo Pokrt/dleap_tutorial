@@ -9,7 +9,7 @@ interact with the internal and external data store. Three types of services:
 - **External Service** - can be used to query data from external data sources like JSON-formatted REST API.
 
 ## Querying Domino Database
-::: tip Task
+::: tip Exercise
 In this task, we will create a service to query data from a Domino database.
 We will use this service to fetch data from another form. 
 :::
@@ -162,7 +162,7 @@ We will use this service to fetch data from another form.
 :::
 
 
-::: tip Task
+::: tip Exercise
 In this task, we will create a service to query data from a Domino database. You will be filling other input fields based on the selected value from the dropdown.
 ::: details Step-by-step tutorial
 

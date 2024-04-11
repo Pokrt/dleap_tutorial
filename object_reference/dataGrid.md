@@ -3,7 +3,7 @@
 
 ## Item-Specific Methods
 
-### item.getDisplayedData()
+### getDisplayedData() <Badge type="tip">item</Badge>
 
 - **Returns**:
     - **Boolean**: Checkbox
@@ -42,7 +42,7 @@ for (var d in data) {
 alert("Sum = " + sum);
 ```
 
-### item.isAllDataDisplayed()
+### isAllDataDisplayed() <Badge type="tip">item</Badge>
 
 - **Returns**: `true` if all the submitted data for the form connected to the data grid is rendered on screen in a
   single page.
@@ -62,7 +62,7 @@ if (appPage.F_DataGrid1.isAllDataDisplayed()) {
 }
 ```
 
-### item.isColumnVisible(columnId)
+### isColumnVisible(columnId) <Badge type="tip">item</Badge>
 
 - **Returns**: `true` if the specified column is visible in the data grid.
 
@@ -72,7 +72,7 @@ if (appPage.F_DataGrid1.isAllDataDisplayed()) {
 appPage.F_DataGrid1.isColumnVisible("F_SingleLine1");
 ```
 
-### item.refresh()
+### refresh() <Badge type="tip">item</Badge>
 
 - **Description**: Forces the data grid to reload. This is useful, for example, after a submission with "apps as a
   service" has been triggered and the content in the data grid is stale.
@@ -93,11 +93,11 @@ srv.connectEvent("onCallFinished", function (success) {
 });
 ```
 
-### item.selectFirstRow()
+### selectFirstRow() <Badge type="tip">item</Badge>
 
 - **Description**: Selects the first row in the data grid.
 
-### item.setColumnHeader(columnId, pHeaderValue)
+### setColumnHeader(columnId, pHeaderValue) <Badge type="tip">item</Badge>
 
 - **Description**: Sets the header identified by `columnId`, to the value provided in `pHeaderValue`.
 
@@ -108,7 +108,7 @@ srv.connectEvent("onCallFinished", function (success) {
 appPage.F_DataGrid1.setColumnHeader("createdBy", "Créé par");
 ```
 
-### item.setColumnVisible(columnId, boolVal)
+### setColumnVisible(columnId, boolVal) <Badge type="tip">item</Badge>
 
 - **Description**: Controls the visibility of the column identified by `columnId`. If `boolVal` is true, the column is
   shown. If `boolVal` is false, the column is hidden.
@@ -121,11 +121,11 @@ var isAdmin = app.getCurrentUserRoles().contains("Administrator");
 item.setColumnVisible("F_AdminOnly1", isAdmin);
 ```
 
-### item.resetFilters()
+### resetFilters() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the filters to what was specified in the data grid configuration.
 
-### item.setFilters([filter], filterOp)
+### setFilters([filter], filterOp) <Badge type="tip">item</Badge>
 
 - **Description**: Set filters for the data grid. This will override any filters specified in the data grid
   configuration. `[filter]` is an array of filter objects. `filterOp` is either "and" or "or" and is required if there
@@ -166,8 +166,6 @@ appPage.F_DataGrid1.setFilters(null);
 ::: tip Note
 Note: The field id does not have to be displayed in the data grid.
 :::
-
-## Item Common Functions
 
 <!--@include: ./common/functions.md -->
 

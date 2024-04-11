@@ -16,7 +16,7 @@ Domino Leap provides an easy way to explore submited infomration via View Data p
 ![](./data_view.png)
 Now try it yourself:
 
-::: tip Excercise 1
+::: tip Exercise 1
 Create a simple app that displays "Hello world" on the screen. Deploy the app and launch it.
 :::
 

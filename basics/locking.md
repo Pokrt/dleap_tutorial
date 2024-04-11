@@ -7,7 +7,7 @@ certain parts in certain stages of the form.
 
 ## Locking form objects
 
-::: tip Task
+::: tip Exercise
 Lock the item of your choice in the stage you choose.
 :::
 

@@ -31,7 +31,7 @@ Each role can be categorized as Open (dynamic) or Closed (static).
    - Example: Define a role for "Shift Supervisor."
 5. Utilize the radio buttons to specify whether the role is Open or Closed. -->
 
-::: tip Task
+::: tip Exercise
 Create a new role named "CFO" and assign the user in your organization to this role.
 :::
 

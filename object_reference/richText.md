@@ -3,7 +3,7 @@
 
 ## Item-Specific Methods
 
-### item.setContent(content)
+### setContent(content) <Badge type="tip">item</Badge>
 
 - **Description**: Shows content in this interface-only item. In Text, it is the raw text to show, no special formatting
   is supported.

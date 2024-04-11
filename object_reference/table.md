@@ -7,7 +7,7 @@
 
 - **Description**: Returns the Business Object of the selected row or null if there is no selection.
 
-### item.setSelection(BO) <Badge type="tip">item</Badge>
+### setSelection(BO) <Badge type="tip">item</Badge>
 
 - **Description**: Selects the last Business Object in the table.
 - **Example**:

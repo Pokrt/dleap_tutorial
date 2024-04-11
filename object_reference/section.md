@@ -2,11 +2,11 @@
 <TableOfContents />
 ## Item-Specific Methods
 
-### item.getExpanded() <Badge type="tip">item</Badge>
+### getExpanded() <Badge type="tip">item</Badge>
 
 - **Description**: Returns `true` if the section is expanded and `false` if it is collapsed.
 
-### item.setExpanded(expanded) <Badge type="tip">item</Badge>
+### setExpanded(expanded) <Badge type="tip">item</Badge>
 
 - **Description**: Sets the expanded state of the section. If `true`, the section is expanded. If `false`, then it is
   collapsed.

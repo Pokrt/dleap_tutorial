@@ -12,7 +12,7 @@ the conditions are met, the action is performed, otherwise it is not. This way w
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/0cb7265c-61b1-4840-b75c-a1b81e36600e/screenshot.jpeg?tl_px=0,0&br_px=871,506&force_format=png&width=983)
 
 
-2\. In your form click "armor shield" icon to add rule.
+2\. In your form, click the "armor shield" icon to add rule.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/5e9b0195-b958-4097-8da7-f06073d10590/ascreenshot.jpeg?tl_px=577,0&br_px=1652,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,227)
 

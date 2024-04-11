@@ -17,6 +17,9 @@ export default defineConfig({
         editLink: {
             pattern: 'https://github.com/Pokrt/dleap_tutorial/blob/main/:path'
         },
+         search: {
+             provider: 'local'
+        },
         nav: [
             {text: 'Home', link: '/'},
             {text: 'Examples', link: '/markdown-examples'}

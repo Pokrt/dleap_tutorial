@@ -5,7 +5,7 @@ website. You can change colors, fonts, sizes, etc. You can also use custom CSS t
 
 ![Cutom theme expample](/custom_theme.png)
 
-::: tip Example Task
+::: tip Exercise
 Make button on the website rounded.
 ![Custom Button](/custom_button.png)
 :::
