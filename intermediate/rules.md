@@ -1,8 +1,9 @@
 # Rules
 
-Usually we want to add an extra logic to our app in order to make it easier for user to work with. This can be achieved
-by adding rules to the app. Rules are a set of conditions that are checked before the app performs a certain action. If
-the conditions are met, the action is performed, otherwise it is not. This way we can make our app less error-prone.
+Rules allow to add an extra application logic to Forms. For example you can hide some items based of the value of some other item. Rules are a set of IF-THEN conditions connected with Items.  
+
+TODO ruless allow - show/hide, required/not-required
+TODO ruless are visible both from the "IF" item and the "THEN" item
 
 ## Adding rules
 ::: details Step-by-step tutorial
@@ -63,6 +64,13 @@ the conditions are met, the action is performed, otherwise it is not. This way w
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/805c34a1-0ee7-4c93-92a9-517cd253a847/ascreenshot.jpeg?tl_px=1002,617&br_px=2077,1218&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
 
 :::
+
+TODO 
+It is good to name rules...
+
+TODO You can connect rules also with AppItems (submit buttons). This is not so straightforward because you have to display the given button first.
+TODO step-by-step hide actionbutton 
+
 
 ## Additional resources
 [Rule types](https://help.hcltechsw.com/domino-leap/1.1.3/ru_creating_rules_in_your_form.html)
