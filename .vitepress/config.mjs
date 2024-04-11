@@ -69,6 +69,7 @@ export default defineConfig({
                     {text: 'Application Pages', link: '/intermediate/app_pages'},
                     {text: 'Multi-form apps', link: '/intermediate/multi_form_apps'},
                     {text: 'Service calls', link: '/intermediate/services'},
+                    {text: 'Current limitations', link: '/intermediate/limitations'},
                 ]
             }, {
                 text: 'III. Low-code basics',
