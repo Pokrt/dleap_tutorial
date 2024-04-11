@@ -34,19 +34,20 @@ export default defineConfig({
             //         {text: 'Markdown Examples', link: '/markdown-examples'},
             //         {text: 'Runtime API Examples', link: '/api-examples'},
             //     ]
-            // },
             {
                 text: 'I. Domino Leap Basics',
                 collapsed: false,
                 items: [
-                    {text: 'Hello world', link: '/basics/hello_world'},
-                    {text: 'Data Storage', link: '/basics/data-storage'},
+                    {text: 'Introduction', link: '/basics/introduction'},
+                    {text: 'Your First App', link: '/basics/hello_world'},
+                    {text: 'Where is your Data', link: '/basics/data-storage'},
                 ]
             }, {
                 text: 'II. No-code development',
                 collapsed: false,
 
                 items: [
+                    {text: 'Introduction', link: '/basics/no-code-introduction'},
                     {text: 'Application Roles', link: '/basics/roles'},
                     {text: 'User Permissions', link: '/basics/permissions'},
                     {text: 'Workflow - Stages & Actions', link: '/basics/stages'},
@@ -55,7 +56,7 @@ export default defineConfig({
                     {text: 'Item Locking', link: '/basics/locking'},
 
                     {text: 'MVC model', link: '/intermediate/mvc'},
-                    {text: 'Objects', link: '/intermediate/business_object'},
+                    {text: 'Object Model', link: '/intermediate/business_object'},
                     {text: 'Input items', link: '/intermediate/input_items'},
                     {text: 'Display items', link: '/intermediate/display_items'},
                     {text: 'Navigation', link: '/intermediate/navigation'},
@@ -72,6 +73,7 @@ export default defineConfig({
                 collapsed: false,
 
                 items: [
+                    {text: "Introduction", link: "low-code-basics/introduction"},
                     {
                         text: 'JavaScript Essentials',
                         link: '/low-code-basics/javascript_fundamentals/', collapsed: true,
@@ -123,6 +125,8 @@ export default defineConfig({
 
                 items:
                     [
+                                         {text: 'Overview', link: 'object_reference/overview'},
+
                         {
                             text: 'Interface Objects', link: 'object_reference/application',
                             collapsed: false,
@@ -137,13 +141,13 @@ export default defineConfig({
                                         text: 'Item Objects',
                                         collapsed: true,
                                         items: [
-                                            {text: 'Layout', items: [
+                                            {text: 'Category: Layout', items: [
                                                 {text: 'Section', link: 'object_reference/section'},
                                                 {text: 'Folder Tab', link: 'object_reference/tabFolderTab'},
                                                     {text: 'Tabbed folder', link: 'object_reference/tabFolder'},
                                                 ]
                                             },
-                                            {text: 'Display', items: [
+                                            {text: 'Category: Display', items: [
                                                 {text: 'Data Grid', link: 'object_reference/dataGrid'},
                                                 {text: 'Text', link: 'object_reference/richText'},
                                                 {text: 'Image', link: 'object_reference/image'},
@@ -152,13 +156,13 @@ export default defineConfig({
                                                 {text: 'Media', link: 'object_reference/media'},
                                                 ]
                                             },
-                                            {text: 'Action', items: [
+                                            {text: 'Category: Action', items: [
                                                 {text: 'Button', link: 'object_reference/button'},
                                                 {text: 'Web link', link: 'object_reference/staticWebLink'},
                                                 {text: 'Page Navigation', link: 'object_reference/pageNavigator'},
                                                 ]
                                             },
-                                            {text: 'Entry', items: [
+                                            {text: 'Category: Entry', items: [
                                                 {text: 'Single Line', link: 'object_reference/text'},
                                                 {text: 'Paragraph Text', link: 'object_reference/textArea'},
                                                 {text: 'Rich text', link: 'object_reference/richTextArea'},
@@ -170,13 +174,13 @@ export default defineConfig({
                                                 {text: 'Password', link: 'object_reference/password'},
                                                 ]
                                             },
-                                            {text: 'Calendar', items: [
+                                            {text: 'Category: Calendar', items: [
                                                 {text: 'Date', link: 'object_reference/date'},
                                                 {text: 'Time', link: 'object_reference/time'},
                                                 {text: 'Timestamp', link: 'object_reference/timeStamp'},
                                                 ]
                                             },
-                                            {text: 'Selection', items: [
+                                            {text: 'Category: Selection', items: [
                                                 {text: 'Checkbox', link: 'object_reference/checkbox'},
                                                 {text: 'Dropdown', link: 'object_reference/dropdown'},
                                                 {text: 'Select One', link: 'object_reference/radioGroup'},
@@ -186,7 +190,7 @@ export default defineConfig({
                                                 {text: 'Survey', link: 'object_reference/survey'},
                                                 ]
                                             },
-                                            {text: 'File', items: [
+                                            {text: 'Category: Advanced', items: [
                                                 {text: 'Attachment', link: 'object_reference/Attachment'},
                                                 {text: 'Table', link: 'object_reference/table'},
                                                 ]
@@ -226,7 +230,7 @@ export default defineConfig({
                 collapsed: false,
                 items:
                     [
-                        {text: 'Working with attachments',},
+                        {text: 'Working with attachments', link: 'todo'},
                         {text: 'Using Regular Expressions for Item Validation',},
                         {text: "Global Variables and Special Functions", link: "/advanced/glob_var_special_func"},
                         {text: 'Printing forms',link: 'todo',},

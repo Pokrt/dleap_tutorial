@@ -1,7 +1,10 @@
-# Form Events and Objects
+# Form Object
+The Form object represents the visual structure of your form. There is one object per each form, but your javascript code can work with current form only.
+
+
 <TableOfContents />
 
-## Form Objects
+## Methods
 
 ### form.addClasses(classes)
 
@@ -370,7 +373,7 @@ form.sendData(BO.F_ServerURL.getValue() + "/apps/secure/org/app/b5806ef1-b784-4c
 - Description: Top level data object for the form.
 - Example: `BO.F_Username.getValue();`
 
-## Form Events
+## Events
 
 ---
 

@@ -1,5 +1,5 @@
 # Survey
-<TableOfContents />
+
 
 ## Item-Specific Functions
 

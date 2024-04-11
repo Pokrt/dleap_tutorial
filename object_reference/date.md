@@ -1,5 +1,4 @@
 # Date
-<TableOfContents />
 
 <!--@include: ./common/no-methods.md -->
 

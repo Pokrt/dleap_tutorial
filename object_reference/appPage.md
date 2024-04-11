@@ -1,5 +1,4 @@
 # App Page
-<TableOfContents />
 
 ## App Page Object Methods
 

@@ -1,5 +1,5 @@
 # Button
-<TableOfContents />
+
 
 ## Item-specific methods
 

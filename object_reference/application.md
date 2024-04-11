@@ -1,7 +1,9 @@
-# Application Events and Objects
-<TableOfContents />
+# Application Object
+The Application object represents your running application. Read more
 
-## Application Objects
+[//]: # (todo link)
+
+## Methods
 
 ### app.getAppPage(appPageId)
 
@@ -570,7 +572,7 @@ improving the interactive experience of your application.
 var userEmail = app.getCurrentUserEmail();
 ```
 
-## Application Events
+## Events
 
 ### onStart
 

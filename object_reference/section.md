@@ -1,12 +1,13 @@
-# Section
-<TableOfContents />
-## Item-Specific Methods
+# &#127358; Section
+Section object represents one section on a Page or an AppPage. 
 
-### getExpanded() <Badge type="tip">item</Badge>
+## Specific Methods
+
+### &#127356; getExpanded() <Badge type="tip">item</Badge>
 
 - **Description**: Returns `true` if the section is expanded and `false` if it is collapsed.
 
-### setExpanded(expanded) <Badge type="tip">item</Badge>
+### &#127356; setExpanded(expanded) <Badge type="tip">item</Badge>
 
 - **Description**: Sets the expanded state of the section. If `true`, the section is expanded. If `false`, then it is
   collapsed.
@@ -24,15 +25,15 @@
 
 <!--@include: ./common/event_objects.md -->
 
-## Section Events
+## Specific Events
 
-### onCollapse
+### &#127348; onCollapse
 
 **Event Name:** `onCollapse`
 
 **Description:** Called when the section is collapsed.
 
-### onExpand
+### &#127348; onExpand
 
 **Event Name:** `onExpand`
 

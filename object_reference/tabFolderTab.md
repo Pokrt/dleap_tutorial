@@ -1,5 +1,5 @@
 # Folder Tab
-<TableOfContents />
+
 
 <!--@include: ./common/no-methods.md -->
 

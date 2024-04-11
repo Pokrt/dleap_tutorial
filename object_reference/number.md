@@ -1,5 +1,4 @@
 # Number
-<TableOfContents />
 
 <!--@include: ./common/no-methods.md -->
 

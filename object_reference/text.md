@@ -1,5 +1,5 @@
 # Single Line
-<TableOfContents />
+
 
 <!--@include: ./common/no-methods.md -->
 

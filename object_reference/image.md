@@ -1,5 +1,5 @@
 # Image
-<TableOfContents />
+
 
 ## Item-Specific Methods
 

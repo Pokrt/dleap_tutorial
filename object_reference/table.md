@@ -1,7 +1,6 @@
 # Table
-<TableOfContents />
 
-## Item-Specific Methods
+##  Methods
 
 ### getSelection() <Badge type="tip">item</Badge>`
 

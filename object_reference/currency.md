@@ -1,5 +1,5 @@
 # Currency
-<TableOfContents />
+
 
 <!--@include: ./common/no-methods.md -->
 

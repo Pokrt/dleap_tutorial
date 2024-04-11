@@ -1,5 +1,5 @@
 # Number slider
-<TableOfContents />
+
 
 <!--@include: ./common/no-methods.md -->
 

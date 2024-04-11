@@ -1,4 +1,4 @@
-# Application Data Storage
+# Where is your Data
 
 HCL Domino Leap uses a non-relational NoSQL database to store application data. The database is a collection of
 documents, where each

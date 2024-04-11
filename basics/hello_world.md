@@ -1,4 +1,4 @@
-# Create and deploy a simple app.
+# Create and deploy your first app
 
 Domino Leap cann be used to create complex web forms which are called **Applications**. This is the smallest app:
 

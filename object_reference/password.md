@@ -1,5 +1,4 @@
 # Password
-<TableOfContents />
 
 <!--@include: ./common/no-methods.md -->
 

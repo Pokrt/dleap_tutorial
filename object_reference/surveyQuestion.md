@@ -1,5 +1,5 @@
 # Survey Question
-<TableOfContents />
+
 
 <!--@include: ./common/no-methods.md -->
 

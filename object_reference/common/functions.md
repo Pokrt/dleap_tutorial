@@ -1,6 +1,8 @@
-## Item Common Methods
+## Inherited Methods 
+The following methods are common to all Item objects: 
+ &#9401; &#9412; 
 
-### addClasses(classes) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356;   addClasses(classes) <Badge type="tip">item</Badge><Badge type="tip">apItem</Badge>
 
 **Description**: This method adds one or more custom CSS class names to an item, allowing for dynamic styling. You can
 pass a single class name, multiple class names separated by spaces, or an array of class names. If any class names are
@@ -14,7 +16,7 @@ item.addClasses("emphasized error");
 
 In this example, the item will have the CSS classes `emphasized` and `error` added to it for styling purposes.
 
-### clearRequiredMessage() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; clearRequiredMessage() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 **Description**: Validates the item data but prevents any required field error messages from being displayed. This is
 useful in scenarios where you want to perform validation without user feedback.
@@ -27,7 +29,7 @@ item.clearRequiredMessage();
 
 Use this method when you need to validate the item but do not wish to show error messages to the user.
 
-### connectEvent(eventName, callbackFunction) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; connectEvent(eventName, callbackFunction) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 **Description**: Connects a method to an item event, allowing for dynamic behavior based on user actions or item
 changes. It returns a handle object that represents the connection, which can be used to disconnect the event later.
@@ -47,7 +49,7 @@ var hndl = item.connectEvent('onItemChange', function ()
 
 Here, we connect a method to the `onItemChange` event that makes a section visible if the item's value is 'Yes'.
 
-### disconnectEvent(eventHandle) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; disconnectEvent(eventHandle) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 **Description**: Disconnects a previously connected event handler using the handle object returned
 by `item.connectEvent`. This is essential to prevent multiple instances of the event handler from being attached.
@@ -73,7 +75,7 @@ item.disconnectEvent(hndl);
 This example demonstrates connecting to an event and then immediately disconnecting it to ensure the event handler does
 not persist unnecessarily.
 
-### getActive() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getActive() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 **Description**: Returns `true` if the item is active and `false` if it has been made read-only by a rule, stage, or
 custom JavaScript.
@@ -86,7 +88,7 @@ var isActive = item.getActive();
 
 Use this method to check whether an item is active or read-only in your application logic.
 
-### getAppPage() <Badge type="warning">apItem</Badge>
+### &#127356; getAppPage() <Badge type="warning">apItem</Badge>
 
 - **Description**: Retrieves the page object to which the current item belongs.
 - **Example**:
@@ -94,7 +96,7 @@ Use this method to check whether an item is active or read-only in your applicat
   var page = apItem.getAppPage();
   ```
 
-### getBO() <Badge type="tip">item</Badge>
+### &#127356; getBO() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the Business Object (BO) for the entire form. This object represents the data model the form
   interacts with.
@@ -103,7 +105,7 @@ Use this method to check whether an item is active or read-only in your applicat
   var businessObject = item.getBO();
   ```
 
-### getBOAttr() <Badge type="tip">item</Badge>
+### &#127356; getBOAttr() <Badge type="tip">item</Badge>
 
 - **Description**: For items collecting data, this method returns the Business Object Attribute (BOA) containing that
   data. Returns `null` for interface-only items.
@@ -112,7 +114,7 @@ Use this method to check whether an item is active or read-only in your applicat
   item.getBOAttr().setValue(45);
   ```
 
-### getChildren() <Badge type="tip">item</Badge>
+### &#127356; getChildren() <Badge type="tip">item</Badge>
 
 - **Description**: If an item contains children (e.g., a Section or Tab Folder), it returns a list object providing
   access to all direct children items. This list has `getLength()` and `get(index)` methods.
@@ -126,7 +128,7 @@ Use this method to check whether an item is active or read-only in your applicat
   }
   ```
 
-### getClasses() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getClasses() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Returns an array of custom class names currently applied to the item.
 - **Example**:
@@ -134,7 +136,7 @@ Use this method to check whether an item is active or read-only in your applicat
   var classes = item.getClasses();
   ```
 
-### getDisplayValue() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getDisplayValue() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Returns the current value being displayed, useful for getting the current, but not yet committed,
   value.
@@ -143,7 +145,7 @@ Use this method to check whether an item is active or read-only in your applicat
   var displayValue = item.getDisplayValue();
   ```
 
-### getHoverText() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getHoverText() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Retrieves the current value set as hover text for the item.
 - **Example**:
@@ -151,7 +153,7 @@ Use this method to check whether an item is active or read-only in your applicat
   var hoverText = item.getHoverText();
   ```
 
-### getHintText() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getHintText() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Returns the value set as hint text for the item.
 - **Example**:
@@ -159,7 +161,7 @@ Use this method to check whether an item is active or read-only in your applicat
   var hintText = item.getHintText();
   ```
 
-### getId() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getId() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Retrieves the unique ID of the item within the application (e.g., F_FirstName).
 - **Example**:
@@ -167,12 +169,12 @@ Use this method to check whether an item is active or read-only in your applicat
   var itemId = item.getId();
   ```
 
-### getInvalidMessage() <Badge type="warning">apItem</Badge>
+### &#127356; getInvalidMessage() <Badge type="warning">apItem</Badge>
 
 - **Description**: An interface item that is collecting data, this method returns the Business Object Attribute that
   contains that data. If it is an interface-only item, then it returns null.
 
-### getPage() <Badge type="tip">item</Badge>
+### &#127356; getPage() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the page object to which the item belongs. This can be useful for accessing the form object
   or other page-level attributes.
@@ -181,7 +183,7 @@ Use this method to check whether an item is active or read-only in your applicat
   var form = item.getPage().getForm();
   ```
 
-### getParent() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getParent() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Retrieves the object that is the direct parent of the item, which can be a page, section, or tab
   folder.
@@ -190,7 +192,7 @@ Use this method to check whether an item is active or read-only in your applicat
   var parentObject = item.getParent();
   ```
 
-### getPlaceholderText() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getPlaceholderText() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Returns the current value set as placeholder text for the item.
 - **Example**:
@@ -198,7 +200,7 @@ Use this method to check whether an item is active or read-only in your applicat
   var placeholderText = item.getPlaceholderText();
   ```
 
-### getRequired() <Badge type="warning">apItem</Badge>
+### &#127356; getRequired() <Badge type="warning">apItem</Badge>
 
 - **Description**: Gets the value previously set using `setRequired()`, indicating if the item is required.
 - **Example**:
@@ -206,7 +208,7 @@ Use this method to check whether an item is active or read-only in your applicat
   var isRequired = item.getRequired();
   ```
 
-### getRows() <Badge type="tip">item</Badge>
+### &#127356; getRows() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the current value set as the number of rows displayed by the item. This is specifically for
   multi-line input areas.
@@ -215,7 +217,7 @@ Use this method to check whether an item is active or read-only in your applicat
   var rows = item.getRows();
   ```
 
-### getStartLabel() <Badge type="tip">item</Badge>
+### &#127356; getStartLabel() <Badge type="tip">item</Badge>
 
 - **Description**: Retrieves the label displayed at the start of a numeric or choice slider. This is useful for
   providing context or indicating the minimum value of the slider.
@@ -225,7 +227,7 @@ Use this method to check whether an item is active or read-only in your applicat
   console.log(startLabel); // Might print "Low" for a satisfaction slider
   ```
 
-### getStopLabel() <Badge type="tip">item</Badge>
+### &#127356; getStopLabel() <Badge type="tip">item</Badge>
 
 - **Description**: Fetches the label displayed at the end of a numeric or choice slider, which usually represents the
   maximum value or condition.
@@ -235,7 +237,7 @@ Use this method to check whether an item is active or read-only in your applicat
   console.log(stopLabel); // Could output "High" for a satisfaction slider
   ```
 
-### getStyle() <Badge type="tip">item</Badge>
+### &#127356; getStyle() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the current display style of an item. Note that this method is primarily applicable to Date
   and Time input fields.
@@ -245,7 +247,7 @@ Use this method to check whether an item is active or read-only in your applicat
   console.log(style); // Outputs the style setting, like "MM/DD/YYYY" for a date field
   ```
 
-### getTitle() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getTitle() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Retrieves the current value used as the field title, which is the text label associated with the item
   on the form.
@@ -255,7 +257,7 @@ Use this method to check whether an item is active or read-only in your applicat
   console.log(title); // Prints the title of the item, such as "Date of Birth"
   ```
 
-### getType() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getType() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Returns a string that identifies the object type. This can be useful for conditional logic based on
   the item type.
@@ -306,7 +308,7 @@ Use this method to check whether an item is active or read-only in your applicat
 
 :::
 
-### getValid() <Badge type="warning">apItem</Badge>
+### &#127356; getValid() <Badge type="warning">apItem</Badge>
 
 - **Description**: Retrieves the validity status of an item as previously set by `setValid()`. This method is crucial
   for form validations.
@@ -316,7 +318,7 @@ Use this method to check whether an item is active or read-only in your applicat
   console.log(isValid); // Outputs true or false based on validity.
   ```
 
-### getValue()` <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getValue()` <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Returns the current value of an item. The type of the returned value depends on the item's data
   type (e.g., String, Number, Boolean, Date, Object).
@@ -333,7 +335,7 @@ Here are some examples of what is returned:
 - **Boolean, Date** - date, timestamp, time
 - **Object** - attachment
 
-### getVisible() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; getVisible() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Determines whether an item is visible on the form. It returns `true` if visible, `false` if hidden by
   a rule, JavaScript, or if its parent item is hidden.
@@ -344,16 +346,16 @@ Here are some examples of what is returned:
   ```
   
 
-### isMissing() <Badge type="warning">apItem</Badge>
+### &#127356; isMissing() <Badge type="warning">apItem</Badge>
 - **Description**: Returns true if this item is required and it has no value.
 
-### isRequired() <Badge type="warning">apItem</Badge>
+### &#127356; isRequired() <Badge type="warning">apItem</Badge>
 - **Description**: Returns true if the item is required, otherwise false.
 
-### isValid() <Badge type="warning">apItem</Badge>
+### &#127356; isValid() <Badge type="warning">apItem</Badge>
 - **Description**: Returns true if the data is valid. Returns false if the data is invalid.
 
-### removeClasses(classes) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; removeClasses(classes) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Removes one or more custom CSS class names from an item. The `classes` parameter can be a single
   class name, multiple class names separated by spaces, or an Array of class names.
@@ -363,7 +365,7 @@ Here are some examples of what is returned:
   // This will remove the "emphasized" class from the item.
   ```
 
-### setActive(active) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; setActive(active) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Sets whether an item is active or read-only. An item made inactive by a rule or stage cannot be made
   active with this method.
@@ -373,7 +375,7 @@ Here are some examples of what is returned:
   // This will make the item read-only.
   ```
 
-### setDisplayValue(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; setDisplayValue(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Takes a string or number in `pValue`. This method sets the value being displayed. If the user is
   editing, then it will update the value they are trying to enter. If the user is not editing, then it will be the same
@@ -386,7 +388,7 @@ Here are some examples of what is returned:
   // Sets the display value of an item to "John Doe".
   ```
 
-### setFocus() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; setFocus() <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Causes the item to receive focus, making it the active element on the page. This method only works if
   the item can receive focus, is visible, and is not read-only.
@@ -396,7 +398,7 @@ Here are some examples of what is returned:
   // The item will gain focus, allowing the user to start typing or interacting with it directly.
   ```
 
-### setHintText(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; setHintText(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Sets the hint text for an item, which is displayed as hover text over input fields. Providing an
   empty string will remove any existing hint text.
@@ -406,7 +408,7 @@ Here are some examples of what is returned:
   // Sets the hover hint text for the item to guide the user on what to input.
   ```
 
-### setHoverText(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; setHoverText(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Sets the hover text for an item, providing users with helpful information when they hover over the
   item. An empty string removes the hover text.
@@ -416,7 +418,7 @@ Here are some examples of what is returned:
   // Sets hover text for the item, offering additional guidance or information.
   ```
 
-### setRequired(required) <Badge type="warning">apItem</Badge>
+### &#127356; setRequired(required) <Badge type="warning">apItem</Badge>
 
 - **Description**: Overrides the item's default requirement state. Setting this to `true` makes the item's data
   required, preventing form submission if the item is not filled. Setting it to `false` clears any override, returning
@@ -427,7 +429,7 @@ Here are some examples of what is returned:
   // Now, the form cannot be submitted unless this item is filled out.
   ```
 
-### setRows(pValue) <Badge type="tip">item</Badge>
+### &#127356; setRows(pValue) <Badge type="tip">item</Badge>
 
 - **Description**: Adjusts the number of rows displayed by a text area item. This is useful for ensuring that the text
   area size accommodates the expected length of user input.
@@ -441,7 +443,7 @@ Here are some examples of what is returned:
   // Sets the text area item to display 5 rows.
   ```
 
-### setPlaceholderText(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; setPlaceholderText(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: This method updates the placeholder text in input items, which is the grayed-out text inside the
   input box before any information is entered by the user.
@@ -451,7 +453,7 @@ Here are some examples of what is returned:
   // Sets the placeholder text to "Enter your name".
   ```
 
-### setStartLabel(pValue) <Badge type="tip">item</Badge>
+### &#127356; setStartLabel(pValue) <Badge type="tip">item</Badge>
 
 - **Description**: Sets the label displayed at the beginning of a numeric or choice slider, typically representing the
   minimum value or start of a range.
@@ -461,7 +463,7 @@ Here are some examples of what is returned:
   // Sets the start label of a slider to "Low".
   ```
 
-### setStopLabel(pValue) <Badge type="tip">item</Badge>
+### &#127356; setStopLabel(pValue) <Badge type="tip">item</Badge>
 
 - **Description**: Updates the label displayed at the end of a numeric or choice slider, usually indicating the maximum
   value or end of a range.
@@ -471,7 +473,7 @@ Here are some examples of what is returned:
   // Sets the stop label of a slider to "High".
   ```
 
-### setStyle(pValue) <Badge type="tip">item</Badge>
+### &#127356; setStyle(pValue) <Badge type="tip">item</Badge>
 
 - **Description**: Configures the display style for date and time input fields. Valid values for dates
   include `numeric`,
@@ -482,7 +484,7 @@ Here are some examples of what is returned:
   // Sets the date or time display style to "medium".
   ```
 
-### setTitle(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; setTitle(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Assigns text to be used as the title for field items. This text is typically displayed above the
   input field or item as a label.
@@ -492,7 +494,7 @@ Here are some examples of what is returned:
   // Sets the title of an item to "Email Address".
   ```
 
-### setValid(valid, msg) <Badge type="warning">apItem</Badge>
+### &#127356; setValid(valid, msg) <Badge type="warning">apItem</Badge>
 
 - **Description**: Overrides the current validity state of data in an item. Setting `valid` to `false` marks the data as
   invalid and can prevent form submission, with an optional custom error message.
@@ -502,7 +504,7 @@ Here are some examples of what is returned:
   // Marks the item data as invalid and provides a custom error message.
   ```
 
-### setValue(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>`
+### &#127356; setValue(pValue) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>`
 
 - **Description**: Updates the value of an item based on the Business Object Attribute's type. It's important to provide
   data in the correct type, although some type conversion is handled automatically (e.g., Number to String).
@@ -514,7 +516,7 @@ Here are some examples of what is returned:
 
 Here are the merged sections as per your example:
 
-### setVisible(visible) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
+### &#127356; setVisible(visible) <Badge type="tip">item</Badge><Badge type="warning">apItem</Badge>
 
 - **Description**: Controls the visibility of an item on your form. It's useful for showing or hiding elements based on
   certain conditions. `setVisible(visible)` where `visible` is a boolean indicating whether the item should be
@@ -526,7 +528,7 @@ Here are the merged sections as per your example:
   item.setVisible(false); // Hides the item
   ```
 
-### validate() <Badge type="warning">apItem</Badge>
+### &#127356; validate() <Badge type="warning">apItem</Badge>
 
 - **Description**: Triggers the validation process for a data item. Use this method to manually initiate the validation
   rules applied to the item, ensuring the data entered by the user meets the required criteria before
@@ -536,7 +538,7 @@ Here are the merged sections as per your example:
   item.validate(); // Triggers validation for the item
   ```
 
-### getColumnHeaders() <Badge type="tip">item</Badge>
+### &#127356; getColumnHeaders() <Badge type="tip">item</Badge>
 
 - **Description**: Retrieves the current configuration of column headers for a table, including each column's ID, title,
   and width. This can be useful for dynamically adjusting table headers based on certain
@@ -549,7 +551,7 @@ Here are the merged sections as per your example:
   }
   ```
 
-### setColumnHeaders(headers) <Badge type="tip">item</Badge>
+### &#127356; setColumnHeaders(headers) <Badge type="tip">item</Badge>
 
 - **Description**: Allows you to dynamically set or update the column headers of a table. This method is particularly
   useful for changing the language of column headers or adjusting their presentation based on user
@@ -563,3 +565,4 @@ Here are the merged sections as per your example:
   ];
   item.setColumnHeaders(headers);
   ```
+  

@@ -1,5 +1,5 @@
 # HTML Fragment
-<TableOfContents />
+
 
 ## Item-Specific Methods
 

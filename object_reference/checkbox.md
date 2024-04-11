@@ -1,5 +1,5 @@
 # Check Box
-<TableOfContents />
+
 
 <!--@include: ./common/no-methods.md -->
 

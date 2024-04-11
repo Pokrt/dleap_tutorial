@@ -1,5 +1,4 @@
 # Select Many
-<TableOfContents />
 
 <!--@include: ./common/no-methods.md -->
 

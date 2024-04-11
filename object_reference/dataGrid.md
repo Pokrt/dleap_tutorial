@@ -1,5 +1,5 @@
 # Data Grid
-<TableOfContents />
+
 
 ## Item-Specific Methods
 

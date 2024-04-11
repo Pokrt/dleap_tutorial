@@ -1,6 +1,5 @@
 # Tabbed folder
-<TableOfContents />
-## Item-Specific Methods
+## Methods
 
 ### getSelectionIndex() <Badge type="tip">item</Badge>
 

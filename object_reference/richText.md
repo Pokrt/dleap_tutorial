@@ -1,5 +1,4 @@
 # Text
-<TableOfContents />
 
 ## Item-Specific Methods
 

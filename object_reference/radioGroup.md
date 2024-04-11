@@ -1,5 +1,4 @@
 # Select one
-<TableOfContents />
 
 <!--@include: ./common/no-methods.md -->
 

@@ -1,4 +1,4 @@
-# Objects in HCL Domino Leap
+# Interface and Data Objects in HCL Domino Leap
 
 In HCL Domino Leap, objects are used to represent various elements of the application, such as pages, forms, and data.
 There are two types of objects - Interface Objects and Data Objects.
