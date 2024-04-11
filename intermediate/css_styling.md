@@ -1,7 +1,12 @@
-# Styling
+# Vissual Appearence
+Domino Leap allows you to easily style your Forms. There are multiple out-of-box visual styles available and you can style each item using a built-in VYSIWYG editor.
+
+TODO examples
 
 If you want to change style of your website you can use built-in editor enabling you to change visual look of your
 website. You can change colors, fonts, sizes, etc. You can also use custom CSS to change style of your website.
+
+## Style Editor
 
 ![Cutom theme expample](/custom_theme.png)
 
@@ -56,3 +61,13 @@ Make button on the website rounded.
 
 
 :::
+
+## Workig with CSS
+
+TODO each item allows to set a customs CSS class or idenfier, example
+
+TODO custom CSS file
+
+Advaced web developer can explore CSS styles using some web development tool and create their own CSS clasess.
+
+Unfortunatelely you can not change the default product icon or change color of the top bar easilly.

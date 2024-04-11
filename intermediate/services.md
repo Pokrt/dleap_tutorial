@@ -8,6 +8,19 @@ interact with the internal and external data store. Three types of services:
   query data from other application forms.
 - **External Service** - can be used to query data from external data sources like JSON-formatted REST API.
 
+## Auto-generated services
+
+TODO Each form, once the app ins deployed or updated, generates a set of CRUD services:
+CREATE- in ST_new stage
+SUBMIT- for each submit button = action button
+RETRIEVE- search or single row of submitted data (record)
+SEARCH- find multiple records
+UPDATE- save existing data row (can not be used in ST_new or ST_end)
+DELETE- remowe a row of data
+
+TODO call services from the same form or from the other form (in the ssame app or from anotehr app)
+
+
 ## Querying Domino Database
 ::: tip Exercise
 In this task, we will create a service to query data from a Domino database.

@@ -1,6 +1,6 @@
 # Input Items
 
-In HCL Domino Leap, the input items are the fields on a form that represent the attributes of a business object. Input
+In HCL Domino Leap, items both store data entered by users and represent it visually. The input items are the fields on a form that represent the attributes of a business object. Input
 items are used to capture data from the user and store it in the business object. Each input item corresponds to an
 attribute of the business object and is used to display and edit the value of that attribute.
 
