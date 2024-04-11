@@ -8,18 +8,34 @@ hero:
   tagline: Work in progress. This is not an official HCL Documentation. This site was created by Jan Kadlec (honza.kadlec.cb@gmail.com) as a part of bachelors thesis at University of West Bohemia and supervised by Jan Valdman (jan.valdman@whitesoft.eu) form Whitesoft.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Tutorial
+      link: /basics/hello_world
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Reference
+      link: /object_reference/application
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme';
+
+const members = [
+  {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Evan You',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+  
+]
+</script>
+
+# Our Team
+
+Say hello to our awesome team.
+
+<VPTeamMembers size="small" :members="members" />
 
