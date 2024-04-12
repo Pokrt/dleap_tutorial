@@ -1,4 +1,4 @@
-# No-code Introduction
+# Introduction to No-code development in Domino Leap
 
 In this chaper, we will cover the basics of no-code development in HCL Domino Leap. To better understand how domino leap
 works, we will start by explaining what an MVC model is and how it is used in domino leap. We will also cover the anatomy
