@@ -77,16 +77,15 @@ It is a good practice to name rules. It can save you a lot of trouble when you h
 :::
 
 
-TODO You can connect rules also with AppItems (submit buttons). This is not so straightforward because you have to
+You can connect rules also with AppItems (submit buttons). This is not so straightforward because you have to
 display the given button first.
-TODO step-by-step hide actionbutton
 
-::: tip Exercise
+::: info Exercise
 Try to hide the action button when the amount is less than 4. You can use the following form.
 ![img_23.png](img_23.png)
 :::
 
-::: Step by step solution
+::: details Step-by-step solution
 
 1\. First, you need to create your form for order. Our has one short text and one number type inputs.
 ![img_23.png](img_23.png)
