@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "HCL Domino Leap Tutorial"
   text: "From zero to hero in few days."
-  tagline: "This tutorial will help you learn how to develop workflow applications in HCL Domino Leap using no-code and low-code (JavaScript) skills. Note: Work in progress. This is not an official HCL Software documentation."
+  tagline: "This tutorial will help you learn how to develop workflow applications in HCL Domino Leap using no-code and low-code (JavaScript) skills. "
   actions:
     - theme: brand
       text: Tutorial
@@ -48,3 +48,7 @@ Bohemia and supervised by Jan Valdman (jan.valdman@whitesoft.eu) form Whitesoft.
 <VPTeamMembers size="small" :members="members" />
 
 Feel free to reach teh team members or propose any improvements. You can also contribute to this tutorial by joining [dleap_tutorial](https://github.com/Pokrt/dleap_tutorial) repository at GitHub.
+
+# Notes
+- Work in progress. 
+- This is not an official HCL Software documentation.
