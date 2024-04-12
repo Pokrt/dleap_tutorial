@@ -2,6 +2,8 @@
 
 Formulas can be used to calculate the value of a field based on the values of other fields.
 
+![img_18.png](img_18.png)
+
 ::: warning
 There is a limitation of 2 operands in formulas. 
 
@@ -9,6 +11,9 @@ This makes it hard to debug formulas with [async calls](/low-code-basics/js_in_d
 
 Another limitation is that the formulas are not visible in one place.
 :::
+
+
+
 
 ## Adding formulas
 

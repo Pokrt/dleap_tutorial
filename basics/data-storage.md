@@ -2,7 +2,7 @@
 
 HCL Domino Leap uses a non-relational NoSQL database to store application data. The database is a collection of
 documents, where each
-document is a collection of fields. Each field has a name and a value. The value can be a string, number, date, or other
+document is a collection of fields. Each field has a name and a value. The value can be a string, number, date, or another
 data type. The database is schema-less, meaning that each document can have a different set of fields. This allows for
 flexibility in the data model, but also requires the application to handle missing or unexpected fields.
 
