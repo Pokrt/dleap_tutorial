@@ -81,8 +81,12 @@ TODO You can connect rules also with AppItems (submit buttons). This is not so s
 display the given button first.
 TODO step-by-step hide actionbutton
 
-# Customize Rules for Form Actions in VOLT App
+::: tip Exercise
+Try to hide the action button when the amount is less than 4. You can use the following form.
+![img_23.png](img_23.png)
+:::
 
+::: Step by step solution
 
 1\. First, you need to create your form for order. Our has one short text and one number type inputs.
 ![img_23.png](img_23.png)
@@ -259,7 +263,7 @@ TODO step-by-step hide actionbutton
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/23cb79f6-5754-40c6-a3aa-2d9fb746c79b/ascreenshot.jpeg?tl_px=206,0&br_px=2141,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,204)
 
 
-
+:::
 
 ## Additional resources
 
