@@ -3,13 +3,18 @@
 In HCL Domino Leap, items both store data entered by users and represent it visually. The input items are the fields on a form that represent the attributes of a business object. Input
 items are used to capture data from the user and store it in the business object. Each input item corresponds to an
 attribute of the business object and is used to display and edit the value of that attribute.
+
 ## Properties
 
 Each input item has a set of properties that define its behavior and appearance. The following are some of the most commonly used properties of input items:
-**width** - The width of the input bar. 
-**placeholder** - The text that appears in the input bar when it is empty.
-**format** - You can set the format using regular expressions.
-**custom css classes names** - You can add custom css classes to the input item. Usually you use your classes from your css file.
+
+**Width** - The width of the input bar. 
+
+**Placeholder** - The text that appears in the input bar when it is empty.
+
+**Format** - You can set the format using regular expressions.
+
+**Custom css classes names** - You can add custom css classes to the input item. Usually you use your classes from your css file.
 
 ![img_24.png](img_24.png)
 

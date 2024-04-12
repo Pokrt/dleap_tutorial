@@ -14,3 +14,5 @@ The following are some of the most commonly used display items:
 - **Data Grid**: A read-only table for displaying tabular data.
 ![img_12.png](img_12.png)
 - **Image**: A read-only image field for displaying images.
+
+
