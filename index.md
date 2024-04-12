@@ -41,14 +41,14 @@ const members = [
 ]
 </script>
 
-# Our Team
+## Our Team
 
-This site was created by Jan Kadlec (honza.kadlec.cb@gmail.com) as a part of bachelors thesis at University of West
+This site was created by Jan Kadlec (honza.kadlec.cb@gmail.com) as a part of his bachelors thesis at University of West
 Bohemia and supervised by Jan Valdman (jan.valdman@whitesoft.eu) form Whitesoft.
 <VPTeamMembers size="small" :members="members" />
 
-Feel free to reach teh team members or propose any improvements. You can also contribute to this tutorial by joining [dleap_tutorial](https://github.com/Pokrt/dleap_tutorial) repository at GitHub.
+Feel free to reach the team members or propose any improvements. You can also contribute to this tutorial by joining [dleap_tutorial](https://github.com/Pokrt/dleap_tutorial) repository at GitHub.
 
-# Notes
-- Work in progress. 
+## Notes
+- Work in progress (spring 2024) 
 - This is not an official HCL Software documentation.
