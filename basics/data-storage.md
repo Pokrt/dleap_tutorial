@@ -1,10 +1,15 @@
 # Where is your Data
 
-HCL Domino Leap uses a non-relational NoSQL database to store application data. The database is a collection of
+HCL Domino Leap uses a Domino database - a NSF file - to store data submited via forms. This is the major differnce from HCL Leap or IBM Forms Experiences Builder.
+
+Using Domino as data backend brings many advantages but also some worries. Fist of all, you can use any tools available for the HCL Domino platform to perform more task. Domino also empower a very strong security system and Domino Leap must fit into the existing principles.  
+
+Domino database is a collection of
 documents, where each
 document is a collection of fields. Each field has a name and a value. The value can be a string, number, date, or another
 data type. The database is schema-less, meaning that each document can have a different set of fields. This allows for
 flexibility in the data model, but also requires the application to handle missing or unexpected fields.
+
 
 ## Database
 
