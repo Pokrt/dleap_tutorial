@@ -47,3 +47,4 @@ This site was created by Jan Kadlec (honza.kadlec.cb@gmail.com) as a part of bac
 Bohemia and supervised by Jan Valdman (jan.valdman@whitesoft.eu) form Whitesoft.
 <VPTeamMembers size="small" :members="members" />
 
+Feel free to reach teh team members or propose any improvements. You can also contribute to this tutorial by joining [dleap_tutorial](https://github.com/Pokrt/dleap_tutorial) repository at GitHub.
