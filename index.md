@@ -12,7 +12,7 @@ hero:
       link: /basics/introduction
     - theme: alt
       text: Reference
-      link: /object_reference/application
+      link: /object_reference/overview
 
 ---
 

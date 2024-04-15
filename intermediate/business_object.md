@@ -18,11 +18,10 @@ Field -> Attribute
 Example:
 ![GUI -> Data Mapping](/gui_to_data_mapping.png)
 
- TODO
- 
-    Leap app ~= NSF
-    Leap form ~= Domino form
-    Leap BO (aka "submitted form") ~= Domino document ("one row in a view")
-    Leap table ~= Domino subform
-    NSF structure is updated when you deploy Leap app
-    NSF data is updated by every Create/Update/Delete action in Leap
+If you are familiar with Domino, here are some analogies to help you understand the similarities between Leap and Domino:
+-    Leap app ~= NSF
+-    Leap form ~= Domino form
+-    Leap BO (aka "submitted form") ~= Domino document ("one row in a view")
+-    Leap table ~= Domino subform
+-    NSF structure is updated when you deploy Leap app
+-    NSF data is updated by every Create/Update/Delete action in Leap

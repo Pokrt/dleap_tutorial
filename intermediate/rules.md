@@ -264,6 +264,3 @@ Try to hide the action button when the amount is less than 4. You can use the fo
 
 :::
 
-## Additional resources
-
-[Rule types](https://help.hcltechsw.com/domino-leap/1.1.3/ru_creating_rules_in_your_form.html)

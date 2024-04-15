@@ -41,8 +41,21 @@ problems.
 
 <Badge type="tip">item</Badge> - represents that method is called on object named `item`<br>
 
-<Badge type="warning">apItem</Badge> - represents that method is called on object named `apItem`
+<Badge type="warning">apItem</Badge> - represents that method is called on object named `apItem
 
-todo popsat code sample a exercises
+Code samples are in a box like this:
 
-###
+```javascript
+var myAppPage = app.getAppPage("AP_Welcome");
+```
+
+---
+### Exercises
+Throughout the tutorial, you can find exercises. They usually consist of an exercise to do and a solution as demonstrated below.
+::: tip Exercise
+What are we trying to achieve.
+:::
+::: details Step-by-step solution
+When you get lost, you can follow this step-by-step solution.
+:::
+

@@ -122,5 +122,3 @@ In this task, we will create a service to query data from a Domino database. You
 src="https://www.youtube.com/embed/aOwY2ENik8Y?start=579">
 </iframe>
 
-## Useful Links
-- [Service Documentation](https://hclwiki.atlassian.net/wiki/spaces/HDV/pages/38469640/Using+Services#Selecting-a-Service)

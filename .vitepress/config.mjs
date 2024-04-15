@@ -21,8 +21,8 @@ export default defineConfig({
              provider: 'local'
         },
         nav: [
-            {text: 'Home', link: '/'},
-            {text: 'Examples', link: '/markdown-examples'}
+            {text: 'Tutorial', link: '/basics/introduction'},
+            {text: 'Reference', link: '/object_reference/overview'},
         ],
 
         outline: [2, 4],
@@ -71,6 +71,7 @@ export default defineConfig({
                     {text: 'Service calls', link: '/intermediate/services'},
                     {text: 'Multi-form apps', link: '/intermediate/multi_form_apps'},
                     {text: 'Current limitations', link: '/intermediate/limitations'},
+                    {text: 'More resources', link: '/intermediate/more-resources'},
 
                 ]
             }, {
@@ -248,7 +249,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-        {icon: 'github', link: 'https://github.com/vuejs/vitepress'}
+        {icon: 'github', link: 'https://github.com/Pokrt/dleap_tutorial'}
     ]
 
 })

@@ -32,11 +32,4 @@ file. Each NSF file has its own access controll list (ACL) managing acess to NSF
 
 ![Representation in submitted data view](/Snímek%20obrazovky%202024-02-19%20161320.png)
 
-Useful Links
-============
 
-https://www.loc.gov/preservation/digital/formats/fdd/fdd000433.shtml
-
-https://opensource.hcltechsw.com/domino-keep-tutorials/pages/domino-new/setup/create-nsf.html
-
-https://help.hcltechsw.com/domino-leap/1.1.3/post_install_tasks.html

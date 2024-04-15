@@ -4,7 +4,7 @@ In HCL Domino Leap, form pages are always shown in context of a Business obeject
 
 
 Application pages, or appPages in short, can be used as landing pages, navigation pages, documentation pages or, most often, they provide an overview of data are used to present information and display data to the user.
-Because an appPage has no corresponfing bsuiness object, it can not show any form data using form items. FOr teh same reason, it has not stages or submit button. However, we can use a special Data Grid item to fetch and show data from other forms:
+Because an appPage has no corresponding business object, it cannot show any form data using form items. FOr the same reason, it has no stages or submit button. However, we can use a special Data Grid item to fetch and show data from other forms:
 
 TODO image
 
