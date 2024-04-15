@@ -1,6 +1,6 @@
 # Introduction to No-code development in Domino Leap
 
-In this chaper, we will cover the basics of no-code development in HCL Domino Leap. To better understand how domino leap
+In this chapter, we will cover the basics of no-code development in HCL Domino Leap. To better understand how domino leap
 works, we will start by explaining what an MVC model is and how it is used in domino leap. We will also cover the anatomy
 of a Domino Leap app and how to create apps in domino leap. Next, we will cover the basics of creating apps in Domino Leap in the following order:
 1. Form Page Design
@@ -17,8 +17,8 @@ of a Domino Leap app and how to create apps in domino leap. Next, we will cover 
 12. Service Integration (Optional)
 13. Test Data Submission
 
-## App Default Properties
-By default th eapp has the following properties:
+## App Default Settings
+By default, the app has the following settings:
 
 **One Page**
 ![img.png](img.png)

@@ -67,9 +67,11 @@ export default defineConfig({
                     {text: 'Rules', link: '/intermediate/rules'},
                     {text: 'Visual Appearance', link: '/intermediate/css_styling'},
                     {text: 'Application Pages', link: '/intermediate/app_pages'},
-                    {text: 'Multi-form apps', link: '/intermediate/multi_form_apps'},
+                    {text: 'Tables', link: '/intermediate/tables'},
                     {text: 'Service calls', link: '/intermediate/services'},
+                    {text: 'Multi-form apps', link: '/intermediate/multi_form_apps'},
                     {text: 'Current limitations', link: '/intermediate/limitations'},
+
                 ]
             }, {
                 text: 'III. Low-code basics',

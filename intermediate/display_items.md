@@ -11,6 +11,10 @@ The following are some of the most commonly used display items:
 
 - **Text**: A read-only text field for displaying short text values.
 ![img_13.png](img_13.png)
+  **Data mirroring** - you can use data mirroring to display data from other input fields as a read-only field.
+  ![img_26.png](img_26.png)
+  the result will be:
+  ![img_28.png](img_28.png)
 - **Data Grid**: A read-only table for displaying tabular data.
 ![img_12.png](img_12.png)
 - **Image**: A read-only image field for displaying images.
