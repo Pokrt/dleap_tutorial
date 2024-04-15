@@ -1,4 +1,4 @@
-# Dropdown
+# &#127358; Dropdown
 Dropdown object represents a Dropdown input item on a Page or an AppPage.
 
 

@@ -1,4 +1,4 @@
-# Tabbed folder
+# &#127358;  Tabbed folder
 Tabbed folder object represents Tabs on a Page or an AppPage.
 ## Methods
 

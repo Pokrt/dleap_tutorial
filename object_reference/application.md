@@ -1,4 +1,4 @@
-# Application Object
+# &#127358; Application Object
 The Application object represents your running application. 
 
 ## Methods

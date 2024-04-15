@@ -1,4 +1,4 @@
-# Time
+# &#127358; Time
 Time object represents a Time input item on a Page or an AppPage.
 
 

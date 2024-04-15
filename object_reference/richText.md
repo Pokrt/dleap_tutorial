@@ -1,4 +1,4 @@
-# Text
+# &#127358; Text
 
 Text object represents a Text display item.
 

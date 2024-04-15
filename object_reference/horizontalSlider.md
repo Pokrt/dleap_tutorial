@@ -1,4 +1,4 @@
-# Number slider
+# &#127358; Number slider
 Number slider object represents a Number slider input item on a Page or an AppPage.
 
 

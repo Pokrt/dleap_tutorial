@@ -1,4 +1,4 @@
-# Attachment
+# &#127358; Attachment
 Attachment object represents an Attachment input item on a Page or an AppPage.
 
 

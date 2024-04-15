@@ -1,4 +1,4 @@
-# Date
+# &#127358; Date
 Date object represents a Date input item on a Page or an AppPage.
 
 <!--@include: ./common/no-methods.md -->

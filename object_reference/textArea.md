@@ -1,4 +1,4 @@
-# Paragraph Text
+# &#127358; Paragraph Text
 Paragraph Text object represents a Paragraph Text input item on a Page or an AppPage.
 
 

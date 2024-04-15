@@ -1,4 +1,4 @@
-# Media
+# &#127358; Media
 Media object represents a Media display item on a Page or an AppPage.
 <!--@include: ./common/no-methods.md -->
 

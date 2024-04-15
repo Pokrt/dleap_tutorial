@@ -1,4 +1,4 @@
-# Timestamp
+# &#127358; Timestamp
 Timestamp object represents a Timestamp input item on a Page or an AppPage.
 
 

@@ -1,4 +1,4 @@
-# Image
+# &#127358; Image
 
 Image object represents an Image display item on a Page or an AppPage.
 ## Item-Specific Methods

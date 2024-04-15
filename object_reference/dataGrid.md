@@ -1,4 +1,4 @@
-# Data Grid
+# &#127358; Data Grid
 Data Grid object represents a Data Grid display item on a Page or an AppPage.
 
 ## Item-Specific Methods

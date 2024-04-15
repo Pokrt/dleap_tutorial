@@ -1,4 +1,4 @@
-# Survey
+# &#127358; Survey
 Survey object represents a survey item on a Page or an AppPage.
 
 ## Item-Specific Functions

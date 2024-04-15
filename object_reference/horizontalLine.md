@@ -1,4 +1,4 @@
-# Line
+# &#127358; Line
 Line object represents a Line display item on a Page or an AppPage.
 
 

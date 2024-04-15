@@ -1,4 +1,4 @@
-# Form Object
+# &#127358; Form Object
 The Form object represents the visual structure of your form. There is one object per each form, but your javascript code can work with current form only.
 
 

@@ -1,4 +1,4 @@
-# Select one
+# &#127358; Select one
 Select one object represents a radio group on a Page or an AppPage.
 
 <!--@include: ./common/no-methods.md -->

@@ -1,4 +1,4 @@
-# App Page
+# &#127358;  App Page
 App Page object represents an App Page in the application.
 
 
