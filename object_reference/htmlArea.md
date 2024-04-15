@@ -3,11 +3,11 @@ HTML Fragment object represents an HTML Fragment display item on a Page or an Ap
 
 ## Item-Specific Methods
 
-### getContent() <Badge type="tip">item</Badge>
+### 🅼  getContent() <Badge type="tip">item</Badge>
 
 - **Description**: Gets the currently shown content for this interface item.
 
-### item.setContent(content) <Badge type="tip">item</Badge>
+### 🅼  item.setContent(content) <Badge type="tip">item</Badge>
 
 - **Description**: Shows content in this interface item only. The content is evaluated as HTML code.
 - **Example**:

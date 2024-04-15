@@ -3,11 +3,11 @@ The Table object represents a collection of items in a tabular format on a Page 
 
 ##  Methods
 
-### getSelection() <Badge type="tip">item</Badge>`
+### 🅼 getSelection() <Badge type="tip">item</Badge>`
 
 - **Description**: Returns the Business Object of the selected row or null if there is no selection.
 
-### setSelection(BO) <Badge type="tip">item</Badge>
+### 🅼 setSelection(BO) <Badge type="tip">item</Badge>
 
 - **Description**: Selects the last Business Object in the table.
 - **Example**:
@@ -18,22 +18,20 @@ The Table object represents a collection of items in a tabular format on a Page 
   // Selects the last row in the table.
   ```
 
-### showAdd(show) <Badge type="tip">item</Badge>
+### 🅼 showAdd(show) <Badge type="tip">item</Badge>
 
 - **Description**: Controls the visibility of the Add button on the interface. If `show` is true, then the Add button is
   made visible. If false, the Add button is hidden.
 
-### showEdit(show) <Badge type="tip">item</Badge>
+### 🅼 showEdit(show) <Badge type="tip">item</Badge>
 
 - **Description**: Controls the visibility of the Edit button on the interface. If `show` is true, then the Edit button
   is made visible. If false, the Edit button is hidden.
 
-### showRemove(show) <Badge type="tip">item</Badge>
+### 🅼 showRemove(show) <Badge type="tip">item</Badge>
 
 - **Description**: Controls the visibility of the Remove button on the interface. If `show` is true, then the Remove
   button is made visible. If false, the Remove button is hidden.
-
-## Item Common Functions
 
 <!--@include: ./common/functions.md -->
 
@@ -41,7 +39,7 @@ The Table object represents a collection of items in a tabular format on a Page 
 
 ## Table Events
 
-### onAdd
+### 🅴 onAdd
 
 **Event Name:** `onAdd`
 
@@ -56,14 +54,14 @@ curValue += itemBO.F_Price.getValue();
 BO.F_Total.setValue(curValue);
 ```
 
-### onEdit
+### 🅴 onEdit
 
 **Event Name:** `onEdit`
 
 **Description:** Called after an existing row is edited by the user. The item that was edited is available from the
 variable `itemBO`.
 
-### onRemove
+### 🅴 onRemove
 
 **Event Name:** `onRemove`
 

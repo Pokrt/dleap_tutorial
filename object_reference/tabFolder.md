@@ -2,7 +2,7 @@
 Tabbed folder object represents Tabs on a Page or an AppPage.
 ## Methods
 
-### getSelectionIndex() <Badge type="tip">item</Badge>
+### 🅼 getSelectionIndex() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the index of the currently selected tab.
 - **Example**:
@@ -15,7 +15,7 @@ Tabbed folder object represents Tabs on a Page or an AppPage.
   // Set 12 into the first item in the currently shown tab.
   ```
 
-### getTabTitleList() <Badge type="tip">item</Badge>
+### 🅼 getTabTitleList() <Badge type="tip">item</Badge>
 
 - **Description**: Returns an array of all the tab titles in this folder.
 
@@ -32,7 +32,7 @@ Tabbed folder object represents Tabs on a Page or an AppPage.
   tab furthest to the right. In a bidirectional language, the order is reversed. Tab 0 is assigned to Blue, which is the
   tab furthest to the right.
 
-### setTabTitleList(pTitleArray) <Badge type="tip">item</Badge>
+### 🅼 setTabTitleList(pTitleArray) <Badge type="tip">item</Badge>
 
 - **Description**: Updates the titles of tabs within a Tabbed Folder from a list of strings by using a pTitleArray array
   of string values. The list of tabs is updated respective to the order of strings that are defined in the array. If
@@ -51,7 +51,7 @@ Tabbed folder object represents Tabs on a Page or an AppPage.
 ## Tabbed Folder Events
 Here's your text formatted to match the desired output:
 
-### onTabSelected
+### 🅴 onTabSelected
 
 **Event Name:** `onTabSelected`
 

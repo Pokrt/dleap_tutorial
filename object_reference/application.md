@@ -3,7 +3,7 @@ The Application object represents your running application.
 
 ## Methods
 
-### app.getAppPage(appPageId)
+### 🅼    app.getAppPage(appPageId)
 
 **Parameters:**
 
@@ -18,7 +18,7 @@ object can be used to manipulate or interact with the page in the application's 
 var myAppPage = app.getAppPage("AP_Welcome");
 ```
 
-### app.getAppPageURL(appPageId, appUid)
+### 🅼  app.getAppPageURL(appPageId, appUid)
 
 **Parameters:**
 
@@ -39,7 +39,7 @@ The `appUid` parameter is optional. If you do not supply this parameter, it will
 current scope's object.
 :::
 
-### app.getAppURL()
+### 🅼  app.getAppURL()
 
 **Parameters:** None.
 
@@ -52,7 +52,7 @@ in the application settings.
 var appUrl = app.getAppURL();
 ```
 
-### app.getChartsURL(formId, appUid)
+### 🅼  app.getChartsURL(formId, appUid)
 
 **Parameters:**
 
@@ -72,7 +72,7 @@ var chartsUrl = app.getChartsURL(form.getId(), app.getUID());
 All parameters are optional. If you do not provide them, the function will default to the current scope's object.
 :::
 
-### app.getCurrentUser()
+### 🅼  app.getCurrentUser()
 
 **Parameters:** None.
 
@@ -92,7 +92,7 @@ This function is particularly useful for personalizing the user experience by di
 decisions based on the user identity.
 :::
 
-### app.getCurrentUserEmail()
+### 🅼  app.getCurrentUserEmail()
 
 **Parameters:** None.
 
@@ -105,7 +105,7 @@ user interactions or for use in forms and communications within the application.
 var userEmail = app.getCurrentUserEmail();
 ```
 
-### app.getCurrentUserDisplayName()
+### 🅼  app.getCurrentUserDisplayName()
 
 **Parameters:** None.
 
@@ -119,7 +119,7 @@ var userDisplayName = app.getCurrentUserDisplayName();
 // Output example: "Eduardo Ramírez López"
 ```
 
-### app.getCurrentUserInfo()
+### 🅼  app.getCurrentUserInfo()
 
 **Parameters:** None.
 
@@ -137,7 +137,7 @@ var userInfo = app.getCurrentUserInfo();
 Not all user attributes may be available in all deployments. Unavailable attributes will return `null`.
 :::
 
-### app.getCurrentUserRoles
+### 🅼  app.getCurrentUserRoles
 
 **Parameters:** None.
 
@@ -151,7 +151,7 @@ var userRoles = app.getCurrentUserRoles();
 // Usage in setting value: item.setValue(userRoles);
 ```
 
-### app.getFileBaseURL()
+### 🅼  app.getFileBaseURL()
 
 **Parameters:** None.
 
@@ -164,7 +164,7 @@ and CSS files. This URL can be used to access these resources directly.
 var fileBaseUrl = app.getFileBaseURL();
 ```
 
-### app.getForm(formID)
+### 🅼  app.getForm(formID)
 
 **Parameters:**
 
@@ -188,7 +188,7 @@ If you're retrieving a form not currently shown, the returned object will have l
 for event handling purposes.
 :::
 
-### app.getFormLaunchURL(formId, appUid)
+### 🅼  app.getFormLaunchURL(formId, appUid)
 
 **Parameters:**
 
@@ -210,7 +210,7 @@ var urlWithFormAndAppId = app.getFormLaunchURL(form.getId(), app.getUID()); // S
 All parameters are optional. If you do not supply a parameter, it will default to the current scope's object.
 :::
 
-### app.getImageBaseURL()
+### 🅼  app.getImageBaseURL()
 
 **Parameters:** None.
 
@@ -223,7 +223,7 @@ images are accessible as anonymous resources, meaning anyone can view them.
 var imageUrl = app.getImageBaseURL();
 ```
 
-### app.getLocale()
+### 🅼  app.getLocale()
 
 **Parameters:** None.
 
@@ -237,7 +237,7 @@ preferences.
 var locale = app.getLocale();
 ```
 
-### app.getLocation(callbackFunction, highAccuracy)
+### 🅼  app.getLocation(callbackFunction, highAccuracy)
 
 **Parameters:**
 
@@ -270,7 +270,7 @@ Visit [PositionOptions](https://developer.mozilla.org/en-US/docs/Web/API/Positio
 information.
 :::
 
-### app.getProductBaseURL()
+### 🅼  app.getProductBaseURL()
 
 **Parameters:** None.
 
@@ -283,7 +283,7 @@ forming URLs to access application resources.
 var url = app.getProductBaseURL();
 ```
 
-### app.getRecordURL(recordUid, formId, appUid)
+### 🅼  app.getRecordURL(recordUid, formId, appUid)
 
 **Parameters:**
 
@@ -304,7 +304,7 @@ var url = app.getRecordURL('d1f6eb71-9483-479c-8d47-dd30bd7e9de9');
 All parameters are optional. If not supplied, the function will use the current scope's object.
 :::
 
-### app.getSharedData()
+### 🅼  app.getSharedData()
 
 **Parameters:** None.
 
@@ -323,7 +323,7 @@ BO.F_SingleLine.setValue(app.getSharedData().titleToShow);
 BO.F_Number.setValue(app.getSharedData().addTwoValues(5, 5));
 ```
 
-### app.getStyleBaseURL()
+### 🅼  app.getStyleBaseURL()
 
 **Parameters:** None.
 
@@ -336,7 +336,7 @@ stored. These files are accessible as anonymous resources.
 var styleUrl = app.getStyleBaseURL();
 ```
 
-### app.getSuppressWarning()
+### 🅼  app.getSuppressWarning()
 
 **Description:** Retrieves the current setting for suppressing warnings within the application. This is useful for
 controlling whether certain warning messages are shown to the user.
@@ -354,7 +354,7 @@ if (suppressWarning === false) {
 Refer to `app.setSuppressWarning` documentation for more details on how to suppress warnings.
 :::
 
-### app.getUID()
+### 🅼  app.getUID()
 
 **Description:** Returns the unique identifier (UID) of the application, which can be used for creating links to other
 forms or resources within the same application.
@@ -365,7 +365,7 @@ forms or resources within the same application.
 page.F_StaticWebLink.setLinkValue(BO.F_ServerURL.getValue() + '/apps/secure/1/app/' + app.getUID() + '/launch/index.html?form=F_Form2');
 ```
 
-### app.getUrlParameter(parm)
+### 🅼  app.getUrlParameter(parm)
 
 **Description:** Fetches the value of a specific URL parameter. This can be used for debugging or to alter the
 application's behavior based on parameters passed in the URL.
@@ -379,7 +379,7 @@ if (param === 'true') {
 }
 ```
 
-### app.getUrlParameters()
+### 🅼  app.getUrlParameters()
 
 **Description:** Returns an object containing all URL parameters. This allows for easy access to any parameter passed
 through the URL.
@@ -393,7 +393,7 @@ if (params.CustomWarning) {
 }
 ```
 
-### app.getViewDataURL(appUid)
+### 🅼  app.getViewDataURL(appUid)
 
 **Description:** Provides the URL to navigate directly to the View Data page of the application. This can be
 particularly useful for creating links that allow users to view application data with just one click.
@@ -409,7 +409,7 @@ var urlWithAppUid = app.getViewDataURL(app.getUID());
 The `appUid` parameter is optional. If not supplied, it defaults to the current application's UID.
 :::
 
-### app.isCurrentUserInRole(roleName)
+### 🅼  app.isCurrentUserInRole(roleName)
 
 **Description:** Determines whether the currently logged-in user is a member of a specific role within the application.
 
@@ -424,7 +424,7 @@ This function does not validate the existence of the role named `roleName`; it s
 not exist.
 :::
 
-### app.isSingleFormView()
+### 🅼  app.isSingleFormView()
 
 **Description:** Checks if the current form is displayed by itself in the browser or within the context of viewing
 responses.
@@ -435,7 +435,7 @@ responses.
 var isSingleView = app.isSingleFormView();
 ```
 
-### app.openApp(appUid, newTab)
+### 🅼  app.openApp(appUid, newTab)
 
 **Description:** Opens the homepage of a specified application. You can choose to open it in a new browser tab or in the
 current tab.
@@ -453,7 +453,7 @@ If `newTab` is `true`, the application opens in a new tab. The `appUid` is optio
 application is used.
 :::
 
-### app.openAppPage(appPageId, appUid, newTab)
+### 🅼  app.openAppPage(appPageId, appUid, newTab)
 
 **Parameters:**
 
@@ -472,7 +472,7 @@ app.openAppPage('AP_Page1', true); // Explicitly opens in a new tab
 app.openAppPage('AP_Page1', false); // Opens in the current tab
 ```
 
-### app.openForm(formId, appUid, newTab)
+### 🅼  app.openForm(formId, appUid, newTab)
 
 **Parameters:**
 
@@ -492,7 +492,7 @@ app.openForm('F_Form1', true); // Explicitly opens in a new tab
 app.openForm('F_Form1', false); // Opens in the current tab
 ```
 
-### app.openRecord(recordUid, formId, appUid, newTab)
+### 🅼  app.openRecord(recordUid, formId, appUid, newTab)
 
 **Parameters:**
 
@@ -512,7 +512,7 @@ app.openRecord('xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', 'yyyyyyyy-yyyy-yyyy-yyyy-
 app.openRecord('xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', 'yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy', 'zzzzzzzz-zzzz-zzzz-zzzz-zzzzzzzzzzzz', false);
 ```
 
-### app.setSuppressWarning(pSuppress)
+### 🅼  app.setSuppressWarning(pSuppress)
 
 **Parameters:**
 
@@ -527,7 +527,7 @@ page. This can enhance user experience by eliminating unnecessary interruptions.
 app.setSuppressWarning(true); // Suppresses warnings
 ```
 
-### app.showMessage(title, message, type, subtitle)
+### 🅼  app.showMessage(title, message, type, subtitle)
 
 **Parameters:**
 
@@ -558,7 +558,7 @@ improving the interactive experience of your application.
 
 ## Objects available in the app event context
 
-### Application object (GUI type)
+### 🅾  Application object (GUI type)
 
 - Variable: `app`
 - Description: Contains functions for accessing global general information
@@ -572,7 +572,7 @@ var userEmail = app.getCurrentUserEmail();
 
 ## Events
 
-### onStart
+### 🅴 onStart
 
 **Event Name:** `onStart`
 

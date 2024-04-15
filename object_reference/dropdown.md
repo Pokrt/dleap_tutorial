@@ -4,7 +4,7 @@ Dropdown object represents a Dropdown input item on a Page or an AppPage.
 
 ## Item-Specific Methods
 
-### getOptions() <Badge type="tip">item</Badge>
+### 🅼  getOptions() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the array of options currently shown in the drop-down. Each object in the array has a "title"
   property that is shown in the interface, and a "value" property that is saved into the data.
@@ -21,7 +21,7 @@ Dropdown object represents a Dropdown input item on a Page or an AppPage.
   }
   ```
 
-### setOptions(options) <Badge type="tip">item</Badge>
+### 🅼  setOptions(options) <Badge type="tip">item</Badge>
 
 - **Description**: Changes the list of options to show in the drop-down. It must be an array of objects. Each object
   must have a "title" property that is shown in the interface, and a "value" property that is saved into the data.
@@ -40,7 +40,7 @@ Dropdown object represents a Dropdown input item on a Page or an AppPage.
 
 ## Dropdown Events
 
-### beforeOptionsUpdate
+### 🅴  beforeOptionsUpdate
 
 **Event Name:** `beforeOptionsUpdate`
 

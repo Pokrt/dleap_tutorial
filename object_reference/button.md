@@ -3,7 +3,7 @@ Button object represents a Button action item on a Page or an AppPage.
 
 ## Item-specific methods
 
-### item.setContent(content)  <Badge type="tip">item</Badge>
+### 🅼 setContent(content)  <Badge type="tip">item</Badge>
 - **Parameters**:
     - `content`: The text or label you want to display on the button.
 

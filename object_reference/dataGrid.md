@@ -3,7 +3,7 @@ Data Grid object represents a Data Grid display item on a Page or an AppPage.
 
 ## Item-Specific Methods
 
-### getDisplayedData() <Badge type="tip">item</Badge>
+### 🅼 getDisplayedData() <Badge type="tip">item</Badge>
 
 - **Returns**:
     - **Boolean**: Checkbox
@@ -42,7 +42,7 @@ for (var d in data) {
 alert("Sum = " + sum);
 ```
 
-### isAllDataDisplayed() <Badge type="tip">item</Badge>
+### 🅼 isAllDataDisplayed() <Badge type="tip">item</Badge>
 
 - **Returns**: `true` if all the submitted data for the form connected to the data grid is rendered on screen in a
   single page.
@@ -62,7 +62,7 @@ if (appPage.F_DataGrid1.isAllDataDisplayed()) {
 }
 ```
 
-### isColumnVisible(columnId) <Badge type="tip">item</Badge>
+### 🅼 isColumnVisible(columnId) <Badge type="tip">item</Badge>
 
 - **Returns**: `true` if the specified column is visible in the data grid.
 
@@ -72,7 +72,7 @@ if (appPage.F_DataGrid1.isAllDataDisplayed()) {
 appPage.F_DataGrid1.isColumnVisible("F_SingleLine1");
 ```
 
-### refresh() <Badge type="tip">item</Badge>
+### 🅼 refresh() <Badge type="tip">item</Badge>
 
 - **Description**: Forces the data grid to reload. This is useful, for example, after a submission with "apps as a
   service" has been triggered and the content in the data grid is stale.
@@ -93,7 +93,7 @@ srv.connectEvent("onCallFinished", function (success) {
 });
 ```
 
-### selectFirstRow() <Badge type="tip">item</Badge>
+### 🅼 selectFirstRow() <Badge type="tip">item</Badge>
 
 - **Description**: Selects the first row in the data grid.
 
@@ -108,7 +108,7 @@ srv.connectEvent("onCallFinished", function (success) {
 appPage.F_DataGrid1.setColumnHeader("createdBy", "Créé par");
 ```
 
-### setColumnVisible(columnId, boolVal) <Badge type="tip">item</Badge>
+### 🅼setColumnVisible(columnId, boolVal) <Badge type="tip">item</Badge>
 
 - **Description**: Controls the visibility of the column identified by `columnId`. If `boolVal` is true, the column is
   shown. If `boolVal` is false, the column is hidden.
@@ -121,11 +121,11 @@ var isAdmin = app.getCurrentUserRoles().contains("Administrator");
 item.setColumnVisible("F_AdminOnly1", isAdmin);
 ```
 
-### resetFilters() <Badge type="tip">item</Badge>
+###  🅼resetFilters() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the filters to what was specified in the data grid configuration.
 
-### setFilters([filter], filterOp) <Badge type="tip">item</Badge>
+### 🅼 setFilters([filter], filterOp) <Badge type="tip">item</Badge>
 
 - **Description**: Set filters for the data grid. This will override any filters specified in the data grid
   configuration. `[filter]` is an array of filter objects. `filterOp` is either "and" or "or" and is required if there
@@ -173,7 +173,7 @@ Note: The field id does not have to be displayed in the data grid.
 
 # Data Grid Events
 
-### onDataChange
+### 🅴 onDataChange
 
 **Event Name:** `onDataChange`
 
@@ -188,7 +188,7 @@ and using the `refresh()` JavaScript method.
 appPage.F_DataGrid1.selectFirstRow();
 ```
 
-### onRowSelect
+### 🅴 onRowSelect
 
 **Event Name:** `onRowSelect`
 
@@ -212,7 +212,7 @@ if (rowData) {
 }
 ```
 
-### onRowDeselect
+### 🅴 onRowDeselect
 
 **Event Name:** `onRowDeselect`
 

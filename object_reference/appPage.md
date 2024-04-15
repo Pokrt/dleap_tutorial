@@ -4,7 +4,7 @@ App Page object represents an App Page in the application.
 
 ## App Page Object Methods
 
-### appPage.\<itemId\>
+### 🅼 appPage.\<itemId\>
 
 **Description:** Provides convenient direct access to all items on the page, including those inside Sections and Tab
 Folders.
@@ -15,7 +15,7 @@ Folders.
 appPage.F_NextButton.setVisible(false);
 ```
 
-### appPage.addClasses(classes)
+### 🅼 appPage.addClasses(classes)
 
 **Parameters:** `classes` - A single class name, multiple class names separated by spaces, or an Array of class names.
 
@@ -28,7 +28,7 @@ are invalid CSS class names, then no classes are added, and `false` is returned.
 appPage.addClasses("emphasized error");
 ```
 
-### appPage.connectEvent(eventName, callbackFunction)
+### 🅼 appPage.connectEvent(eventName, callbackFunction)
 
 **Parameters:**
 
@@ -49,7 +49,7 @@ var eventHdl = appPage.connectEvent("<some event>", function (pSuccess, pErrorOb
 });
 ```
 
-### appPage.disconnectEvent(eventHandle)
+### 🅼 appPage.disconnectEvent(eventHandle)
 
 **Parameters:** `eventHandle` - The event handle object returned by a previous `appPage.connectEvent` call.
 
@@ -67,7 +67,7 @@ var eventHdl = appPage.connectEvent("<some event>", function (pSuccess, pErrorOb
 });
 ```
 
-### appPage.getChildren()
+### 🅼 appPage.getChildren()
 
 **Description:** Returns a list object that provides access to all direct children items of this page. Items within a
 Section on the page are not included in the list, but the Section itself is. The list object includes `getLength()`
@@ -84,17 +84,17 @@ for (var i = 0; i < list.getLength(); i++) {
 }
 ```
 
-### appPage.getClasses()
+### 🅼 appPage.getClasses()
 
 **Description:** Returns an array of custom class names currently applied to the page.
 
 
-### appPage.getId()
+### 🅼 appPage.getId()
 
 **Description:** Returns the unique ID, within the application, of this page, such as "P_App_Page1".
 
 
-### appPage.getServiceConfigurationIds()
+### 🅼 appPage.getServiceConfigurationIds()
 
 **Parameters:** None.
 
@@ -108,7 +108,7 @@ services programmatically.
 var serviceConfigs = appPage.getServiceConfigurationIds();
 ```
 
-### appPage.getServiceConfiguration(serviceId)
+### 🅼 appPage.getServiceConfiguration(serviceId)
 
 **Parameters:**
 
@@ -124,12 +124,12 @@ var service = appPage.getServiceConfiguration('SC_ServiceConfig');
 service.callService();
 ```
 
-### appPage.getType()
+### 🅼 appPage.getType()
 
 **Description:** Returns a string identifying the object type, which is "page" for page objects.
 
 
-### appPage.removeClasses(classes)
+### 🅼 appPage.removeClasses(classes)
 
 **Description:** Removes a list of custom class names from the page. The `classes` parameter can be a single class name,
 multiple class names separated by spaces, or an array of class names.
@@ -143,7 +143,7 @@ page.removeClasses("emphasized");
 ## Object available in the App Page event context
 Here's your text reformatted into the desired structure:
 
-### Application object (GUI type)
+### 🅾 Application object (GUI type)
 
 - **Variable**: `app`
 - **Description**: Contains functions for accessing global general information.
@@ -153,7 +153,7 @@ Here's your text reformatted into the desired structure:
 app.isSingleFormView();
 ```
 
-### App Page object (GUI type)
+### 🅾 App Page object (GUI type)
 
 - **Variable**: `appPage`
 - **Description**: For accessing the items on the page.
@@ -166,14 +166,14 @@ appPage.getChildren();
 ## App Page Events
 Based on your request, here's how your text would look formatted in the desired output style:
 
-### onShow
+### 🅴 onShow
 
 **Event Name:** `onShow`
 
 **Description:** Called after the app page is shown.
 
 
-### onHide
+### 🅴 onHide
 
 **Event Name:** `onHide`
 

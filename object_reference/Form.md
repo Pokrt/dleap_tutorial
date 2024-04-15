@@ -2,11 +2,9 @@
 The Form object represents the visual structure of your form. There is one object per each form, but your javascript code can work with current form only.
 
 
-<TableOfContents />
-
 ## Methods
 
-### form.addClasses(classes)
+### 🅼 form.addClasses(classes)
 
 **Parameters:**
 
@@ -22,7 +20,7 @@ is useful for applying styling conditions dynamically based on the form's state 
 form.addClasses("emphasized error");
 ```
 
-### form.backwardPage()
+### 🅼 form.backwardPage()
 
 **Parameters:** None.
 
@@ -37,7 +35,7 @@ within multi-page forms.
 form.backwardPage();
 ```
 
-### form.connectEvent(eventName, callbackFunction)
+### 🅼 form.connectEvent(eventName, callbackFunction)
 
 **Parameters:**
 
@@ -59,7 +57,7 @@ var hndl = form.connectEvent('onLoad', function () {
 });
 ```
 
-### form.disconnectEvent(eventHandle)
+### 🅼 form.disconnectEvent(eventHandle)
 
 **Parameters:**
 
@@ -78,7 +76,7 @@ the disconnectEvent method.
 form.disconnectEvent(hndl);
 ```
 
-### form.forwardPage()
+### 🅼 form.forwardPage()
 
 **Parameters:** None.
 
@@ -93,7 +91,7 @@ process.
 form.forwardPage();
 ```
 
-### form.getApp()
+### 🅼 form.getApp()
 
 **Parameters:** None.
 
@@ -107,7 +105,7 @@ since the `app` variable is usually directly accessible within the form's scope.
 var appObject = form.getApp();
 ```
 
-### form.getBO()
+### 🅼 form.getBO()
 
 **Parameters:** None.
 
@@ -122,7 +120,7 @@ var formBO = myForm.getBO();
 formBO.F_SingleLine.setValue('setting the value using code!');
 ```
 
-### form.getClasses()
+### 🅼 form.getClasses()
 
 **Parameters:** None.
 
@@ -135,7 +133,7 @@ debugging purposes or dynamically adjusting the form's styling.
 var currentClasses = form.getClasses();
 ```
 
-### form.getCurrentPage()
+### 🅼 form.getCurrentPage()
 
 **Parameters:** None.
 
@@ -151,7 +149,7 @@ if (pageShown === 'F_Page1') {
 }
 ```
 
-### form.getId()
+### 🅼 form.getId()
 
 **Parameters:** None.
 
@@ -164,7 +162,7 @@ for referencing the form programmatically in scripts.
 var formId = form.getId();
 ```
 
-### form.getPageIds()
+### 🅼 form.getPageIds()
 
 **Parameters:** None.
 
@@ -177,7 +175,7 @@ need to iterate over or manipulate multiple pages in a form programmatically.
 var pageIds = form.getPageIds();
 ```
 
-### form.getPage(pageId)
+### 🅼 form.getPage(pageId)
 
 **Parameters:**
 
@@ -199,7 +197,7 @@ if (thePage !== null) {
 Remember to check if the page exists by comparing `thePage` to `null` before attempting to use it.
 :::
 
-### form.getServiceConfigurationIds()
+### 🅼 form.getServiceConfigurationIds()
 
 **Parameters:** None.
 
@@ -212,7 +210,7 @@ for debugging or when you need to programmatically interact with one or more ser
 var serviceConfigs = form.getServiceConfigurationIds();
 ```
 
-### form.getServiceConfiguration(serviceId)
+### 🅼 form.getServiceConfiguration(serviceId)
 
 **Parameters:**
 
@@ -228,7 +226,7 @@ var service = form.getServiceConfiguration('SC_ServiceConfig');
 service.callService();
 ```
 
-### form.getStageActions()
+### 🅼 form.getStageActions()
 
 **Parameters:** None.
 
@@ -247,7 +245,7 @@ for (var i = 0; i < actions.length; i++) {
 }
 ```
 
-### form.getType()
+### 🅼 form.getType()
 
 **Parameters:** None.
 
@@ -260,7 +258,7 @@ indicating that the object is a form.
 var formType = form.getType();
 ```
 
-### form.removeClasses(classes)
+### 🅼 form.removeClasses(classes)
 
 **Parameters:**
 
@@ -276,7 +274,7 @@ styling.
 form.removeClasses("emphasized");
 ```
 
-### form.removePageFromNavigation(pageId)
+### 🅼 form.removePageFromNavigation(pageId)
 
 **Parameters:**
 
@@ -294,7 +292,7 @@ if (BO.F_Check.getValue()) {
 ```
 
 
-### form.restorePageNavigation(pageId)
+### 🅼 form.restorePageNavigation(pageId)
 
 **Parameters:**
 
@@ -312,7 +310,7 @@ if (!BO.F_Check.getValue()) {
 ```
 
 
-### form.selectPage(pageId)
+### 🅼 form.selectPage(pageId)
 
 **Parameters:**
 
@@ -335,7 +333,7 @@ if (thePage !== null) {
 Always check that the page exists (i.e., `thePage !== null`) before attempting to navigate to it to avoid errors.
 :::
 
-### `form.sendData(data)
+### 🅼 form.sendData(data)
 
 **Parameters:**
 
@@ -355,19 +353,19 @@ form.sendData(BO.F_ServerURL.getValue() + "/apps/secure/org/app/b5806ef1-b784-4c
 
 ## Objects Available in Form Event Call
 
-### Application object (GUI type)
+### 🅾 Application object (GUI type)
 
 - Variable: `app`
 - Description: Contains functions for accessing global general information
 - Example: `app.isSingleFormView();`
 
-### Form object (GUI type)
+### 🅾 Form object (GUI type)
 
 - Variable: `form`
 - Description: For accessing the pages and controlling page navigation
 - Example: `form.getPage('P_Page1');`
 
-### Business Object object (DATA type)
+### 🅾 Business Object object (DATA type)
 
 - Variable: `BO`
 - Description: Top level data object for the form.
@@ -377,7 +375,7 @@ form.sendData(BO.F_ServerURL.getValue() + "/apps/secure/org/app/b5806ef1-b784-4c
 
 ---
 
-### afterSave
+### 🅴 afterSave
 
 **Event Name:** `afterSave`
 
@@ -397,7 +395,7 @@ perform actions like displaying confirmation messages or cleaning up resources.
 
 ---
 
-### beforeSave
+### 🅴 beforeSave
 
 **Event Name:** `beforeSave`
 
@@ -416,7 +414,7 @@ intended.
 
 ---
 
-### onDataReceived
+### 🅴 onDataReceived
 
 **Event Name:** `onDataReceived`
 
@@ -433,7 +431,7 @@ receives data from another portlet. The received data can be used to update the 
 
 ---
 
-### onLoad
+### 🅴 onLoad
 
 **Event Name:** `onLoad`
 
@@ -452,7 +450,7 @@ event for initializing form data and setting up the form based on the loaded dat
 
 ---
 
-### onNew
+### 🅴 onNew
 
 **Event Name:** `onNew`
 
@@ -471,7 +469,7 @@ setup tasks.
 
 ---
 
-### validateButtonPressed
+### 🅴 validateButtonPressed
 
 **Event Name:** `validateButtonPressed`
 
