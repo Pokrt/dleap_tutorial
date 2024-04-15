@@ -1,5 +1,5 @@
 # Currency
-
+Currency object rerpesents a Currency input item on a Page or an AppPage.
 
 <!--@include: ./common/no-methods.md -->
 

@@ -1,4 +1,5 @@
 # Dropdown
+Dropdown object represents a Dropdown input item on a Page or an AppPage.
 
 
 ## Item-Specific Methods

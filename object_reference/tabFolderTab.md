@@ -1,4 +1,5 @@
-# Folder Tab
+#  &#127358; Folder Tab
+Folder Tab object represents one section of Tab Folder on a Page or an AppPage.
 
 
 <!--@include: ./common/no-methods.md -->

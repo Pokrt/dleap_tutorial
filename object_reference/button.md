@@ -1,5 +1,5 @@
 # Button
-
+Button object represents a Button action item on a Page or an AppPage.
 
 ## Item-specific methods
 

@@ -1,4 +1,5 @@
 # Rich Text
+Rich Text object represents a Rich Text input item on a Page or an AppPage.
 
 <!--@include: ./common/no-methods.md -->
 

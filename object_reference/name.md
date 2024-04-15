@@ -1,4 +1,5 @@
 # Name Picker
+Name Picker object represents a Name Picker input item on a Page or an AppPage.
 
 <!--@include: ./common/no-methods.md -->
 

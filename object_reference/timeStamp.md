@@ -1,4 +1,5 @@
 # Timestamp
+Timestamp object represents a Timestamp input item on a Page or an AppPage.
 
 
 <!--@include: ./common/no-methods.md -->

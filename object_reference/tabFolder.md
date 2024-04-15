@@ -1,4 +1,5 @@
 # Tabbed folder
+Tabbed folder object represents Tabs on a Page or an AppPage.
 ## Methods
 
 ### getSelectionIndex() <Badge type="tip">item</Badge>

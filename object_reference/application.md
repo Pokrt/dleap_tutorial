@@ -1,7 +1,5 @@
 # Application Object
-The Application object represents your running application. Read more
-
-[//]: # (todo link)
+The Application object represents your running application. 
 
 ## Methods
 

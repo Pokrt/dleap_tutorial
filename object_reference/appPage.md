@@ -1,4 +1,6 @@
 # App Page
+App Page object represents an App Page in the application.
+
 
 ## App Page Object Methods
 

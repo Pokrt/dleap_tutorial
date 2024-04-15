@@ -1,5 +1,5 @@
 # HTML Fragment
-
+HTML Fragment object represents an HTML Fragment display item on a Page or an AppPage.
 
 ## Item-Specific Methods
 

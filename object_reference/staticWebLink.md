@@ -1,4 +1,5 @@
 # Web Link
+Web Link object represents a Web Link item on a Page or an AppPage.
 
 
 ## Item-Specific Methods

@@ -1,4 +1,5 @@
 # Password
+Password object represents a Password input item on a Page or an AppPage.
 
 <!--@include: ./common/no-methods.md -->
 

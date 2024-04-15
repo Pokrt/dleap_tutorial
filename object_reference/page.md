@@ -1,5 +1,7 @@
 # Page
 
+Page represents one page of a form.
+
 ## Page Object Methods
 
 ### page.\<itemId\>

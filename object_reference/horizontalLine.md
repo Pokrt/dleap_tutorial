@@ -1,4 +1,5 @@
 # Line
+Line object represents a Line display item on a Page or an AppPage.
 
 
 <!--@include: ./common/no-methods.md -->

@@ -1,4 +1,5 @@
 # Page Navigation
+Page Navigation object represents a Page Navigation action item on a Page or an AppPage.
 
 <!--@include: ./common/no-methods.md -->
 

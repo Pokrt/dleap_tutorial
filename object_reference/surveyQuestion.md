@@ -1,5 +1,5 @@
 # Survey Question
-
+Survey Question object represents a question in a survey form on a Page or an AppPage.
 
 <!--@include: ./common/no-methods.md -->
 

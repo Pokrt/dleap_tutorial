@@ -1,5 +1,5 @@
 # Check Box
-
+Checkbox object represents a checkbox input item on a Page or an AppPage.
 
 <!--@include: ./common/no-methods.md -->
 

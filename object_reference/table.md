@@ -1,4 +1,5 @@
 # Table
+The Table object represents a collection of items in a tabular format on a Page or an AppPage.
 
 ##  Methods
 

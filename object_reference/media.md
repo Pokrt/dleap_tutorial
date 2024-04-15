@@ -1,5 +1,5 @@
 # Media
-
+Media object represents a Media display item on a Page or an AppPage.
 <!--@include: ./common/no-methods.md -->
 
 <!--@include: ./common/functions.md -->

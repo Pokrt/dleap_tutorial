@@ -1,4 +1,5 @@
 # Time
+Time object represents a Time input item on a Page or an AppPage.
 
 
 <!--@include: ./common/no-methods.md -->

@@ -1,4 +1,5 @@
 # Number
+Number represents a Number input item on a Page or an AppPage.
 
 <!--@include: ./common/no-methods.md -->
 

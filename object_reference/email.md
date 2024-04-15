@@ -1,4 +1,6 @@
 # Email Address
+Email Address object represents an Email Address input item on a Page or an AppPage.
+
 
 <!--@include: ./common/no-methods.md -->
 

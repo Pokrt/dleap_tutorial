@@ -1,5 +1,5 @@
 # Single Line
-
+Single line object represents a single line input item on a Page or an AppPage.
 
 <!--@include: ./common/no-methods.md -->
 
