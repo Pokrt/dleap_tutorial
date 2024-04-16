@@ -1,4 +1,5 @@
 # Item visibility in certain stages
+A common technique in form development is to create rules that hide certain items according to value of some other item. Second, you may need to hide certain parts of your form depending on its stage. 
 
 ## Overview
 
@@ -6,39 +7,12 @@ The visibility of a page item can be controlled by the stage in which it is disp
 creating dynamic forms that change based on the stage of the process. This can be used in combinations with different
 roles. For example, a form may have a visible set of questions for the "New" stage than for the "Approved" stage.
 
-## Setting visibility by stage for Page Items
 
-You can hide different page objects like text fields, etc. This is useful when you want to hide a part of the form in a
-certain stage.
+## Rule-based visibility
 
-::: tip Exercise
-Try to change the visibility of the text field in stage "Submitted".
-:::
-
-::: details Step-by-Step Solution
-
-1\. Go to workflow tab
-
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-25/b4ffb2c4-c790-45c1-93d1-c978b0590ec6/ascreenshot.jpeg?tl_px=0,0&br_px=1075,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=-2,176)
-
-2\. Click "Visibility"
-
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-25/18f522f1-59df-4685-840a-115cb7889fbc/ascreenshot.jpeg?tl_px=828,0&br_px=1903,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,2)
-
-3\. Click stage for which you want to change visibility.
-
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-25/df4da5d6-fca2-4744-9a87-f35e247595c6/ascreenshot.jpeg?tl_px=0,0&br_px=1075,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=147,132)
-
-4\. Click "eye symbol" to hide
-
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-25/e08bd126-ea2c-4e6b-9c9b-101519d67336/user_cropped_screenshot.jpeg?tl_px=117,0&br_px=1494,531&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=853,139)
-
-:::
-
-## Setting visibility by form value
-
-You can set up a visibility based on a form value. This is useful when you want to hide a part of the form based on the
+You can configure item visibility based on a form value. This is useful when you want to hide a part of the form based on the
 value of a form field.
+
 ::: tip Task
 Hide a section if the value of the field is less than 3000$.
 :::
@@ -134,5 +108,37 @@ want to show a section if there is a value equal or greater than 3000$.
 24\. When you click outside the box, the section becomes hidden.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-25/2eae6d64-462b-40d3-a33f-e6f9c18970d8/ascreenshot.jpeg?tl_px=502,0&br_px=1577,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,251)
+
+:::
+
+
+---
+
+## Stage-based visibility
+
+You can hide different page objects (like text fields, etc.) or even whole pages. This is useful when you want to hide a part of the form in a
+certain stage.
+
+::: tip Exercise
+Try to change the visibility of the text field in stage "Submitted".
+:::
+
+::: details Step-by-Step Solution
+
+1\. Go to workflow tab
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-25/b4ffb2c4-c790-45c1-93d1-c978b0590ec6/ascreenshot.jpeg?tl_px=0,0&br_px=1075,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=-2,176)
+
+2\. Click "Visibility"
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-25/18f522f1-59df-4685-840a-115cb7889fbc/ascreenshot.jpeg?tl_px=828,0&br_px=1903,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,2)
+
+3\. Click stage for which you want to change visibility.
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-25/df4da5d6-fca2-4744-9a87-f35e247595c6/ascreenshot.jpeg?tl_px=0,0&br_px=1075,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=147,132)
+
+4\. Click "eye symbol" to hide
+
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-25/e08bd126-ea2c-4e6b-9c9b-101519d67336/user_cropped_screenshot.jpeg?tl_px=117,0&br_px=1494,531&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=853,139)
 
 :::
