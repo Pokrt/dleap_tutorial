@@ -14,6 +14,16 @@ Start by creating the following form in the app.
 
 ::: details Step-by-Step solution
 
+examples todo  - set items visible 
+todo make item required 
+make item not valid 
+display number of characters 
+show warning alert 
+set & get item value
+set item content
+set help text,  
+set hint text, 
+tśet hover text
 
 1\. Click here to show item detail.
 

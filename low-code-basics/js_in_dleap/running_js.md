@@ -48,6 +48,11 @@ application.
 
 :::
 
+todo - do sth when item value is modified - on item change
+todo - do sth when page is shown 
+todo - do sth on app start - initialize constanty v globálních datech
+
+
 ## Asynchronous Operations
 
 Because HCL Domino Leap is built using JavaScript, which is asynchronous by nature, you need to understand how to
