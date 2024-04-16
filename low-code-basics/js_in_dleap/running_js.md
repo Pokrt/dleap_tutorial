@@ -2,7 +2,7 @@
 
 Most objects in Domino Leap have various events asosieated with them. Most often events are used within item scope but there are events also on pages, forms and the application. Item are easily accesible in Editor.
 
-todo přidat side panel
+![img_3.png](img_3.png)
 
 ![img_2.png](img_2.png)
 
