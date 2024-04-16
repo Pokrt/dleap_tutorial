@@ -21,6 +21,9 @@ display number of characters
 show warning alert 
 set & get item value
 set item content
+set help text,  
+set hint text, 
+tśet hover text
 
 1\. Click here to show item detail.
 
