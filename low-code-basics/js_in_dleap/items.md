@@ -19,6 +19,8 @@ todo make item required
 make item not valid 
 display number of characters 
 show warning alert 
+set & get item value
+set item content
 
 1\. Click here to show item detail.
 
