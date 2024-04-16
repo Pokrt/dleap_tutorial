@@ -99,12 +99,12 @@ export default defineConfig({
                             {text: 'Interface and data objects',link: 'low-code-basics/js_in_dleap/objects'},
                             {text: 'Events',link: 'low-code-basics/js_in_dleap/running_js',},
 
-                            {text: 'Working with items',link: 'low-code-basics/js_in_dleap/items.md',},
-                            {text: 'Item-specific examples',link: 'low-code-basics/js_in_dleap/todo',},
-                            {text: 'Working with Buttons',link: 'low-code-basics/js_in_dleap/todo',},
-                            {text: 'Working with Pages',link: 'low-code-basics/js_in_dleap/todo',},
-                            {text: 'Submitting Forms',link: 'low-code-basics/js_in_dleap/todo',},
-                            {text: 'Show&hide items',link: 'low-code-basics/js_in_dleap/todo',},
+                            {text: 'Working with items',link: 'low-code-basics/js_in_dleap/items',},
+                            {text: 'Item-specific examples',link: 'low-code-basics/js_in_dleap/item_specific_examples',},
+                            {text: 'Working with Buttons',link: 'low-code-basics/js_in_dleap/buttons',},
+                            {text: 'Working with Pages',link: 'low-code-basics/js_in_dleap/pages.md',},
+                            {text: 'Submitting Forms',link: 'low-code-basics/js_in_dleap/forms',},
+                            {text: 'Show&hide items',link: 'low-code-basics/js_in_dleap/show-hide',},
 
                             {text: 'External JS files', link: 'low-code-basics/js_in_dleap/external_js'},
                             {text: 'JavaScript security', link: 'low-code-basics/js_in_dleap/security'},
