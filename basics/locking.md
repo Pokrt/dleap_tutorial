@@ -1,11 +1,11 @@
-# Locking form objects or whole pages
+# Locking form items and pages
 
 In HCL Domino Leap you can lock form objects or whole pages making them **read only**. This can be done to prevent users
 from editing certain
 parts of the form or whole form pages. This can be useful in situations where you want to prevent users from editing
 certain parts in certain stages of the form.
 
-## Locking form objects
+## Item locking
 
 ::: tip Exercise
 Lock the item of your choice in the stage you choose.
@@ -32,7 +32,7 @@ Lock the item of your choice in the stage you choose.
 5\. You made read only the currency item in "Submitted" stage
 
 :::
-## Locking the whole page
+## Page locking
 
 ::: tip Task
 Lock the whole page in the stage you choose.
