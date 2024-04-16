@@ -59,3 +59,4 @@ What are we trying to achieve.
 When you get lost, you can follow this step-by-step solution.
 :::
 
+We adivice you to try to solve the exercize by yourself. If you get lost, then feel free to check Step-by-Step solutio.
