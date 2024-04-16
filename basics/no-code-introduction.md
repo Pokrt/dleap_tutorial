@@ -17,18 +17,19 @@ of a Domino Leap app and how to create apps in domino leap. Next, we will cover 
 12. Service Integration (Optional)
 13. Test Data Submission
 
-## App Default Settings
-By default, the app has the following settings:
+## Default Structure of Domino Leap application
+By default, when you start your application design from scratch, Domino Leap generates a basic structure of one form, one page, two stages and three roles:
 
-**One Page**
+
+**Pages**
 ![img.png](img.png)
 
 
-**Two Stages** — Submitted and start
+**Stages** — Submitted and start
 ![img_1.png](img_1.png)
 
 
-**Three Roles**
+**Roles**
   - **Administrator** - Developer who created the app
   - **Initiator** - User who starts the app - form. By default, initiator can be any authenticated user.
   - **Record Owner** - User who submitted the app - form. By default, a record owner is the initiator.
