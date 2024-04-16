@@ -4,7 +4,7 @@ Most objects in Domino Leap have various events asosieated with them. Most often
 
 todo přidat side panel
 
-TODO obrázek eventů - přehledová stránka všech
+![img_2.png](img_2.png)
 
 ## JavaScript Triggered In Events
 

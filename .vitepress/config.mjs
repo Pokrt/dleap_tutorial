@@ -50,6 +50,8 @@ export default defineConfig({
                     {text: 'Introduction', link: '/basics/no-code-introduction'},
                     {text: 'MVC model', link: '/intermediate/mvc'},
                     {text: 'Anatomy of Application', link: '/intermediate/business_object'},
+                    {text: 'Input items', link: '/intermediate/input_items'},
+                    {text: 'Display items', link: '/intermediate/display_items'},
 
                     {text: 'Application Roles', link: '/basics/roles'},
                     {text: 'User Permissions', link: '/basics/permissions'},
@@ -59,8 +61,6 @@ export default defineConfig({
                     {text: 'Item Locking', link: '/basics/locking'},
 
 
-                    {text: 'Input items', link: '/intermediate/input_items'},
-                    {text: 'Display items', link: '/intermediate/display_items'},
                     {text: 'Navigation', link: '/intermediate/navigation'},
                     {text: 'Multi-page Forms', link: '/intermediate/multi_page_forms'},
                     {text: 'Formulas', link: '/intermediate/formulas'},
