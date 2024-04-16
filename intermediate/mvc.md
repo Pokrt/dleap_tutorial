@@ -20,10 +20,14 @@ In HCL Domino Leap, the MVC pattern is implemented as follows:
   The Model is represented by the [Business Object](/intermediate/business_object), which encapsulates the data and
 behavior of a business entity.
 
+todo ukázka itemů + properties (některé - min max)
+
 - **View**
 
   The View is represented by the form and app pages, which are used to display the user interface and interact with the
 user.
+
+todo Pages, Display item a část properties jako jevilkost zobrazení
 
 -  **Controller**
 
