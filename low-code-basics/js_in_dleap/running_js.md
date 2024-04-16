@@ -1,9 +1,16 @@
 # Running JavaScript in HCL Domino Leap
 
+Most objects in Domino Leap have various events asosieated with them. Most often events are used within item scope but there are events also on pages, forms and the application. Item are easily accesible in Editor.
+
+todo přidat side panel
+
+TODO obrázek eventů - přehledová stránka všech
+
 ## JavaScript Triggered In Events
 
-In HCL Domino Leap you can create custom events that are triggered by user interactions or other events in the
-application. These events can be used to execute custom JavaScript code.
+In HCL Domino Leap you can create custom code that is triggered by user interactions or other events in the
+application. 
+
 
 ::: details Create an Event - Step-by-Step Guide
 
