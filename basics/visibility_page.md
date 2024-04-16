@@ -6,8 +6,7 @@ The visibility of a page can be controlled by the stage in which it is displayed
 creating dynamic forms that change based on the stage of the process. This can be used in combinations with different
 roles. For example, a form may have a visible set of pages for the "New" stage than for the "Approved" stage.
 
-## Setting visibility by stage for a page
-
+## Stage-based visibility
 Sometimes you may want to change the visibility of the whole page in certain stage.
 
 ::: tip Exercise
