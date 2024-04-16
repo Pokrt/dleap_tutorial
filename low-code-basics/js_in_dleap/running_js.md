@@ -1,14 +1,15 @@
 # Running JavaScript in HCL Domino Leap
 
-Most objects in Domino Leap have various events asosieated with them. Most often events are used within item scope but there are events also on pages, forms and the application. Item are easily accesible in Editor.
+Most objects in Domino Leap have various events asosieated with them. Most often events are used within item scope but there are events also on pages, forms and the application. Items are easily accessible in the Editor.
 
+On the following image you can see that Product name input field has `onItemChange` event associated with it.
 ![img_3.png](img_3.png)
 
 ![img_2.png](img_2.png)
 
 ## JavaScript Triggered In Events
 
-In HCL Domino Leap you can create custom code that is triggered by user interactions or other events in the
+In HCL Domino Leap, you can create custom code triggered by user interactions or other events in the
 application. 
 
 
@@ -49,8 +50,31 @@ application.
 :::
 
 todo - do sth when item value is modified - on item change
-todo - do sth when page is shown 
+### Triggering Event on an item change
+You already know how to create an event. Now, let's see how to trigger an event when an item value is modified. To do that, you need to assign the `onItemChange` event. Here is an example of code witch add console log message when item value is changed:
+
+
+```javascript
+// debug value in browser console
+console.log("Item value changed" + item.getValue()); 
+
+// copy value into another item
+F_ProductName.setValue(item.getValue());
+
+
+```
+
+### Triggering Event on a page state change
+todo - do sth when page is shown
+```javascript
+//schování temu když je stránka zobrazena
+```javascript
+// hide item when page is shown
+F_ProductName.hide();
+```
+todo - do sth when page is shown
 todo - do sth on app start - initialize constanty v globálních datech
+
 
 
 ## Asynchronous Operations
