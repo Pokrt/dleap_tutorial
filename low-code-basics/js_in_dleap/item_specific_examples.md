@@ -30,10 +30,6 @@ let options = item.getOptions();
 // Retrieves an array of options for survey questions, each with a value and display property.
 ```
 
-
-
-
-
 ### Dropdown
 Suppose you have a dropdown item and you want to set values to it:
 ```javascript
