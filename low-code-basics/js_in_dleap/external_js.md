@@ -47,7 +47,3 @@ application. Here's how to create a custom function:
 - **Security Disabled**: Without JavaScript security, external files load through a `<script>` tag, and you must
   use `window.NitroApplication` for accessing Domino Leap API functions. Uploaded files use `eval()` for evaluation. If
   you want to learn more about disabling security, refer to page [JavaScript Security](/low-code-basics/js_in_dleap/security). 
-
-::: warning todo
-zjistit security disabled a jak se `window.NitroApplication` používá a k čemu je eval() funkce
-:::
