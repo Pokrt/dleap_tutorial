@@ -1,4 +1,4 @@
-# Stage Action Button Object
+# Action Button
 
 Represents an action button that is retrieved by calling `form.getStageActions()`.
 
