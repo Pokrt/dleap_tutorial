@@ -49,32 +49,45 @@ application.
 
 :::
 
-todo - do sth when item value is modified - on item change
 ### Triggering Event on an item change
 You already know how to create an event. Now, let's see how to trigger an event when an item value is modified. To do that, you need to assign the `onItemChange` event. Here is an example of code witch add console log message when item value is changed:
 
 
 ```javascript
 // debug value in browser console
-console.log("Item value changed" + item.getValue()); 
+console.log("Item value changed " + item.getValue()); 
 
 // copy value into another item
-F_ProductName.setValue(item.getValue());
+page.F_ProductName.setValue(item.getValue());
 
 
 ```
 
-### Triggering Event on a page state change
-todo - do sth when page is shown
-```javascript
-//schování temu když je stránka zobrazena
+### Triggering Event in `onShow` page event
+Attach an `onShow` event to a page with the following JavaScript to hide an item when the page is shown.
 ```javascript
 // hide item when page is shown
-F_ProductName.hide();
+page.F_ProductName.setVisible(false);
 ```
-todo - do sth when page is shown
+
+### Triggering Event in `onLoad` form event
+Attach an `onLoad` event to a form with the following JavaScript to hide an item when the form is loaded. We can populate the form with some default data.
+```javascript
+    BO.F_Date.setValue(new Date());
+```
 todo - do sth on app start - initialize constanty v globálních datech
 
+### Initializing Constants in Application
+You can initialize constants in the application by using the `onStart` event. You can assign `onStart` event in Events page. Here is an example of how to initialize a constant in the application:
+```javascript
+app.getSharedData().messageBox = function (message) {
+    alert("Warning: " + message);
+};
+```
+Calling the function `messageBox` from the `onItemChange` event:
+```javascript
+app.getSharedData().messageBox("Item value changed");
+```
 
 
 ## Asynchronous Operations
