@@ -97,7 +97,7 @@ srv.connectEvent("onCallFinished", function (success) {
 
 - **Description**: Selects the first row in the data grid.
 
-### setColumnHeader(columnId, pHeaderValue) <Badge type="tip">item</Badge>
+### 🅼 setColumnHeader(columnId, pHeaderValue) <Badge type="tip">item</Badge>
 
 - **Description**: Sets the header identified by `columnId`, to the value provided in `pHeaderValue`.
 
@@ -108,7 +108,7 @@ srv.connectEvent("onCallFinished", function (success) {
 appPage.F_DataGrid1.setColumnHeader("createdBy", "Créé par");
 ```
 
-### 🅼setColumnVisible(columnId, boolVal) <Badge type="tip">item</Badge>
+### 🅼 setColumnVisible(columnId, boolVal) <Badge type="tip">item</Badge>
 
 - **Description**: Controls the visibility of the column identified by `columnId`. If `boolVal` is true, the column is
   shown. If `boolVal` is false, the column is hidden.
@@ -121,7 +121,7 @@ var isAdmin = app.getCurrentUserRoles().contains("Administrator");
 item.setColumnVisible("F_AdminOnly1", isAdmin);
 ```
 
-###  🅼resetFilters() <Badge type="tip">item</Badge>
+###  🅼 resetFilters() <Badge type="tip">item</Badge>
 
 - **Description**: Returns the filters to what was specified in the data grid configuration.
 
