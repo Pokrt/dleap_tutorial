@@ -27,7 +27,11 @@ todo ukázka itemů + properties (některé - min max)
   The View is represented by the form and app pages, which are used to display the user interface and interact with the
 user.
 
+
 todo Pages, Display item a část properties jako jevilkost zobrazení
+
+Pages, Display items and some properties such as width of can be considered as part of the View.
+![img_36.png](img_36.png)
 
 -  **Controller**
 
