@@ -1,6 +1,6 @@
 # Running JavaScript in HCL Domino Leap
 
-Most objects in Domino Leap have various events asosieated with them. Most often events are used within item scope but there are events also on pages, forms and the application. Items are easily accessible in the Editor.
+Every object in Domino Leap has various Events associated with it. Most often Events are used within scope of an Item but there are events also on Pages, Forms and the Application. Item-scoped Events are easily accessible in the Editor.
 
 On the following image you can see that Product name input field has `onItemChange` event associated with it.
 ![img_3.png](img_3.png)
