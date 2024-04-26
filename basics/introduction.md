@@ -6,7 +6,7 @@ This tutotial is structured into several chapters:
 
 - **Basics**
 
-  Here you can create your first application if you have no prioe experience with Domino Leap. We also explain how
+  Here you can create your first application if you have no prior experience with Domino Leap. We also explain how
   Domino Leap works.
 
 - **No-code Development**
@@ -21,12 +21,12 @@ This tutotial is structured into several chapters:
 
 - **Object Reference**
 
-This chapter provides full reference of Domino Leap obejcts and ther methods and events. Hopefully in much more
-convenient way comparated to the offical product documentation. You can find also many examples here.
+This chapter provides full reference of Domino Leap objects, their methods and events. Hopefully in much more
+convenient way comparated to the official product documentation. You can find also many examples here.
 
 - **Advanced Techniqes**
 
-Here is stuff that did not fit anywhere else. Some more complex examples, design patetrns and solutions to common
+Here is stuff that did not fit anywhere else. Some more complex examples, design patterns and solutions to common
 problems.
 
 ## Working with tutorial and reference
@@ -59,4 +59,4 @@ What are we trying to achieve.
 When you get lost, you can follow this step-by-step solution.
 :::
 
-We adivice you to try to solve the exercize by yourself. If you get lost, then feel free to check Step-by-Step solutio.
+We encourage you to try to solve the exercise yourself. If you get lost, feel free to check out Step-by-Step solution.
