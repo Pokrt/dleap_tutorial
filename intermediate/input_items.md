@@ -14,7 +14,7 @@ Each input item has a set of properties that define its behavior and appearance.
 
 **Format** - You can set the format using regular expressions.
 
-**Custom css classes names** - You can add custom css classes to the input item. Usually you use your classes from your css file.
+**Custom CSS classes names** - You can customize appearance of items using your custom CSS file.
 
 ![img_24.png](img_24.png)
 
