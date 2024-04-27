@@ -246,10 +246,10 @@ export default defineConfig({
             },
 
         ]
-    },
+  
 
     socialLinks: [
         {icon: 'github', link: 'https://github.com/Pokrt/dleap_tutorial'}
     ]
-
+  },
 })
