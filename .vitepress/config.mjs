@@ -17,14 +17,17 @@ export default defineConfig({
         editLink: {
             pattern: 'https://github.com/Pokrt/dleap_tutorial/blob/main/:path'
         },
-         search: {
-             provider: 'local'
+        search: {
+            provider: 'local'
         },
         nav: [
             {text: 'Tutorial', link: '/basics/introduction'},
             {text: 'Reference', link: '/object_reference/overview'},
         ],
 
+        socialLinks: [
+            {icon: 'github', link: 'https://github.com/Pokrt/dleap_tutorial'}
+        ],
         outline: [2, 4],
 
         sidebar: [
@@ -90,21 +93,27 @@ export default defineConfig({
                             {text: 'Branching and loops', link: 'low-code-basics/javascript_fundamentals/branching'},
                             {text: 'Strings', link: 'low-code-basics/javascript_fundamentals/string'},
                             {text: 'Objects', link: 'low-code-basics/javascript_fundamentals/objects'},
-                            {text: 'Object references',link: 'low-code-basics/javascript_fundamentals/object_referencing'},
+                            {
+                                text: 'Object references',
+                                link: 'low-code-basics/javascript_fundamentals/object_referencing'
+                            },
                         ],
                     },
                     {
                         text: 'JavaScript in Domino Leap', link: '/low-code-basics/js_in_dleap/',
                         items: [
-                            {text: 'Interface and data objects',link: 'low-code-basics/js_in_dleap/objects'},
-                            {text: 'Events',link: 'low-code-basics/js_in_dleap/running_js',},
+                            {text: 'Interface and data objects', link: 'low-code-basics/js_in_dleap/objects'},
+                            {text: 'Events', link: 'low-code-basics/js_in_dleap/running_js',},
 
-                            {text: 'Working with items',link: 'low-code-basics/js_in_dleap/items',},
-                            {text: 'Item-specific examples',link: 'low-code-basics/js_in_dleap/item_specific_examples',},
-                            {text: 'Working with Buttons',link: 'low-code-basics/js_in_dleap/buttons',},
-                            {text: 'Working with Pages',link: 'low-code-basics/js_in_dleap/pages.md',},
-                            {text: 'Submitting Forms',link: 'low-code-basics/js_in_dleap/forms',},
-                            {text: 'Show&hide items',link: 'low-code-basics/js_in_dleap/show-hide',},
+                            {text: 'Working with items', link: 'low-code-basics/js_in_dleap/items',},
+                            {
+                                text: 'Item-specific examples',
+                                link: 'low-code-basics/js_in_dleap/item_specific_examples',
+                            },
+                            {text: 'Working with Buttons', link: 'low-code-basics/js_in_dleap/buttons',},
+                            {text: 'Working with Pages', link: 'low-code-basics/js_in_dleap/pages.md',},
+                            {text: 'Submitting Forms', link: 'low-code-basics/js_in_dleap/forms',},
+                            {text: 'Show&hide items', link: 'low-code-basics/js_in_dleap/show-hide',},
 
                             {text: 'External JS files', link: 'low-code-basics/js_in_dleap/external_js'},
                             {text: 'JavaScript security', link: 'low-code-basics/js_in_dleap/security'},
@@ -131,7 +140,7 @@ export default defineConfig({
 
                 items:
                     [
-                                         {text: 'Overview', link: 'object_reference/overview'},
+                        {text: 'Overview', link: 'object_reference/overview'},
 
                         {
                             text: 'Interface Objects', link: 'object_reference/application',
@@ -147,58 +156,65 @@ export default defineConfig({
                                         text: 'Item Objects',
                                         collapsed: true,
                                         items: [
-                                            {text: 'Category: Layout', items: [
-                                                {text: 'Section', link: 'object_reference/section'},
-                                                {text: 'Folder Tab', link: 'object_reference/tabFolderTab'},
+                                            {
+                                                text: 'Category: Layout', items: [
+                                                    {text: 'Section', link: 'object_reference/section'},
+                                                    {text: 'Folder Tab', link: 'object_reference/tabFolderTab'},
                                                     {text: 'Tabbed folder', link: 'object_reference/tabFolder'},
                                                 ]
                                             },
-                                            {text: 'Category: Display', items: [
-                                                {text: 'Data Grid', link: 'object_reference/dataGrid'},
-                                                {text: 'Text', link: 'object_reference/richText'},
-                                                {text: 'Image', link: 'object_reference/image'},
-                                                {text: 'Line', link: 'object_reference/horizontalLine'},
-                                                {text: 'HTML Fragment', link: 'object_reference/htmlArea'},
-                                                {text: 'Media', link: 'object_reference/media'},
+                                            {
+                                                text: 'Category: Display', items: [
+                                                    {text: 'Data Grid', link: 'object_reference/dataGrid'},
+                                                    {text: 'Text', link: 'object_reference/richText'},
+                                                    {text: 'Image', link: 'object_reference/image'},
+                                                    {text: 'Line', link: 'object_reference/horizontalLine'},
+                                                    {text: 'HTML Fragment', link: 'object_reference/htmlArea'},
+                                                    {text: 'Media', link: 'object_reference/media'},
                                                 ]
                                             },
-                                            {text: 'Category: Action', items: [
-                                                {text: 'Button', link: 'object_reference/button'},
-                                                {text: 'Web link', link: 'object_reference/staticWebLink'},
-                                                {text: 'Page Navigation', link: 'object_reference/pageNavigator'},
+                                            {
+                                                text: 'Category: Action', items: [
+                                                    {text: 'Button', link: 'object_reference/button'},
+                                                    {text: 'Web link', link: 'object_reference/staticWebLink'},
+                                                    {text: 'Page Navigation', link: 'object_reference/pageNavigator'},
                                                 ]
                                             },
-                                            {text: 'Category: Entry', items: [
-                                                {text: 'Single Line', link: 'object_reference/text'},
-                                                {text: 'Paragraph Text', link: 'object_reference/textArea'},
-                                                {text: 'Rich text', link: 'object_reference/richTextArea'},
-                                                {text: 'Name Picker', link: 'object_reference/name'},
-                                                {text: 'Email', link: 'object_reference/email'},
-                                                {text: 'Number', link: 'object_reference/number'},
-                                                {text: 'Currency', link: 'object_reference/currency'},
-                                                {text: 'Website', link: 'object_reference/weblink'},
-                                                {text: 'Password', link: 'object_reference/password'},
+                                            {
+                                                text: 'Category: Entry', items: [
+                                                    {text: 'Single Line', link: 'object_reference/text'},
+                                                    {text: 'Paragraph Text', link: 'object_reference/textArea'},
+                                                    {text: 'Rich text', link: 'object_reference/richTextArea'},
+                                                    {text: 'Name Picker', link: 'object_reference/name'},
+                                                    {text: 'Email', link: 'object_reference/email'},
+                                                    {text: 'Number', link: 'object_reference/number'},
+                                                    {text: 'Currency', link: 'object_reference/currency'},
+                                                    {text: 'Website', link: 'object_reference/weblink'},
+                                                    {text: 'Password', link: 'object_reference/password'},
                                                 ]
                                             },
-                                            {text: 'Category: Calendar', items: [
-                                                {text: 'Date', link: 'object_reference/date'},
-                                                {text: 'Time', link: 'object_reference/time'},
-                                                {text: 'Timestamp', link: 'object_reference/timeStamp'},
+                                            {
+                                                text: 'Category: Calendar', items: [
+                                                    {text: 'Date', link: 'object_reference/date'},
+                                                    {text: 'Time', link: 'object_reference/time'},
+                                                    {text: 'Timestamp', link: 'object_reference/timeStamp'},
                                                 ]
                                             },
-                                            {text: 'Category: Selection', items: [
-                                                {text: 'Checkbox', link: 'object_reference/checkbox'},
-                                                {text: 'Dropdown', link: 'object_reference/dropdown'},
-                                                {text: 'Select One', link: 'object_reference/radioGroup'},
-                                                {text: 'Select Many', link: 'object_reference/checkGroup'},
-                                                {text: 'Survey Question', link: 'object_reference/surveyQuestion'},
-                                                {text: 'Number Slider', link: 'object_reference/horizontalSlider'},
-                                                {text: 'Survey', link: 'object_reference/survey'},
+                                            {
+                                                text: 'Category: Selection', items: [
+                                                    {text: 'Checkbox', link: 'object_reference/checkbox'},
+                                                    {text: 'Dropdown', link: 'object_reference/dropdown'},
+                                                    {text: 'Select One', link: 'object_reference/radioGroup'},
+                                                    {text: 'Select Many', link: 'object_reference/checkGroup'},
+                                                    {text: 'Survey Question', link: 'object_reference/surveyQuestion'},
+                                                    {text: 'Number Slider', link: 'object_reference/horizontalSlider'},
+                                                    {text: 'Survey', link: 'object_reference/survey'},
                                                 ]
                                             },
-                                            {text: 'Category: Advanced', items: [
-                                                {text: 'Attachment', link: 'object_reference/Attachment'},
-                                                {text: 'Table', link: 'object_reference/table'},
+                                            {
+                                                text: 'Category: Advanced', items: [
+                                                    {text: 'Attachment', link: 'object_reference/Attachment'},
+                                                    {text: 'Table', link: 'object_reference/table'},
                                                 ]
                                             },
 
@@ -239,17 +255,11 @@ export default defineConfig({
                         {text: 'Working with attachments', link: 'todo'},
                         {text: 'Using Regular Expressions for Item Validation',},
                         {text: "Global Variables and Special Functions", link: "/advanced/glob_var_special_func"},
-                        {text: 'Printing forms',link: 'todo',},
-                        {text: 'Producing QR codes',link: 'todo',},
-                        {text: 'Producing PDF files',link: 'todo',},
+                        {text: 'Printing forms', link: 'todo',},
+                        {text: 'Producing QR codes', link: 'todo',},
+                        {text: 'Producing PDF files', link: 'todo',},
                     ],
             },
-
         ]
-  
-
-    socialLinks: [
-        {icon: 'github', link: 'https://github.com/Pokrt/dleap_tutorial'}
-    ]
-  },
+    },
 })
