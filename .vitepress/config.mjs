@@ -129,7 +129,7 @@ export default defineConfig({
                 ]
             },
             {
-                text: 'IV. Object References',
+                text: 'IV. Object Reference',
                 collapsed: false,
 
                 items:
