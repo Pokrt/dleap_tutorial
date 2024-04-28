@@ -31,12 +31,6 @@ export default defineConfig({
         outline: [2, 4],
 
         sidebar: [
-            // {
-            //     text: 'Examples',
-            //     items: [
-            //         {text: 'Markdown Examples', link: '/markdown-examples'},
-            //         {text: 'Runtime API Examples', link: '/api-examples'},
-            //     ]
             {
                 text: 'I. Domino Leap Basics',
                 collapsed: false,
