@@ -40,15 +40,15 @@ export default defineConfig({
                     {text: 'Where is your Data', link: '/basics/data-storage'},
                 ]
             }, {
-                text: 'II. No-code development',
+                text: 'II. No-code Development',
                 collapsed: false,
 
                 items: [
                     {text: 'Introduction', link: '/basics/no-code-introduction'},
-                    {text: 'MVC model', link: '/intermediate/mvc'},
+                    {text: 'MVC Model', link: '/intermediate/mvc'},
                     {text: 'Anatomy of Application', link: '/intermediate/business_object'},
-                    {text: 'Input items', link: '/intermediate/input_items'},
-                    {text: 'Display items', link: '/intermediate/display_items'},
+                    {text: 'Input Items', link: '/intermediate/input_items'},
+                    {text: 'Display Items', link: '/intermediate/display_items'},
 
                     {text: 'Application Roles', link: '/basics/roles'},
                     {text: 'User Permissions', link: '/basics/permissions'},
@@ -65,14 +65,14 @@ export default defineConfig({
                     {text: 'Visual Appearance', link: '/intermediate/css_styling'},
                     {text: 'Application Pages', link: '/intermediate/app_pages'},
                     {text: 'Tables', link: '/intermediate/tables'},
-                    {text: 'Service calls', link: '/intermediate/services'},
-                    {text: 'Multi-form apps', link: '/intermediate/multi_form_apps'},
-                    {text: 'Current limitations', link: '/intermediate/limitations'},
-                    {text: 'More resources', link: '/intermediate/more-resources'},
+                    {text: 'Service Calls', link: '/intermediate/services'},
+                    {text: 'Multi-form Apps', link: '/intermediate/multi_form_apps'},
+                    {text: 'Current Limitations', link: '/intermediate/limitations'},
+                    {text: 'More Resources', link: '/intermediate/more-resources'},
 
                 ]
             }, {
-                text: 'III. Low-code basics',
+                text: 'III. Low-code Basics',
                 collapsed: false,
 
                 items: [
@@ -84,7 +84,7 @@ export default defineConfig({
                             {text: 'Variables', link: 'low-code-basics/javascript_fundamentals/variables'},
                             {text: 'Console', link: 'low-code-basics/javascript_fundamentals/console'},
                             {text: 'Comparing', link: 'low-code-basics/javascript_fundamentals/comparing'},
-                            {text: 'Branching and loops', link: 'low-code-basics/javascript_fundamentals/branching'},
+                            {text: 'Branching and Loops', link: 'low-code-basics/javascript_fundamentals/branching'},
                             {text: 'Strings', link: 'low-code-basics/javascript_fundamentals/string'},
                             {text: 'Objects', link: 'low-code-basics/javascript_fundamentals/objects'},
                             {
@@ -99,7 +99,7 @@ export default defineConfig({
                             {text: 'Interface and data objects', link: 'low-code-basics/js_in_dleap/objects'},
                             {text: 'Events', link: 'low-code-basics/js_in_dleap/running_js',},
 
-                            {text: 'Working with items', link: 'low-code-basics/js_in_dleap/items',},
+                            {text: 'Working with Items', link: 'low-code-basics/js_in_dleap/items',},
                             {
                                 text: 'Item-specific examples',
                                 link: 'low-code-basics/js_in_dleap/item_specific_examples',
@@ -107,25 +107,25 @@ export default defineConfig({
                             {text: 'Working with Buttons', link: 'low-code-basics/js_in_dleap/buttons',},
                             {text: 'Working with Pages', link: 'low-code-basics/js_in_dleap/pages.md',},
                             {text: 'Submitting Forms', link: 'low-code-basics/js_in_dleap/forms',},
-                            {text: 'Show&hide items', link: 'low-code-basics/js_in_dleap/show-hide',},
+                            {text: 'Show & Hide Items', link: 'low-code-basics/js_in_dleap/show-hide',},
 
-                            {text: 'External JS files', link: 'low-code-basics/js_in_dleap/external_js'},
-                            {text: 'JavaScript security', link: 'low-code-basics/js_in_dleap/security'},
-                            {text: 'Service calls', link: 'low-code-basics/js_in_dleap/services_js'},
+                            {text: 'External JS Files', link: 'low-code-basics/js_in_dleap/external_js'},
+                            {text: 'JavaScript Security', link: 'low-code-basics/js_in_dleap/security'},
+                            {text: 'Service Calls', link: 'low-code-basics/js_in_dleap/services_js'},
                         ],
                     },
                     {
-                        text: "Advanced flow control", link: "/low-code-basics/application_flow/",
+                        text: "Advanced Flow Control", link: "/low-code-basics/application_flow/",
                         items: [
-                            {text: "Form input validation", link: "low-code-basics/application_flow/Input_validation"},
-                            {text: "Inactive timeout", link: "low-code-basics/application_flow/inactive_timeout"},
+                            {text: "Form Input Validation", link: "low-code-basics/application_flow/Input_validation"},
+                            {text: "Inactive Timeout", link: "low-code-basics/application_flow/inactive_timeout"},
                             {
-                                text: "Redirecting user upon submit",
+                                text: "Redirecting User upon Submit",
                                 link: "low-code-basics/application_flow/submission_redirect"
                             },
                         ]
                     },
-                    {text: "Best practices", link: "low-code-basics/best_practices"}
+                    {text: "Best Practices", link: "low-code-basics/best_practices"}
                 ]
             },
             {
@@ -170,7 +170,7 @@ export default defineConfig({
                                             {
                                                 text: 'Category: Action', items: [
                                                     {text: 'Button', link: 'object_reference/button'},
-                                                    {text: 'Web link', link: 'object_reference/staticWebLink'},
+                                                    {text: 'Web Link', link: 'object_reference/staticWebLink'},
                                                     {text: 'Page Navigation', link: 'object_reference/pageNavigator'},
                                                 ]
                                             },
@@ -242,14 +242,14 @@ export default defineConfig({
                     ],
             },
             {
-                text: 'V. Advanced techniques',
+                text: 'V. Advanced Techniques',
                 collapsed: false,
                 items:
                     [
-                        {text: 'Working with attachments', link: 'todo'},
+                        {text: 'Working with Attachments', link: 'todo'},
                         {text: 'Using Regular Expressions for Item Validation',},
                         {text: "Global Variables and Special Functions", link: "/advanced/glob_var_special_func"},
-                        {text: 'Printing forms', link: 'todo',},
+                        {text: 'Printing Forms', link: 'todo',},
                         {text: 'Producing QR codes', link: 'todo',},
                         {text: 'Producing PDF files', link: 'todo',},
                     ],
