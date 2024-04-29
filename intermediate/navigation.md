@@ -11,7 +11,7 @@ application efficiently. The following are some of the most commonly used naviga
 ### Navigation Item
 
 You can add page navigation item in the app. The navigation will enable the user to navigate between different
-neighboring pages in the app.
+neighbouring pages in the app.
 
 ![img_14.png](img_14.png)
 
