@@ -7,16 +7,16 @@ Rules are a set of IF-THEN conditions connected with Items.
 ![img_19.png](img_19.png)
 
 - **Abilities** - 
-  Rules allow you to change the visibility or enable/disable Items and ActionButtons based on another Item, current User
+  Rules allow you to change the visibility or enable/disable Items and Action buttons based on value of another Item, current User
   or window width or height.
-  You can also use as such when Item input value is empty, the action buttons are disabled.
+  You can also use Rules to disable Action buttons when Item input value is empty.
 
 - **Rule presence** -
   To find out whether rule is present on a specific Item, you can select it and check the "armor shield" icon.
   
   ![img_21.png](img_21.png)
   If you want to see all present rules, you can click the "armor shield" icon in the top right corner of any Item (even
-  one not containing rule).
+  one not containing any rule).
   Then select "All" option in a right side panel.
 ![img_22.png](img_22.png)  
 
@@ -73,7 +73,7 @@ Rules are a set of IF-THEN conditions connected with Items.
 :::
 
 ::: tip
-It is a good practice to name rules. It can save you a lot of trouble when you have multiple rules.
+It is a good practice to name rules. It can save you a lot of trouble when you have larger amount of rules.
 :::
 
 
