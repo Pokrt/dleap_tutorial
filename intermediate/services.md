@@ -2,7 +2,7 @@
 
 Services are the integral part of HCL Domino Leap. They are used to encapsulate the business logic of the application
 basically serving as controller in MVC architecture. Services are used to
-interact with the internal and external data store. Three types of services:
+interact with the internal and external data store. There are three types of services:
 - **Service catalog** - contains predefined services that are used to interact with the internal data store.
 - **Domino Database** - can be used to query data from the Domino database. This is especially useful when you want to
   query data from other application forms.
@@ -26,7 +26,7 @@ Each form, once the app is deployed or updated, generates a set of CRUD (create,
 
 
 ## Working with services
-You can call services from the same form of from another form (in the same app or from another app). If you want ot see are called form another form, feel free to navigate to the next chapter called [Multiform applications](./multi_form_apps).
+You can call services from the same form of from another form (in the same app or from another app). If you want to see service called form another form, feel free to navigate to the next chapter called [Multiform applications](./multi_form_apps).
 
 ::: tip Exercise
 In this task, we will create a service to query data from a Domino database. You will be filling other input fields based on the selected value from the dropdown.
@@ -59,7 +59,7 @@ In this task, we will create a service to query data from a Domino database. You
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/3126233c-6d80-4a69-9fa9-ab3461232596/ascreenshot.jpeg?tl_px=547,170&br_px=1622,771&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
 
 
-6\. Click here. Notice that we select "... / Retrieve" because we want to select only one item from database.
+6\. Click here. Notice that we select "... / Retrieve" because we want to select only one record from database.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/b6d0f597-2162-4b13-a575-2511aab07763/ascreenshot.jpeg?tl_px=459,341&br_px=1534,942&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
 
