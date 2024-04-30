@@ -1,4 +1,4 @@
-# Permissions
+# User Permissions
 Each role can be assigned permissions to access specific stages. Permissions are defined in the `Access` tab of the form design environment.
 
 ## Types of Permissions
