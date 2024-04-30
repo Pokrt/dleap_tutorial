@@ -1,4 +1,4 @@
-# Multi Page Forms
+# Multi-page Forms
 
 In HCL Domino Leap, multi-page forms are used to collect and organize data across multiple pages. Multi-page forms are
 useful when you have a large amount of data to collect or when you want to group related data together. By breaking the
