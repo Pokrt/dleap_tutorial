@@ -1,4 +1,4 @@
-# Item visibility in certain stages
+# Item visibility
 A common technique in form development is to create rules that hide certain items according to value of some other item. Second, you may need to hide certain parts of your form depending on its stage. 
 
 ## Overview
