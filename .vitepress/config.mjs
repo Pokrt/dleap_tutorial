@@ -55,7 +55,7 @@ export default defineConfig({
                     {text: 'Workflow - Stages & Actions', link: '/basics/stages'},
                     {text: 'Item Visibility', link: '/basics/visibility_item'},
                     {text: 'Page Visibility', link: '/basics/visibility_page'},
-                    {text: 'Item Locking', link: '/basics/locking'},
+                    {text: 'Item & Page Locking', link: '/basics/locking'},
 
 
                     {text: 'Navigation', link: '/intermediate/navigation'},
