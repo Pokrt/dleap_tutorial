@@ -1,5 +1,4 @@
-# Page visibility in certain stages
-
+# Page visibility
 ## Overview
 
 The visibility of a page can be controlled by the stage in which it is displayed. This is useful for
