@@ -1,12 +1,11 @@
 # Vissual Appearence
 
 Domino Leap allows you to easily style your Forms. There are multiple out-of-box visual styles available and you can
-style each item using a built-in VYSIWYG editor.
+style each item using a built-in WYSIWYG editor.
 
 ![img_35.png](img_35.png)
 
-If you want to change style of your website you can use built-in editor enabling you to change visual look of your
-website. You can change colors, fonts, sizes, etc. You can also use custom CSS to change style of your website.
+Built-in editor enables you to change colors, fonts, sizes, etc. In addition, you can also use custom CSS to control the look of your application.
 
 ![img_29.png](img_29.png)
 
@@ -59,10 +58,10 @@ Make button on the website rounded.
 
 ## Working with CSS
 
-If you want to change the style of your website, you can use custom CSS.
-To do that, you need to add a custom CSS styling to your
+You can control the style of your website applications using CSS.
+To do that, you need to add a custom CSS declarations to your
 project in your style editor or in your custom CSS file.
-Then you need to custom classes in your items.
+Then you need to custom classes in your items to correspond to the selectors in the CSS.
 
 ![img_30.png](img_30.png)
 
