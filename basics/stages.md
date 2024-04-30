@@ -1,4 +1,4 @@
-# Workflow
+# Workflow - Stages & Actions
 
 The form can be divided into stages, each with its own set of rules and permissions. This allows for a more dynamic and
 flexible form that can change based on the stage of the process.
