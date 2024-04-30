@@ -1,4 +1,4 @@
-# Locking form items and pages
+# Item & Page Locking
 
 In HCL Domino Leap you can lock form objects or whole pages making them **read only**. This can be done to prevent users
 from editing certain
