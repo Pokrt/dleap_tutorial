@@ -2,7 +2,7 @@
 
 In this section, we will learn how to create multi-form apps. Multi-form apps are apps that have multiple forms and interact with each other.
 
-As you can see on illustration below, we have two forms. The First form is to create a new product, and the second form is to order selected product.
+As you can see on illustration below, we have two forms. The first is used to create a new product, and the second to create an order for the selected product.
 
 ![img_34.png](img_34.png)
 
@@ -15,7 +15,7 @@ We will use this service to fetch data from another form.
 
 ::: details Step-by-step tutorial
 
-1\. In our app we have already created two forms. First creates new product.
+1\. In our app we have already created two forms. First creates a new product.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/5bf54059-84a3-4e3c-a6fd-4b74ba8ea02b/screenshot.jpeg?tl_px=0,0&br_px=871,316&force_format=png&width=983)
 
@@ -90,7 +90,7 @@ We will use this service to fetch data from another form.
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/53d7a4a8-9955-4e89-bcf9-3199ef068527/user_cropped_screenshot.jpeg?tl_px=0,0&br_px=1334,759&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=50,307)
 
 
-16\. Click "Result (F_SingleLine1) "Product Name""
+16\. Click "Result (F_SingleLine1) 'Product Name'"
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/e020e03f-0617-4c44-854d-478a568c0080/user_cropped_screenshot.jpeg?tl_px=0,69&br_px=1297,839&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=305,479)
 
@@ -145,12 +145,12 @@ We will use this service to fetch data from another form.
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/93ec33c0-723c-4e1d-b572-40ddae71cd6a/ascreenshot.jpeg?tl_px=1485,0&br_px=2560,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=715,188)
 
 
-27\. Click this dropdown  and select Use a Service
+27\. Click this dropdown and select Use a Service
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/9578a2cf-585d-4155-b251-3d1a57d55b28/ascreenshot.jpeg?tl_px=499,174&br_px=1574,775&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
 
 
-28\. Click this dropdown and select service we created.
+28\. Click this dropdown and select the service we created.
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/16131143-be31-4acb-be80-585fa6af695b/ascreenshot.jpeg?tl_px=517,262&br_px=1592,863&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
 
