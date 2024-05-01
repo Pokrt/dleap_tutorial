@@ -1,4 +1,4 @@
-# Services
+# Service Calls
 
 Services are the integral part of HCL Domino Leap. They are used to encapsulate the business logic of the application
 basically serving as controller in MVC architecture. Services are used to
