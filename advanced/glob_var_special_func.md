@@ -1,4 +1,5 @@
 # Global Variables and Special Functions
+HCL Domino Leap is resctricting access to some JavaScript global variables and functions. On the orther hand HCL Domino LEap adds some functions which are not avaible for classical JavaScript DOM manipulation.
 
 ## Available Global Variables
 
