@@ -3,7 +3,7 @@ In HCL Domino Leap, there are two types of buttons - regular Buttons and Action 
 
 ## Working with Buttons
 
-button vs action button - je potřeba rozlišovat, jiny třídy , enable, disable,
+<!-- button vs action button - je potřeba rozlišovat, jiny třídy , enable, disable, -->
 ### Disabling a Button
 Disables the button so that it cannot be clicked.
 
