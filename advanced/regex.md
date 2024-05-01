@@ -1,0 +1,2 @@
+# Using Regular Expressions for Item Validation
+In this section we describe how to use regular expressions to validate items. You should be familiar with [Form Input Validation](./low-code-basics/application_flow/Input_validation) chapter before reading this section.

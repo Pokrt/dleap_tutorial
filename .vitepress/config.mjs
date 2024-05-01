@@ -57,7 +57,6 @@ export default defineConfig({
                     {text: 'Page Visibility', link: '/basics/visibility_page'},
                     {text: 'Item & Page Locking', link: '/basics/locking'},
 
-
                     {text: 'Navigation', link: '/intermediate/navigation'},
                     {text: 'Multi-page Forms', link: '/intermediate/multi_page_forms'},
                     {text: 'Formulas', link: '/intermediate/formulas'},
@@ -67,7 +66,7 @@ export default defineConfig({
                     {text: 'Tables', link: '/intermediate/tables'},
                     {text: 'Service Calls', link: '/intermediate/services'},
                     {text: 'Multi-form Apps', link: '/intermediate/multi_form_apps'},
-                    {text: 'Current Limitations', link: '/intermediate/limitations'},
+                    // {text: 'Current Limitations', link: '/intermediate/limitations'},
                     {text: 'More Resources', link: '/intermediate/more-resources'},
 
                 ]
@@ -125,7 +124,7 @@ export default defineConfig({
                             },
                         ]
                     },
-                    {text: "Best Practices", link: "low-code-basics/best_practices"}
+                    // {text: "Best Practices", link: "low-code-basics/best_practices"}
                 ]
             },
             {
@@ -247,7 +246,7 @@ export default defineConfig({
                 items:
                     [
                         {text: 'Working with Attachments', link: 'todo'},
-                        {text: 'Using Regular Expressions for Item Validation',},
+                        // {text: 'Using Regular Expressions for Item Validation', link: '/advanced/regex'},
                         {text: "Global Variables and Special Functions", link: "/advanced/glob_var_special_func"},
                         {text: 'Printing Forms', link: 'todo',},
                         {text: 'Producing QR codes', link: 'todo',},
