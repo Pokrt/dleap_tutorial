@@ -1,4 +1,4 @@
-# Running JavaScript in HCL Domino Leap
+# Events
 
 Every object in Domino Leap has various Events associated with it. Most often Events are used within scope of an Item but there are events also on Pages, Forms and the Application. Item-scoped Events are easily accessible in the Editor.
 
