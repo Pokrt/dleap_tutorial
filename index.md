@@ -44,7 +44,7 @@ const members = [
 ## Our Team
 
 This site was created by Jan Kadlec (honza.kadlec.cb@gmail.com) as a part of his bachelors thesis at University of West
-Bohemia and supervised by Jan Valdman (jan.valdman@whitesoft.eu) form Whitesoft.
+Bohemia and supervised by Jan Valdman (jan.valdman@whitesoft.eu) from Whitesoft.
 <VPTeamMembers size="small" :members="members" />
 
 Feel free to reach the team members or propose any improvements. You can also contribute to this tutorial by joining [dleap_tutorial](https://github.com/Pokrt/dleap_tutorial) repository at GitHub.
