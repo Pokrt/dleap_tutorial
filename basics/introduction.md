@@ -24,7 +24,7 @@ This tutotial is structured into several chapters:
 This chapter provides full reference of Domino Leap objects, their methods and events. Hopefully in much more
 convenient way comparated to the official product documentation. You can find also many examples here.
 
-- **Advanced Techniqes**
+- **Advanced Techniques**
 
 Here is stuff that did not fit anywhere else. Some more complex examples, design patterns and solutions to common
 problems.
