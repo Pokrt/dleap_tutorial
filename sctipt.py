@@ -1,6 +1,7 @@
 import os
 import re
 import requests
+import uuid
 
 def download_image(url, path):
     """Download an image from a URL to a given path."""
@@ -34,9 +35,9 @@ def process_directory(directory):
                         if url.startswith('http'):  # Checking if it's a valid URL
                               if "cloudimg.io" in url:
                                 filename =  str(uuid.uuid4()) + '.png'
-                                local_path = os.path.join(root, filename).replace(i[0], "", 1)
+                                local_path = os.path.join(root, filename)
                                 download_image(url, local_path)
-                                mapping[url] = local_path
+                                mapping[url] = local_path.replace(i[0], "", 1)
                 update_markdown_file(full_path, mapping)
 
 # Change 'your_directory_path' to your actual directory path where Markdown files are stored
