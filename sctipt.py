@@ -1,36 +1,42 @@
 import os
-from PyPDF2 import PdfMerger
-import subprocess
+import re
+import requests
 
-def convert_markdown_to_pdf(input_file, output_file):
-    # Convert markdown to PDF using pandoc
-    subprocess.run(['pandoc', input_file, '-o', output_file], check=True)
+def download_image(url, path):
+    """Download an image from a URL to a given path."""
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(path, 'wb') as f:
+            f.write(response.content)
+    else:
+        print(f"Failed to download {url}")
 
-def merge_pdfs(pdf_files, output_file):
-    merger = PdfMerger()
-    for pdf in pdf_files:
-        merger.append(pdf)
-    merger.write(output_file)
-    merger.close()
+def update_markdown_file(file_path, mapping):
+    """Update the Markdown file with new local image paths."""
+    with open(file_path, 'r', encoding='utf-8') as file:
+        content = file.read()
+    for old, new in mapping.items():
+        content = content.replace(old, new)
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(content)
 
-def convert_and_merge_markdown_folder(input_folder, output_pdf):
-    temp_pdfs = []  # List to keep track of temporary PDF files
-    for md_file in os.listdir(input_folder):
-        if md_file.endswith('.md'):
-            pdf_file = md_file.replace('.md', '.pdf')
-            pdf_file_path = os.path.join(input_folder, pdf_file)
-            md_file_path = os.path.join(input_folder, md_file)
-            print(f'Converting {md_file} to {pdf_file}')
-            convert_markdown_to_pdf(md_file_path, pdf_file_path)
-            temp_pdfs.append(pdf_file_path)
-    
-    merge_pdfs(temp_pdfs, output_pdf)
-    
-    # Optionally, remove the temporary PDF files
-    for pdf_file in temp_pdfs:
-        os.remove(pdf_file)
+def process_directory(directory):
+    """Process all Markdown files in the directory."""
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.endswith('.md'):
+                full_path = os.path.join(root, file)
+                with open(full_path, 'r', encoding='utf-8') as md_file:
+                    md_content = md_file.read()
+                    urls = re.findall(r'!\[.*?\]\((.*?)\)', md_content)
+                    mapping = {}
+                    for url in urls:
+                        if url.startswith('http'):  # Checking if it's a valid URL
+                            filename = os.path.basename(url)
+                            local_path = os.path.join(root, filename)
+                            download_image(url, local_path)
+                            mapping[url] = local_path
+                update_markdown_file(full_path, mapping)
 
-# Usage
-input_folder = '.'
-output_pdf = './output/output.pdf'
-convert_and_merge_markdown_folder(input_folder, output_pdf)
+# Change 'your_directory_path' to your actual directory path where Markdown files are stored
+process_directory('.')
