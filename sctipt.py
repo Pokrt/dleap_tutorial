@@ -32,10 +32,11 @@ def process_directory(directory):
                     mapping = {}
                     for url in urls:
                         if url.startswith('http'):  # Checking if it's a valid URL
-                            filename = os.path.basename(url)
-                            local_path = os.path.join(root, filename)
-                            download_image(url, local_path)
-                            mapping[url] = local_path
+                              if "cloudimg.io" in url:
+                                filename =  str(uuid.uuid4()) + '.png'
+                                local_path = os.path.join(root, filename).replace(i[0], "", 1)
+                                download_image(url, local_path)
+                                mapping[url] = local_path
                 update_markdown_file(full_path, mapping)
 
 # Change 'your_directory_path' to your actual directory path where Markdown files are stored
