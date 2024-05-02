@@ -37,7 +37,7 @@ def process_directory(directory):
                                 filename =  str(uuid.uuid4()) + '.png'
                                 local_path = os.path.join(root, filename)
                                 download_image(url, local_path)
-                                mapping[url] = local_path.replace(i[0], "", 1)
+                                mapping[url] = local_path.replace(local_path[0], "", 1)
                 update_markdown_file(full_path, mapping)
 
 # Change 'your_directory_path' to your actual directory path where Markdown files are stored

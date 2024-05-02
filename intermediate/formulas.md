@@ -24,53 +24,53 @@ Add a formula to calculate the total price of a product based on the price per p
 
 1\. We prepared this form.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/cd3be815-133c-4b19-8a61-693065f348b7/screenshot.jpeg?tl_px=0,0&br_px=1093,238&force_format=png&width=1120.0)
+![](/intermediate/a9a0892c-31cd-4dcc-ac3d-90eaa3f5fa52.png)
 
 2\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/61ab7f99-38ed-40a4-a0ab-9916862453d5/ascreenshot.jpeg?tl_px=784,0&br_px=1859,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,150)
+![](/intermediate/308fd211-b381-4190-9070-a4d34c21478b.png)
 
 3\. Click this dropdown.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/5f75c4fa-f60b-481e-99c4-9f46837fa1dd/ascreenshot.jpeg?tl_px=1485,0&br_px=2560,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=930,228)
+![](/intermediate/36a28dac-6026-4af2-a57f-9c2a84c8095d.png)
 
 4\. Click the "Input 1" field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/0cf27ff4-bfae-438c-a99e-1b47c6a94eac/ascreenshot.jpeg?tl_px=1485,42&br_px=2560,643&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=937,265)
+![](/intermediate/6457cb10-d0e0-45ea-b3e8-656433814512.png)
 
 5\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/57e5fb8b-58a8-4dc1-8b90-2cfcc060cc98/ascreenshot.jpeg?tl_px=668,186&br_px=1743,787&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/09d76f16-87cb-4d4b-801c-6248e3070a57.png)
 
 6\. Click the "Input 2" field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/9ba1173f-f336-448d-a2c9-b38bb5d9ceae/ascreenshot.jpeg?tl_px=1485,139&br_px=2560,740&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=735,265)
+![](/intermediate/a6a3963f-2525-48d7-ba6d-c9daae233381.png)
 
 7\. Click "Amount"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/7eeadab1-7ce6-4c59-9892-39b288f6c276/ascreenshot.jpeg?tl_px=674,222&br_px=1749,823&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/2f0b1975-10a5-4550-8547-997254553f1e.png)
 
 8\. Now you can preview the result.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/af0fe179-52cf-4c70-84c1-b98fcee7fc26/ascreenshot.jpeg?tl_px=1485,0&br_px=2560,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=750,-11)
+![](/intermediate/d59acfe3-0507-4f23-811c-1facdb02a0e1.png)
 
 9\. Click "Order"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/ca3671ce-b7e0-46a5-8c82-6283f5f2789b/ascreenshot.jpeg?tl_px=1485,0&br_px=2560,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=762,228)
+![](/intermediate/521f7f3d-24b2-4865-9858-6fd43363abb2.png)
 
 10\. Click the "Price per piece" field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/bb08e516-ede7-4f01-9115-95dcd2ceb621/ascreenshot.jpeg?tl_px=667,0&br_px=1742,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,151)
+![](/intermediate/f2d60160-e86e-4d5e-a63e-7df87661994d.png)
 
 11\. Type "39"
 
 12\. Click the "Amount" field and type "2".
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/d721faf1-8e4f-41cb-afde-0f980bca9fce/ascreenshot.jpeg?tl_px=832,0&br_px=1907,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,153)
+![](/intermediate/c9c5761e-8d6f-447d-9801-720c1fc75a56.png)
 
 13\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/83dc85bc-44a0-4262-b4f3-1c6e9ce1f044/ascreenshot.jpeg?tl_px=850,0&br_px=1925,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,197)
+![](/intermediate/f54fc374-f6d6-4e89-bd7a-4e52a18f8ab1.png)
 
 :::
 

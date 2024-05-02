@@ -36,82 +36,82 @@ In this task, we will create a service to query data from a Domino database. You
 
 1\. Navigate to the dropdown we created in the previous example.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/ed17c77d-1348-4f9f-97a6-86f7c601b4e4/user_cropped_screenshot.jpeg?tl_px=0,0&br_px=1075,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=-17,53)
+![](/intermediate/e187341f-88aa-4238-886d-138f56d3e39d.png)
 
 
 2\. Click "Events"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/f4bbb788-be44-4af7-a775-2e6a956ebf70/ascreenshot.jpeg?tl_px=1485,0&br_px=2560,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=902,117)
+![](/intermediate/dde61705-3271-41a2-8e9e-2817fb82097a.png)
 
 
 3\. Click "onItemChange"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/6016fb29-1328-44b2-bc6a-b2936d67fbca/ascreenshot.jpeg?tl_px=1485,100&br_px=2560,701&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=772,265)
+![](/intermediate/74277001-e65f-4729-b802-66281dd42ea2.png)
 
 
 4\. Click "Call a Service"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/51b197e1-eeac-4db8-bc23-3301836f4a10/ascreenshot.jpeg?tl_px=337,136&br_px=1412,737&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/e84bebfe-d8f7-4622-94b9-57bc9ada358e.png)
 
 
 5\. Click "Add/Edit Service Configuration"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/3126233c-6d80-4a69-9fa9-ab3461232596/ascreenshot.jpeg?tl_px=547,170&br_px=1622,771&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/e4237f5a-1a3b-4af4-b26e-c334e43cf08b.png)
 
 
 6\. Click here. Notice that we select "... / Retrieve" because we want to select only one record from database.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/b6d0f597-2162-4b13-a575-2511aab07763/ascreenshot.jpeg?tl_px=459,341&br_px=1534,942&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/28628b4f-5004-45bf-af91-66f644d11296.png)
 
 
 7\. Click "Next"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/7224f393-6af9-432a-a99d-18156ed9908d/ascreenshot.jpeg?tl_px=1037,678&br_px=2112,1279&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,500)
+![](/intermediate/7c35a793-0f7f-4cae-bb28-11aba98a3306.png)
 
 
 8\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/e5642f75-1d2d-40f6-bcbf-905274aa765e/ascreenshot.jpeg?tl_px=173,42&br_px=1248,643&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/92b6c6b7-c447-4cfb-b2d2-51ec8344c848.png)
 
 
 9\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/2fdba07d-bbb1-4366-8ac6-052ee6268bba/ascreenshot.jpeg?tl_px=273,92&br_px=1348,693&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/c803b5df-29cd-4b61-8044-737c9273bb9f.png)
 
 
 10\. Click "Retrieve by (F_SingleLine1) "Product Name""
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/1fe15f02-47fb-4a7b-ac3c-074baf73d9c3/ascreenshot.jpeg?tl_px=1054,37&br_px=2129,638&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/6f8fda0c-6f13-4081-a6eb-c566727ccace.png)
 
 
 11\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/3fc932be-6cbf-459e-93cf-2b93f93d3d8d/ascreenshot.jpeg?tl_px=735,180&br_px=1810,781&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/c9f5e3f2-56dc-4091-808c-6309e32cef7c.png)
 
 
 12\. Click "Next"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/563ee2ba-19af-4b55-9e82-d5a855bd3e64/ascreenshot.jpeg?tl_px=1049,678&br_px=2124,1279&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,499)
+![](/intermediate/5723b283-02fe-42bd-87f3-550cc45c34df.png)
 
 
 13\. To map output of service call to other form data click "Result (F_Currency1) "Price""
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/a7ad87f4-4a6f-4ab4-a893-0e865b603a10/ascreenshot.jpeg?tl_px=407,412&br_px=1482,1013&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/9ab41da2-20f1-43d1-b7f4-0d91b0536987.png)
 
 
 14\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/9f688066-e8f0-4dcd-b329-5072fc772a86/ascreenshot.jpeg?tl_px=1018,87&br_px=2093,688&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/a6cf380b-ddb4-4d96-9cf9-eff3ed0f0d4b.png)
 
 
 15\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/83047a3b-2bad-4146-b4e8-208da1268c98/ascreenshot.jpeg?tl_px=744,185&br_px=1819,786&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/b57a3155-23da-4095-bbf9-1d5962591dcf.png)
 
 
 16\. Click "OK"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-26/3348f193-6292-4bf5-bc0b-612ea9285fc2/ascreenshot.jpeg?tl_px=1187,678&br_px=2262,1279&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,495)
+![](/intermediate/c92f4fd7-fe69-4b68-9ac2-4073b16ecf01.png)
 
 :::
 

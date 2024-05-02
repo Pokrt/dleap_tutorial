@@ -16,42 +16,42 @@ Create a table `Customers` with the following columns `First Name`, `Last Name`,
 
 2\. Click "Single Line Entry"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/4c9ea393-e788-466c-b0b4-da7c91602775/ascreenshot.jpeg?tl_px=0,212&br_px=1934,1293&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=137,277)
+![](/intermediate/a010c83b-9a60-4c0d-b1d0-506b760db76f.png)
 
 
 3\. Click "Table"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/bd8774ec-643a-4325-8f36-ee6d713d59ed/ascreenshot.jpeg?tl_px=0,788&br_px=1934,1870&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=138,507)
+![](/intermediate/2245c480-56f5-4e2d-853c-2cab1f931256.png)
 
 
 4\. Click "here"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/c4db08c8-89a0-4346-a218-7432fa7fbc00/ascreenshot.jpeg?tl_px=0,50&br_px=1934,1131&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=521,277)
+![](/intermediate/0aa69faf-e13a-4fc2-bf3b-d998d368e1b0.png)
 
 
 5\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/75e29a98-95be-422f-96b5-7af1176e692b/ascreenshot.jpeg?tl_px=0,255&br_px=1934,1336&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=134,277)
+![](/intermediate/da9debca-7feb-4069-ac86-a6ff07765a6f.png)
 
 
 6\. Click "Single Line Entry"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/aa9c1ead-f207-45cc-b76a-7c1514e661e9/ascreenshot.jpeg?tl_px=0,230&br_px=1934,1311&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=133,277)
+![](/intermediate/d81c54df-fccb-467e-acaa-25f2be31b747.png)
 
 
 7\. Click "Single Line Entry"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/a7e226d2-e14c-4e9e-af4d-e86478ffab41/ascreenshot.jpeg?tl_px=0,233&br_px=1934,1314&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=130,277)
+![](/intermediate/9a295f57-bb55-4e03-b89b-9d6bf197e82e.png)
 
 
 8\. Click "Number"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/4c089141-8ad1-4ca0-a71a-00f7d8b3918c/ascreenshot.jpeg?tl_px=0,660&br_px=1934,1741&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=95,277)
+![](/intermediate/266cb078-909a-49b8-a994-c25831ec8564.png)
 
 
 9\. Click "Single Line Entry"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/9903b5ae-b88f-442e-87c1-2252397f935b/ascreenshot.jpeg?tl_px=0,0&br_px=1934,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=464,74)
+![](/intermediate/d80df9b5-b2bd-4b17-bde1-92a1459cff12.png)
 
 
 10\. Type "First Name"
@@ -59,7 +59,7 @@ Create a table `Customers` with the following columns `First Name`, `Last Name`,
 
 11\. Double-click "Single Line Entry"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/b740e5b1-492f-48ce-820f-cdf5d6fd20eb/ascreenshot.jpeg?tl_px=0,0&br_px=1934,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=493,161)
+![](/intermediate/b5437204-0a41-49a4-b8de-dbf62df6162a.png)
 
 
 12\. Type "Last Name"
@@ -67,7 +67,7 @@ Create a table `Customers` with the following columns `First Name`, `Last Name`,
 
 13\. Click "Number"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/002435af-e80c-42c6-9580-9730ce3e352e/ascreenshot.jpeg?tl_px=0,1&br_px=1934,1082&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=438,277)
+![](/intermediate/8fc2e306-097c-498c-821f-388ebbe47db2.png)
 
 
 14\. Type "Age"
@@ -75,17 +75,17 @@ Create a table `Customers` with the following columns `First Name`, `Last Name`,
 
 15\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/8391e388-c9af-40ba-8326-a40390e7643c/ascreenshot.jpeg?tl_px=0,0&br_px=1934,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=169,219)
+![](/intermediate/10d47fd9-4ef2-40bd-8d63-47c57f0ecf28.png)
 
 
 16\. Double-click "Single Line Entry"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/8d726917-1aba-493b-914b-fa3772e077ba/ascreenshot.jpeg?tl_px=0,0&br_px=1934,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=504,69)
+![](/intermediate/8d9968c3-60e9-4268-94dc-ec3a42a361b6.png)
 
 
 17\. Double-click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/dc7edb19-35b5-4890-8a03-13eb69cf2154/ascreenshot.jpeg?tl_px=35,0&br_px=1970,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,74)
+![](/intermediate/3717d7ed-87b0-43cc-a63a-3fe99e6a14d8.png)
 
 
 18\. Click this text field.
@@ -93,7 +93,7 @@ Create a table `Customers` with the following columns `First Name`, `Last Name`,
 
 19\. Double-click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/ece19d91-2538-4a40-8fad-24da5c370b91/ascreenshot.jpeg?tl_px=35,0&br_px=1970,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,74)
+![](/intermediate/5611871d-1640-4367-9339-462c69541149.png)
 
 
 20\. Type "Employee Group Name"
@@ -101,32 +101,32 @@ Create a table `Customers` with the following columns `First Name`, `Last Name`,
 
 21\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/9c4a0ac0-7365-478c-aa50-5da01002c731/ascreenshot.jpeg?tl_px=1906,0&br_px=3841,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=828,-9)
+![](/intermediate/00d6e5af-45a4-4653-a334-4d8b6556289e.png)
 
 
 22\. Click here to close.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/e71036f0-7afa-43bb-9842-1aa71f3a49de/ascreenshot.jpeg?tl_px=1906,0&br_px=3841,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=911,6)
+![](/intermediate/54806349-a22a-43ea-a900-da6f8c1feb62.png)
 
 
 23\. Click "Deploy"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/e38a7d24-316f-42b9-80ea-afb728d76984/ascreenshot.jpeg?tl_px=166,0&br_px=2101,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,264)
+![](/intermediate/0bfcd804-d74d-495c-b6a0-7c4eadfda8b7.png)
 
 
 24\. Click "Start"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/e0fcfed1-4822-48ce-a23a-fa8ed828da3f/ascreenshot.jpeg?tl_px=1052,527&br_px=2987,1608&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,277)
+![](/intermediate/2f433d03-98a9-44c5-a5b4-56d768359b5e.png)
 
 
 25\. Click this image.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/1dae1358-d8a2-447f-8f07-3dc277b52750/ascreenshot.jpeg?tl_px=1592,0&br_px=3527,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,246)
+![](/intermediate/3c7febf9-d374-41d5-bf18-fdef84252791.png)
 
 
 26\. Click "Launch"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/ff334fc8-6086-493f-8e2f-3395df99caea/ascreenshot.jpeg?tl_px=445,0&br_px=2380,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,268)
+![](/intermediate/74b92aaf-ba2c-4375-9ec2-49a1e4763c7c.png)
 
 
 27\. Type "Best Employees"
@@ -134,7 +134,7 @@ Create a table `Customers` with the following columns `First Name`, `Last Name`,
 
 28\. Click "+"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/116b8ede-070c-4dbd-8b67-40959adc6953/ascreenshot.jpeg?tl_px=60,107&br_px=1995,1188&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,277)
+![](/intermediate/99a0c95f-3907-4eca-9a27-2deeb89fa5a1.png)
 
 
 29\. Type "Jan [[tab]] Kadlec [[tab]] 33 [[tab]]  [[enter]]"
@@ -142,7 +142,7 @@ Create a table `Customers` with the following columns `First Name`, `Last Name`,
 
 30\. Click "+"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/c036e11c-3295-42f9-b3f8-d101e6cb4004/ascreenshot.jpeg?tl_px=55,71&br_px=1990,1152&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/22bcf061-b49c-4b2c-a3ac-f759e68724ad.png)
 
 
 31\. Type "John [[tab]] Do44"
@@ -150,22 +150,22 @@ Create a table `Customers` with the following columns `First Name`, `Last Name`,
 
 32\. Click "Add"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/d670f53b-7d39-4bea-b056-2c05bbdd6bbe/ascreenshot.jpeg?tl_px=1106,719&br_px=3041,1800&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/be034f5d-0728-4c32-8334-fe92703536dd.png)
 
 
 33\. Click "Submit"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/477d7aaa-6662-4931-925a-7f8f0a870629/ascreenshot.jpeg?tl_px=172,341&br_px=2107,1422&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/b522e47a-fe70-45a5-8f41-7c0cd4db95e2.png)
 
 
 34\. Click "View Data"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/53d2fb71-fcab-4581-8b5a-f0a69a6a9e86/ascreenshot.jpeg?tl_px=278,0&br_px=2213,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,271)
+![](/intermediate/5bfb0708-8bf6-46d5-916e-8ea8406d701d.png)
 
 
 35\. Click "Best Employees"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-14/591d3014-7976-4b32-a057-028a2ca6052b/ascreenshot.jpeg?tl_px=0,0&br_px=1934,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=208,272)
+![](/intermediate/5484bfe5-2a14-43c2-9862-ff6555174651.png)
 
 
 36\. Now you see the submitted data.

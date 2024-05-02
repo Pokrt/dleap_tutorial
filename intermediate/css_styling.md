@@ -22,37 +22,37 @@ Make button on the website rounded.
 
 1\. Navigate to "Style" tab.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-28/897e01eb-5fca-4a4f-9771-d350d8356ef8/ascreenshot.jpeg?tl_px=0,0&br_px=1934,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=-3,229)
+![](/intermediate/76efa66a-eceb-4ad8-951f-cf749e92e084.png)
 
 2\. Click this dropdown to select one of predefined themes.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-28/31601364-f7ce-480a-8af4-5d90f095db2c/ascreenshot.jpeg?tl_px=0,0&br_px=1934,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=238,121)
+![](/intermediate/86ca1d9f-4f99-4e21-96d7-d5c994e89b16.png)
 
 3\. Click "Customize" to edit style in detail.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-28/41e53e41-ee8a-49b2-8c0e-c6eb7a95d6ec/ascreenshot.jpeg?tl_px=0,0&br_px=1934,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=135,178)
+![](/intermediate/2a802d71-aa31-4e74-a46e-76fd34b5f052.png)
 
 4\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-28/c80a2f48-a51c-450e-8db3-c1feb295cfef/ascreenshot.jpeg?tl_px=0,188&br_px=1934,1269&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=385,277)
+![](/intermediate/b9116db8-1d35-4749-87ee-1e955ca52647.png)
 
 5\. Click this image.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-28/b56723c7-b122-4d3a-b5da-4cadf0006ae2/ascreenshot.jpeg?tl_px=0,410&br_px=1934,1491&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=188,277)
+![](/intermediate/05e48367-d667-4729-b2de-84e59e9ebaa0.png)
 
 6\. Click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-28/4a94f556-b969-47ac-ac83-f68a61e34304/ascreenshot.jpeg?tl_px=0,788&br_px=1934,1870&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=318,315)
+![](/intermediate/902011d9-cc3c-4607-8f0b-2c9af8f4d884.png)
 
 7\. Type "10"
 
 8\. Click this close icon.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-28/d652b2ad-6edf-4599-8230-9ac56358b143/ascreenshot.jpeg?tl_px=0,437&br_px=1934,1518&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=377,276)
+![](/intermediate/91829a74-6641-44ac-a4b7-92333c1d5505.png)
 
 9\. Click "OK"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-28/5cca7c64-ca07-45d5-9822-113196924d5a/ascreenshot.jpeg?tl_px=1906,788&br_px=3841,1870&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=717,429)
+![](/intermediate/43fe124c-713b-4928-a8f9-29b9f0c6008f.png)
 
 :::
 

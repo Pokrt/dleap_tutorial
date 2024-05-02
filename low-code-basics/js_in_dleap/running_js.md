@@ -17,35 +17,35 @@ application.
 
 1\. Start by navigating to design page.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-02/88271664-717d-4069-a5e1-393fc55281b8/ascreenshot.jpeg?tl_px=0,0&br_px=1934,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=-9,48)
+![](/low-code-basics/js_in_dleap/c39195c2-db96-4b8d-bd12-daf3669336dd.png)
 
 2\. Click item you want to edit.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-02/7a9ad6ee-9666-4cd4-93e0-0c5291cbaeab/user_cropped_screenshot.jpeg?tl_px=0,0&br_px=1934,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=513,142)
+![](/low-code-basics/js_in_dleap/293d46fd-cb98-4741-833c-00bdb5961555.png)
 
 3\. In item side panel switch to "Events" tab.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-02/b1826d93-cb8f-4179-ad5d-debd14005564/ascreenshot.jpeg?tl_px=1906,0&br_px=3841,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=828,118)
+![](/low-code-basics/js_in_dleap/6cd0a6dc-2463-4f59-bab9-8e48bf6351b1.png)
 
 4\. Click the event you want to add or change.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-02/e205881f-8dab-49df-bbe8-428a617d85df/ascreenshot.jpeg?tl_px=1906,14&br_px=3841,1095&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=744,277)
+![](/low-code-basics/js_in_dleap/9c66b0c4-8b14-46fd-b186-2a69bf7195da.png)
 
 5\. You can write your custom JavaScript into "Custom Actions" section.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-02/07c34407-4666-464d-9aeb-046727d9d94c/ascreenshot.jpeg?tl_px=436,242&br_px=2371,1323&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/low-code-basics/js_in_dleap/04c2eb30-dd9f-41ba-98f8-8f91b19192d2.png)
 
 6\. To select an item element to add it into your code press `CTRL` + `Space`
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-02/fc0de4f8-bc97-4c33-9226-989d29d62359/ascreenshot.jpeg?tl_px=985,788&br_px=2920,1870&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,352)
+![](/low-code-basics/js_in_dleap/6c1e19b8-b4ef-4413-afaa-ad5df162fc18.png)
 
 7\. If you press `CTRL` + `Space` once more you can add code segments into your code.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-02/c972fdc6-5e51-4606-88e7-5b601cdd0a6e/ascreenshot.jpeg?tl_px=802,239&br_px=2737,1320&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/low-code-basics/js_in_dleap/28ec0052-84e5-4710-892d-9d78a8e66947.png)
 
 8\. As you can see, for each code segment has been added.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-02/de437f04-614e-4ad7-bceb-97180215497e/user_cropped_screenshot.jpeg?tl_px=953,394&br_px=2888,1475&force_format=png&width=1120.0)
+![](/low-code-basics/js_in_dleap/b7d3401f-5688-40d5-b2fc-09fb8bf55fad.png)
 
 :::
 

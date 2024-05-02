@@ -28,47 +28,47 @@ Rules are a set of IF-THEN conditions connected with Items.
 
 1\. We have the following form.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/0cb7265c-61b1-4840-b75c-a1b81e36600e/screenshot.jpeg?tl_px=0,0&br_px=871,506&force_format=png&width=983)
+![](/intermediate/856024c6-06c0-4788-b75f-8405bbf2470b.png)
 
 2\. In your form, click the "armor shield" icon to add rule.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/5e9b0195-b958-4097-8da7-f06073d10590/ascreenshot.jpeg?tl_px=577,0&br_px=1652,600&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,227)
+![](/intermediate/931bb490-86a4-4b10-b0cf-87f5b30b5422.png)
 
 3\. We want to make Section object hidden when Price less than 3000$.
 
 4\. Click the "Form Items" field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/90faecd1-b7b5-4470-be4c-dd187edd7886/ascreenshot.jpeg?tl_px=888,199&br_px=1963,800&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/5b297679-cffd-4362-8b23-69ec7d22845f.png)
 
 5\. Click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/95eb495d-3b45-4794-8db1-b1090af7d512/ascreenshot.jpeg?tl_px=894,200&br_px=1969,801&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/5b2d04a4-8f9f-4506-84bb-ca24568b8229.png)
 
 6\. Click "Section"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/fb6667f6-02aa-4450-8040-87e5f03e7949/ascreenshot.jpeg?tl_px=585,312&br_px=1660,913&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/7cddd0e8-0636-4b2d-9c2c-6a787ea30c16.png)
 
 7\. Click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/43c422b7-0fb9-4018-9586-17c97632ca2c/ascreenshot.jpeg?tl_px=894,297&br_px=1969,898&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/64ffecec-005b-46dc-9a65-d8955bdd3ba5.png)
 
 8\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/5748f4a8-6363-4c29-9faa-8aacadce8cfa/ascreenshot.jpeg?tl_px=667,377&br_px=1742,978&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/670bbbfd-8147-4d72-9653-3d2c61c621a1.png)
 
 9\. Click this dropdown and change it to "less than".
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/bd55f1c1-c208-4eb0-90af-e51eff46cc72/ascreenshot.jpeg?tl_px=998,301&br_px=2073,902&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/9c9d7ceb-e998-418c-8a73-dca04628aace.png)
 
 10\. Click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/96d9f1c3-b7ab-471b-889e-318584cbbb39/ascreenshot.jpeg?tl_px=773,341&br_px=1848,942&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/6fd55ff5-6a19-4b6d-9643-bcdf41513318.png)
 
 11\. Type "3000"
 
 12\. Click "Apply and Close"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-02-27/805c34a1-0ee7-4c93-92a9-517cd253a847/ascreenshot.jpeg?tl_px=1002,617&br_px=2077,1218&force_format=png&wat_scale=95&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=502,265)
+![](/intermediate/482cc17d-3a52-4885-a41b-f9b2e5f4aea8.png)
 
 :::
 
@@ -92,12 +92,12 @@ Try to hide the action button when the amount is less than 4. You can use the fo
 
 2\. Click "Armor Shield"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/c9b38f82-7be0-42a4-98f2-dbdc190a1f57/ascreenshot.jpeg?tl_px=1048,0&br_px=2983,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,141)
+![](/intermediate/7adc95a4-cd42-4416-b627-e1575112f402.png)
 
 
 3\. Double-click the "Rule Name:" field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/538d4fe2-9b56-447d-ae97-4228198cfacf/ascreenshot.jpeg?tl_px=843,0&br_px=2778,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,276)
+![](/intermediate/588490af-4a42-4eba-b9f2-29b99bb2513f.png)
 
 
 4\. Type "Hide Action Button"
@@ -105,37 +105,37 @@ Try to hide the action button when the amount is less than 4. You can use the fo
 
 5\. Click the "Form Items" field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/0a36d878-60e6-43fa-af50-ed8d194ea88c/ascreenshot.jpeg?tl_px=1068,163&br_px=3003,1244&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/96093f02-0de3-40fd-85f7-594c558a02aa.png)
 
 
 6\. Click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/607a6233-e1b0-4b4f-b0f2-9f6293147f4f/ascreenshot.jpeg?tl_px=1239,140&br_px=3174,1221&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/3a4ce53d-e798-40b7-a883-dbc8b80e8961.png)
 
 
 7\. Click "Start - Submit"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/3828ac8a-4b6e-4900-ac23-3303ebf1d6b3/ascreenshot.jpeg?tl_px=755,298&br_px=2690,1379&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,277)
+![](/intermediate/6dbb1a10-8986-4ea8-be22-43d4aa56d8c9.png)
 
 
 8\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/32d959d1-2660-411f-9076-17bd2f1c4007/ascreenshot.jpeg?tl_px=1257,338&br_px=3192,1419&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,277)
+![](/intermediate/e193cdaa-b00b-4abb-8220-13ba9d63c4e8.png)
 
 
 9\. Click "Amount (min. 4)"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/500597c3-d9b6-49d4-86b6-d1bfac0f21e2/ascreenshot.jpeg?tl_px=683,469&br_px=2618,1550&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/a4f33e27-f831-44c1-ac4f-4e959559e528.png)
 
 
 10\. Click this dropdown and change it to "less than".
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/b2bf033f-6d30-47bf-bd09-1a707afab443/ascreenshot.jpeg?tl_px=1534,314&br_px=3469,1395&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,277)
+![](/intermediate/a578b3cd-3f11-462e-b37e-114030c41b5a.png)
 
 
 11\. Click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/8cde8f17-f7cf-42fc-83af-e73bac065063/ascreenshot.jpeg?tl_px=1030,419&br_px=2965,1500&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/b4975a0b-c341-487e-a38b-5ac3181ab45b.png)
 
 
 12\. Type "4" (image has a mistake)
@@ -143,47 +143,47 @@ Try to hide the action button when the amount is less than 4. You can use the fo
 
 13\. Click "+" to add another condition.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/ff62343b-0299-485f-8dfb-d07d9b50eff6/ascreenshot.jpeg?tl_px=1743,311&br_px=3678,1392&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,277)
+![](/intermediate/1af8fb8d-e7e6-48f9-b0f6-32ece8cea8b9.png)
 
 
 14\. Click "At least one is true (OR)"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/26e4c24f-40f1-4da2-8ee8-73a7abd5be0d/ascreenshot.jpeg?tl_px=906,422&br_px=2841,1503&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/1c1c824d-34cd-4e28-b59d-42fab17c2544.png)
 
 
 15\. Click "Apply"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/cacc2e18-8239-4b4c-8a05-bb514a9394fc/ascreenshot.jpeg?tl_px=818,545&br_px=2753,1626&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/eb71efdb-bad7-4565-bb74-3b37cf73832d.png)
 
 
 16\. Click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/45bc2ce0-1441-40eb-b91f-02a7405785bb/ascreenshot.jpeg?tl_px=1241,386&br_px=3176,1467&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,276)
+![](/intermediate/457a02bf-5039-4d60-b8f7-0aadb5da8e01.png)
 
 
 17\. Click "Amount (min. 4)"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/cf509bc0-a397-4a78-bf87-f2d3ce035c57/ascreenshot.jpeg?tl_px=782,221&br_px=2717,1302&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/63f74686-94a4-4177-8a76-bebb3f285abc.png)
 
 
 18\. Click this dropdown.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/fca65ce6-41e9-4341-ac11-7e614a76c5d1/ascreenshot.jpeg?tl_px=1432,395&br_px=3367,1476&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,277)
+![](/intermediate/13f2ab64-ce8d-4b59-b086-697bcb687ad7.png)
 
 
 19\. Click "Apply"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/f60c5c83-dfd9-480d-af20-37622d212a8d/ascreenshot.jpeg?tl_px=1201,788&br_px=3136,1870&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,338)
+![](/intermediate/e25b02ed-50b4-4ec5-8d3e-0f39d30d69ae.png)
 
 
 20\. Click "Add Rule"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/fd695cda-f2c8-4dca-84b7-74f7ce64ca38/ascreenshot.jpeg?tl_px=238,761&br_px=2173,1842&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/b6c202ed-d62e-4fc3-82e2-505091527fc2.png)
 
 
 21\. Double-click the "Rule Name:" field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/8adc03c1-6a9c-4e2c-8325-804c8a097cc0/ascreenshot.jpeg?tl_px=937,0&br_px=2872,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,273)
+![](/intermediate/0b990522-1bb2-410b-9723-a9f9259e6706.png)
 
 
 22\. Type "Show Item"
@@ -191,47 +191,47 @@ Try to hide the action button when the amount is less than 4. You can use the fo
 
 23\. Click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/df2f9136-66d6-4726-baa6-b411c968124e/ascreenshot.jpeg?tl_px=1248,161&br_px=3183,1242&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/b9e5c5a6-110a-4cd7-b5b3-7a3793f937e5.png)
 
 
 24\. Click "Start - Submit"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/6006bb45-5278-4b2e-be93-3fd89a234817/ascreenshot.jpeg?tl_px=829,309&br_px=2764,1390&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,277)
+![](/intermediate/f0d80116-6a2e-4c7c-a7a2-ad160f501d09.png)
 
 
 25\. Click this dropdown.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/f25facaa-3b09-4210-925d-29395e6d9f29/ascreenshot.jpeg?tl_px=1453,156&br_px=3388,1237&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/0916b5f8-360b-4064-b561-365431e32e98.png)
 
 
 26\. Click the "Form Items" field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/bc1f93bb-2a15-4878-8a84-957ce9aaedd3/ascreenshot.jpeg?tl_px=814,329&br_px=2749,1410&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/981aa3cd-8580-4550-a2a9-d4ecbcd6044d.png)
 
 
 27\. Click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/2a6ef90d-c92d-4fd1-8eed-bcb9c164144b/ascreenshot.jpeg?tl_px=1239,329&br_px=3174,1410&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/c16c9b94-fcc2-486b-a2b0-7e98bcc26dfd.png)
 
 
 28\. Click "Amount (min. 4)"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/6cb53b40-f3c1-40e8-9b29-b4c2c0fcfc85/ascreenshot.jpeg?tl_px=778,467&br_px=2713,1548&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/5265a5c6-b0c3-4d43-8295-e1ce1cf5156b.png)
 
 
 29\. Click this dropdown.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/88dffa3b-3e58-40cc-b58d-38da47ecffb0/ascreenshot.jpeg?tl_px=1403,327&br_px=3338,1408&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,277)
+![](/intermediate/d7b70a1e-12c7-41a3-8346-55109ece4f34.png)
 
 
 30\. Click here.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/91d36597-2364-4fe1-9f5f-a0731481a4c7/ascreenshot.jpeg?tl_px=1448,379&br_px=3383,1460&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,276)
+![](/intermediate/93a26338-6de3-4a60-a63b-ba46a0145072.png)
 
 
 31\. Click this text field.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/f104c1f3-d9a9-49d7-8365-ce453fd58c9a/ascreenshot.jpeg?tl_px=1268,426&br_px=3203,1507&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,277)
+![](/intermediate/e3c56d07-e276-44e5-88b1-f437d8a7b577.png)
 
 
 32\. Type "4"
@@ -239,27 +239,27 @@ Try to hide the action button when the amount is less than 4. You can use the fo
 
 33\. Click "Apply"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/3876c78a-94db-48dc-b8c6-e3693311fe74/ascreenshot.jpeg?tl_px=1203,788&br_px=3138,1870&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,351)
+![](/intermediate/b75aa491-6d4f-413e-af72-933a66a3e416.png)
 
 
 34\. Click "Apply and Close"
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/7c977274-e772-4428-9cc9-8bfc8868e5da/ascreenshot.jpeg?tl_px=1511,788&br_px=3446,1870&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,331)
+![](/intermediate/5c6d95c4-d927-4344-98aa-48554329af63.png)
 
 
 35\. Save your app.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/3772acf1-51ac-4e70-9cf7-c115c990795e/ascreenshot.jpeg?tl_px=1906,0&br_px=3841,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=843,-11)
+![](/intermediate/e47cf09b-a862-4663-b0af-39930705952c.png)
 
 
 36\. We entered proper amount so you se submit button.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/e35313e4-3deb-46cd-b2cc-fd1029681057/ascreenshot.jpeg?tl_px=609,0&br_px=2544,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,209)
+![](/intermediate/807b0e9d-0370-4420-8f75-d9cfa7484c4b.png)
 
 
 37\. In this case you can not see submit button because we have entered wrong amount.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2024-04-12/23cb79f6-5754-40c6-a3aa-2d9fb746c79b/ascreenshot.jpeg?tl_px=206,0&br_px=2141,1081&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=523,204)
+![](/intermediate/f9447720-c018-4b6a-8532-fd8b6a72dd3a.png)
 
 
 :::
