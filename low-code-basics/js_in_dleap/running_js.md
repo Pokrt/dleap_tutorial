@@ -75,7 +75,6 @@ Attach an `onLoad` event to a form with the following JavaScript to hide an item
 ```javascript
     BO.F_Date.setValue(new Date());
 ```
-todo - do sth on app start - initialize constanty v globálních datech
 
 ### Initializing Constants in Application
 You can initialize constants in the application by using the `onStart` event. You can assign `onStart` event in Events page. Here is an example of how to initialize a constant in the application:
