@@ -24,5 +24,5 @@ if (BO.F_Check.getValue()) {
 
 ```
 
-### Object Reference
-For complete object reference visit [Page Object](/object_reference/page).
+### Page Object
+For complete JavaScript object reference go to [Page Object](/object_reference/page).
