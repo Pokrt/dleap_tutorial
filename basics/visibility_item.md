@@ -13,7 +13,7 @@ roles. For example, a form may have a visible set of questions for the "New" sta
 You can configure item visibility based on a form value. This is useful when you want to hide a part of the form based on the
 value of a form field.
 
-::: tip Task
+::: tip Excercise
 Hide a section if the value of the field is less than 3000$.
 :::
 ::: details Step-By-Step Solution
