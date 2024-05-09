@@ -1,6 +1,10 @@
 # &#127358; Page
 
-Page represents one page of a form.
+Page represents one page of a form. 
+
+For more explanation, go to page [Working with Pages](/low-code-basics/js_in_dleap/pages).
+
+For more information and potential updates, visit the official HCL Domino Leap [documentation](https://help.hcltechsw.com/domino-leap/1.1.4/ref_page_app_page_objects.html). 
 
 ## Page Object Methods
 
