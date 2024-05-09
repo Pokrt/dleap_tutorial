@@ -2,10 +2,10 @@
 Each role can be assigned permissions to access specific stages. Permissions are defined in the `Access` tab of the form design environment.
 
 ## Types of Permissions
- - **Read**: Users with this permission can view the form.
- - **Create**: Users with this permission can submit the form.
- - **Update**: Users with this permission can edit the form.
- - **Delete**: Users with this permission can delete the form.
+ - **Read**: Users with this permission can open the form in given Stage and view data.
+ - **Create**: Users with this permission can open the form in stage Start and submit the form - which results in creation of a new data record and start of the workflow.
+ - **Update**: Users with this permission can open the form in given Stage, modify the data and submit (save) the form and transition into the next workflow Stage.
+ - **Delete**: Users with this permission can open the form in given Stage and delete related data record.   
 
 ## Assigning Permissions
 ::: details Assigning Permissions

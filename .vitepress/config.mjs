@@ -6,7 +6,7 @@ export default defineConfig({
         hostname: 'https://dleap-tutorial.onrender.com/'
     },
     title: "HCL Domino Leap Tutorial",
-    description: "Tutorial for HCL Domino Leap",
+    description: "Community-managed tutorial for HCL Domino Leap developers",
     lastUpdated: true,
 
     markdown: {
@@ -67,11 +67,12 @@ export default defineConfig({
                     {text: 'Service Calls', link: '/intermediate/services'},
                     {text: 'Multi-form Apps', link: '/intermediate/multi_form_apps'},
                     // {text: 'Current Limitations', link: '/intermediate/limitations'},
+                    {text: 'Using JSON services', link: 'todo',},
                     {text: 'More Resources', link: '/intermediate/more-resources'},
 
                 ]
             }, {
-                text: 'III. Low-code Basics',
+                text: 'III. Low-code Development',
                 collapsed: false,
 
                 items: [
@@ -128,7 +129,7 @@ export default defineConfig({
                 ]
             },
             {
-                text: 'IV. Object Reference',
+                text: 'IV. JavaScript Reference',
                 collapsed: false,
 
                 items:

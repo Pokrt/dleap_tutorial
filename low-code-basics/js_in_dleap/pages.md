@@ -23,3 +23,6 @@ if (BO.F_Check.getValue()) {
 }
 
 ```
+
+### Page Object
+For complete JavaScript object reference go to [Page Object](/object_reference/page).
