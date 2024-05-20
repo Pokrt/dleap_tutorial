@@ -8,6 +8,13 @@ export default defineConfig({
     title: "HCL Domino Leap Tutorial",
     description: "Community-managed tutorial for HCL Domino Leap developers",
     lastUpdated: true,
+    head:[
+    [
+      'meta',
+      { name: 'google-site-verification', content: '1WMYlbNkL5vzPt8uR64BekwehbayBIPhYNBJPRdtX60' }
+    ],],
+        
+        //<meta name="google-site-verification" content="1WMYlbNkL5vzPt8uR64BekwehbayBIPhYNBJPRdtX60" />
 
     markdown: {
         theme: {light: 'light-plus', dark: 'night-owl'}
