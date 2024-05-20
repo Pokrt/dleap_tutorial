@@ -250,7 +250,7 @@ export default defineConfig({
                         // {text: 'Using Regular Expressions for Item Validation', link: '/advanced/regex'},
                         {text: "Global Variables and Special Functions", link: "/advanced/glob_var_special_func"},
                         {text: 'Printing Forms', link: 'todo',},
-                        {text: 'Producing QR codes', link: 'todo',},
+                        {text: 'Producing QR codes', link: '/advanced/qr_codes',},
                         {text: 'Producing PDF files', link: 'todo',},
                     ],
             },
