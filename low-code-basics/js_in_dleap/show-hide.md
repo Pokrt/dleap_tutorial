@@ -1,8 +1,3 @@
-todo tabulka - hide by stage, by workflow, by javascript, by rule
-tabulka unhide
-onShow, onHidden pages and items - jestli se volají metody když je to skryté, 
-
-
 There are multiple ways how you can hide pages or items in Domino Leap.
 
 # Hidding Pages
@@ -25,4 +20,4 @@ Hidding items works in a similar way. You can hide an item:
 
 To hide an iten, call `item.SetVisible(false)`, to unhide it call `item.SetVisible(true)`. 
 
-Please note that if an item is hidden by a rule, stage, or because its parent item is hidden, you cannot make it visible using this method.
+Please note that if an item is hidden by a rule, stage, or because its parent item is hidden, you cannot make it visible using JavaScript methods.
